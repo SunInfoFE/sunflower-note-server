@@ -1,15 +1,15 @@
-var Koa=require('koa');
-var path=require('path')
-var bodyParser = require('koa-bodyparser');  // 表单解析中间件
-var ejs=require('ejs');  // 模板
-var session = require('koa-session-minimal');  // 处理数据库中间件
-var MysqlStore = require('koa-mysql-session');  // 处理数据库中间件
-var config = require('./config/default.js');  // 相关的配置文件
-var router=require('koa-router')   // 路由中间件
-var views = require('koa-views')  // 模板引擎
-var koaStatic = require('koa-static')  // 静态资源加载中间件
+const Koa=require('koa');
+const path=require('path')
+const bodyParser = require('koa-bodyparser');  // 表单解析中间件
+const ejs=require('ejs');  // 模板
+const session = require('koa-session-minimal');  // 处理数据库中间件
+const MysqlStore = require('koa-mysql-session');  // 处理数据库中间件
+const config = require('./config/default.js');  // 相关的配置文件
+const router=require('koa-router')   // 路由中间件
+const views = require('koa-views')  // 模板引擎
+const koaStatic = require('koa-static')  // 静态资源加载中间件
 const routers = require('./routers')  // 路由文件
-var app=new Koa()
+const app=new Koa()
 
 // session存储配置
 const sessionMysqlConfig= {
@@ -17,6 +17,7 @@ const sessionMysqlConfig= {
     password: config.database.PASSWORD,
     database: config.database.DATABASE,
     host: config.database.HOST,
+    port: config.database.PORT,
 }
 
 // 配置session中间件
@@ -43,6 +44,6 @@ app.use(bodyParser())
 routers(app)
 
 // 监听在3000端口
-app.listen(3000)
-
-console.log(`listening on port ${config.port}`)
+app.listen(3000, () => {
+  console.log(`listening on port 3000`)
+})
