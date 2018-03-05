@@ -2,15 +2,48 @@
  * Created by caoLiXin on 2018/3/2.
  */
 const router = require('koa-router')();
-const query = require('../lib/mysql.js');
-const md5 = require('md5')  // 加密
+const md5 = require('md5'); // 加密
 
-router.prefix('/report')
+const currentWeekReport = require('../controller/report/currentWeekReport');
+const myReport = require('../controller/report/myReport')
 
-router.get('/', async (ctx, next) => {
-})
+router.prefix('/report');
 
-router.post('/r', async (ctx, next) => {
-})
+/**
+ * 获取当前用户本周周报接口
+ * url： /report/currentWeekReport/get
+ */
+router.get('/currentWeekReport/get', currentWeekReport.getAll);
 
-module.exports = router
+/**
+ * 添加周报接口
+ * url： /report/currentWeekReport/add
+ */
+router.post('/currentWeekReport/add', currentWeekReport.add);
+
+/**
+ * 编辑周报接口
+ * url： /report/currentWeekReport/edit
+ */
+router.post('/currentWeekReport/edit', currentWeekReport.edit);
+
+/**
+ * 删除周报接口
+ * url： /report/currentWeekReport/get
+ */
+router.post('/currentWeekReport/delete', currentWeekReport._delete);
+
+/**
+ * 提交周报接口
+ * url： /report/currentWeekReport/get
+ */
+router.post('/currentWeekReport/submit', currentWeekReport.submit);
+
+/**
+ * 获取当前用户所有周报接口
+ * url： /report/myReport/get
+ */
+router.post('/myReport/get', myReport.getAll);
+
+
+module.exports = router;
