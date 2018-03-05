@@ -3,11 +3,11 @@ const config = {
     port: 3000,
     // 数据库配置
     database: {
-        DATABASE: 'myblog_db',
-        USERNAME: 'root',
-        PASSWORD: 'hg1995',
-        PORT: 3306,
-        HOST: 'localhost'
+        DATABASE: 'weeklyreport_db',
+        USERNAME: 'admin',
+        PASSWORD: 'admin',
+        PORT: 33060,
+        HOST: '192.168.212.50'
     }
 }
 

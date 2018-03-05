@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/SunInfoFE/sunflower-note-server#readme",
   "dependencies": {
+    "curl": "^0.1.4",
     "ejs": "^2.5.7",
     "eslint": "^4.18.1",
     "koa": "^2.5.0",
