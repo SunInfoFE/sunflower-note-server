@@ -7,11 +7,14 @@ let getAllGroupManage = async (ctx, next) => {
   let sql = `SELECT * FROM group_info`
   try {
     let groupInfo =  await query(sql)
-    ctx.body = {
-      status: true,
-      data: groupInfo
+    if (groupInfo instanceof Array) {
+      ctx.body = {
+        status: true,
+        data: groupInfo
+      }
     }
   } catch (err) {
+    console.log(`[GET '/groupManage/get' ERROR] -- ${err}`)
     ctx.body = {
       status: false,
       data: '查询失败'
@@ -35,7 +38,7 @@ let addGroupManage = async (ctx, next) => {
   let searchSql = `SELECT * FROM group_info WHERE name=?`
   try {
     let nameRepeat = await query(searchSql, [group.name])
-    if (nameRepeat.length > 0) {
+    if (nameRepeat instanceof Array && nameRepeat.length > 0) {
       ctx.body = {
         status: false,
         data: '小组名已存在'
@@ -49,6 +52,7 @@ let addGroupManage = async (ctx, next) => {
           data: '新增成功'
         }
       } catch (err) {
+        console.log(`[GET '/groupManage/add' ERROR] -- ${err}`)
         ctx.body = {
           status: false,
           data: '新增失败'
@@ -56,7 +60,7 @@ let addGroupManage = async (ctx, next) => {
       }
     }
   } catch (err) {
-    console.log(err)
+    console.log(`[GET '/groupManage/add' ERROR] -- ${err}`)
   }
 }
 
@@ -77,7 +81,7 @@ let editGroupManage = async (ctx, next) => {
   let searchSql = `SELECT * FROM group_info WHERE name=?`
   try {
     let nameRepeat = await query(searchSql, [group.name])
-    if (nameRepeat.length > 0) {
+    if (nameRepeat instanceof Array && nameRepeat.length > 0) {
       ctx.body = {
         status: false,
         data: '小组名已存在'
@@ -92,6 +96,7 @@ let editGroupManage = async (ctx, next) => {
           data: '编辑成功'
         }
       } catch (err) {
+        console.log(`[GET '/groupManage/edit' ERROR] -- ${err}`)
         ctx.body = {
           status: false,
           data: '编辑失败'
@@ -99,7 +104,7 @@ let editGroupManage = async (ctx, next) => {
       }
     }
   } catch (err) {
-    console.log(err)
+    console.log(`[GET '/groupManage/edit' ERROR] -- ${err}`)
   }
 }
 
@@ -114,30 +119,33 @@ let delGroupManage = async (ctx, next) => {
   let idList = ctx.request.body.idList
   let sql = `DELETE FROM group_info WHERE id=?;`
   let memberSql = `SELECT * FROM user_info WHERE groupId=?;`
-  for (let id of idList) {
-    try {
-      let isEmpty = await query(memberSql, [id])
-      if (!isEmpty.length) {
-        try {
-          await query(sql, [id])
-          ctx.body = {
-            status: true,
-            data: '删除成功'
+  if (idList instanceof Array && idList.length > 0) {
+    for (let id of idList) {
+      try {
+        let isEmpty = await query(memberSql, [id])
+        if (!isEmpty.length) {
+          try {
+            await query(sql, [id])
+            ctx.body = {
+              status: true,
+              data: '删除成功'
+            }
+          } catch (err) {
+            console.log(`[GET '/groupManage/delete' ERROR] -- ${err}`)
+            ctx.body = {
+              status: false,
+              data: '删除失败'
+            }
           }
-        } catch (err) {
+        } else {
           ctx.body = {
             status: false,
-            data: '删除失败'
+            data: '小组人员不为空无法删除'
           }
         }
-      } else {
-        ctx.body = {
-          status: false,
-          data: '小组人员不为空无法删除'
-        }
+      } catch (err) {
+        console.log(`[GET '/groupManage/delete' ERROR] -- ${err}`)
       }
-    } catch (err) {
-      console.log(err)
     }
   }
 }
@@ -153,11 +161,14 @@ let getGroupMember = async (ctx, next) => {
   let sql = `SELECT * FROM user_info WHERE groupId=?;`
   try {
     let groupMemberInfo = await query(sql, id)
-    ctx.body = {
-      status: true,
-      data: groupMemberInfo
+    if (groupMemberInfo instanceof Array) {
+      ctx.body = {
+        status: true,
+        data: groupMemberInfo
+      }
     }
   } catch (err) {
+    console.log(`[GET '/groupManage/getGroupMember' ERROR] -- ${err}`)
     ctx.body = {
       status: false,
       data: '查询小组成员失败'
@@ -174,21 +185,22 @@ let delGroupMember = async (ctx, next) => {
      }
    */
   let idList = ctx.request.body.idList
-  console.log(idList)
   let sql = `DELETE FROM user_info WHERE email=?;`
   // 后期根据业务：可能需要根据继续删除其对应的周报
-  for (let id of idList) {
-    console.log(id)
-    try {
-      await query(sql, [id])
-      ctx.body = {
-        status: true,
-        data: '删除成功'
-      }
-    } catch (err) {
-      ctx.body = {
-        status: false,
-        data: '删除失败'
+  if (idList instanceof Array && idList.length > 0) {
+    for (let id of idList) {
+      try {
+        await query(sql, [id])
+        ctx.body = {
+          status: true,
+          data: '删除成功'
+        }
+      } catch (err) {
+        console.log(`[GET '/groupManage/deleteGroupMember' ERROR] -- ${err}`)
+        ctx.body = {
+          status: false,
+          data: '删除失败'
+        }
       }
     }
   }

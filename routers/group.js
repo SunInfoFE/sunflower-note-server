@@ -7,32 +7,21 @@ let group = require('../controller/group/group.js')
 router.prefix('/group')
 
 // 获取所有用户列表
-router.get('/groupManage/get', async (ctx, next) => {
-    await group.getAllGroupManage(ctx, next)
-})
+router.get('/groupManage/get', group.getAllGroupManage)
 
 // 添加小组
-router.post('/groupManage/add', async (ctx, next) => {
-    await group.addGroupManage(ctx, next)
-})
+router.post('/groupManage/add', group.addGroupManage)
 
 // 编辑小组
-router.post('/groupManage/edit', async (ctx, next) => {
-    await group.editGroupManage(ctx, next)
-})
+router.post('/groupManage/edit', group.editGroupManage)
 
 // 删除小组
-router.post('/groupManage/delete', async (ctx, next) => {
-    await group.delGroupManage(ctx, next)
-})
+router.post('/groupManage/delete', group.delGroupManage)
 
 // 查看小组内所有成员
-router.get('/groupManage/getGroupMember', async(ctx, next) => {
-    await group.getGroupMember(ctx, next)
-})
+router.get('/groupManage/getGroupMember', group.getGroupMember)
 
 // 删除组内人员
-router.post('/groupManage/deleteGroupMember', async(ctx, next) => {
-    await group.delGroupMember(ctx, next)
-})
+router.post('/groupManage/deleteGroupMember', group.delGroupMember)
+
 module.exports = router
