@@ -1,16 +1,17 @@
+const router = require('koa-router')();
+
 /**
  * 各模块路由引入
  */
-const user = require('./user')
-const report = require('./report')
-const group = require('./group')
+const user = require('./user');
+const report = require('./report');
+const group = require('./group');
 
 /**
- * 路由挂载
- * @param app
+ * 统一挂载router级中间件路由
  */
-module.exports = function (app) {
-  app.use(user.routes(), user.allowedMethods())
-  app.use(report.routes(), report.allowedMethods())
-  app.use(group.routes(), group.allowedMethods())
-}
+router.use(user.routes(), user.allowedMethods());
+router.use(report.routes(), report.allowedMethods());
+router.use(group.routes(), group.allowedMethods());
+
+module.exports = router;
