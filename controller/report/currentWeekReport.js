@@ -2,7 +2,7 @@
  * Created by caoLiXin on 2018/2/28.
  */
 const dbQuery = require('../../lib/mysql');
-const getMonday = require('../../common/utils/getMonday')
+const getMonday = require('../../common/utils/getMonday');
 
 /**
  * 获取当前用户所有本周周报
@@ -14,7 +14,7 @@ let getAll = async (ctx, next) =>  {
   try {
     const selectSql = 'SELECT * FROM report_info WHERE email = ? AND week =?';
     let selectData = await dbQuery(selectSql, [ctx.ssession.userId, getMonday()]);
-    if (selectData instanceof Array && selectData.length !== 0) {
+    if (selectData instanceof Array) {
       ctx.body = {
         status: true,
         data: selectData
@@ -174,4 +174,4 @@ module.exports = {
   edit,
   _delete,
   submit
-}
+};

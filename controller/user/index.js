@@ -1,7 +1,7 @@
 /**
  * Created by caoLiXin on 2018/3/2.
  */
-const dbQuery = require('../../lib/mysql')
+const dbQuery = require('../../lib/mysql');
 
 /**
  * 用户注册
@@ -13,7 +13,7 @@ let register = async (ctx, next) => {
   try {
     let reqBody = ctx.request.body;
     const selectSql = 'SELECT * FROM user_info WHERE email = ?';
-    let selectData = await dbQuery(selectSql, reqBody.userName);
+    let selectData = await dbQuery(selectSql, reqBody.email);
 
     if (selectData instanceof Array) {
       if (selectData.length !== 0) {
@@ -48,7 +48,7 @@ let register = async (ctx, next) => {
       data: '注册失败，请重试！'
     }
   }
-}
+};
 
 /**
  * 用户登录
@@ -72,8 +72,8 @@ let login = async (ctx, next) => {
         ctx.cookies.set('groupId', data[0].group, option) */
         ctx.session = {
           userId: data[0].email
-        }
-        delete data[0].password
+        };
+        delete data[0].password;
         ctx.body = {
           status: true,
           data: data[0]
@@ -92,13 +92,42 @@ let login = async (ctx, next) => {
     }
   } catch (err) {
     console.log(`[${ctx.method} - ${ctx.url} ERROR] -- ${err}`);
-    ctx.status = 500;
     ctx.body = {
       status: false,
       data: '登录失败，请重试！'
     }
   }
-}
+};
+
+/**
+ * 获取用户信息和所属组
+ * @param ctx
+ * @param next
+ * @returns {Promise.<void>}
+ */
+let getUserInfo = async (ctx, next) => {
+  try {
+    const getSql = "SELECT u.*,g.name as groupName from user_info u LEFT JOIN group_info g ON u.groupId = g.id WHERE u.email = ?";
+    let getData = await dbQuery(getSql, ctx.session.userId);
+    if (getData instanceof Array) {
+      ctx.body = {
+        status: true,
+        data: getData
+      }
+    } else {
+      ctx.body = {
+        status: false,
+        data: '数据获取失败，请重试！'
+      }
+    }
+  } catch(err) {
+    console.log(`[${ctx.method} - ${ctx.url} ERROR] -- ${err}`);
+    ctx.body = {
+      status: false,
+      data: '登录失败，请重试！'
+    }
+  }
+};
 
 /**
  * 更改密码
@@ -109,7 +138,7 @@ let login = async (ctx, next) => {
 let changePassword = async (ctx, next) => {
   const updateSQL = 'UPDATE user_info SET password = ? WHERE email = ?';
   try {
-    let data = await dbQuery(updateSQL, [ctx.request.body.newPassword, ctx.session.userId])
+    let data = await dbQuery(updateSQL, [ctx.request.body.newPassword, ctx.session.userId]);
     if (data.changedRows === 1) {
       ctx.body = {
         status: true,
@@ -128,10 +157,43 @@ let changePassword = async (ctx, next) => {
       data: '密码修改失败，请重试！'
     }
   }
-}
+};
+
+/**
+ * 更新个人信息
+ * @param ctx
+ * @param next
+ * @returns {Promise.<void>}
+ */
+let changUserInfo = async (ctx, next) => {
+  try {
+    const updateSql = "UPDATE user_info SET name = ?, sex = ?, remark = ?";
+    let {name, sex, remark} = ctx.request.body;
+    let updateData = await dbQuery(updateSql, [name, sex, remark]);
+    if (updateData.affectedRows === 1) {
+      ctx.body = {
+        status: true,
+        data: '更新成功！'
+      }
+    } else {
+      ctx.body = {
+        status: false,
+        data: '更新失败，请重试！'
+      }
+    }
+  } catch(err) {
+    console.log(`[${ctx.method} - ${ctx.url} ERROR] -- ${err}`);
+    ctx.body = {
+      status: false,
+      data: '更新失败，请重试！'
+    }
+  }
+};
 
 module.exports = {
   register,
   login,
-  changePassword
-}
+  getUserInfo,
+  changePassword,
+  changUserInfo
+};
