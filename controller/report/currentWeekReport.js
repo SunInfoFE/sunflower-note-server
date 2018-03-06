@@ -137,8 +137,7 @@ let _delete = async (ctx, next) => {
 let submit = async (ctx, next) => {
   try {
     const checkSql = "SELECT COUNT(*) AS count FROM report_info WHERE email = ? AND week = ? AND status = 'public'";
-    let checkData = await dbQuery(checkSql, [ctx.request.body.email, getMonday()]);
-    console.log(checkData)
+    let checkData = await dbQuery(checkSql, [ctx.session.email, getMonday()]);
     if (checkData[0].count !== 0) {
       ctx.body = {
         status: false,
