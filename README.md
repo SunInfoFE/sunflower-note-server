@@ -66,12 +66,12 @@
 **参数：** 
 ```
 {
-    name: 'user111',
-    password: 'password',
-    email: 'suninfo@suninfo.com',
-    sex: 'male/female/nuknow',
-    remark: '备注',
-    group: 'groupID'
+    name: 'user111',                    // 姓名
+    sex: 'male/female/nuknow',          // 性别
+    email: 'suninfo@suninfo.com',       // 邮箱/账号
+    remark: '备注',                     // 备注/个人说明
+    groupId: 'groupID',                 // 所属组的id
+    password: 'password',               // 登录密码
 }
 ```
 **成功返回值：** 
@@ -89,8 +89,8 @@
 **参数：** 
 ```
 {
-    email: 'suninfo@suninfo.com',
-    password: 'password'
+    email: 'suninfo@suninfo.com',           // 邮箱/账号
+    password: 'password'                    // 密码
 }
 ```
 **成功返回值：** 
@@ -102,14 +102,36 @@
 ```
 
 
+### 获取用户信息
+**请求方式：** `GET` \
+**接口：** `/user/getUserInfo` \
+**参数：**
+```
+无
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: [{
+        email: 'suninfo@suninfo.com',       // 邮箱/账号
+        name: 'name',                       // 姓名
+        sex: 'male/female/unknow',          // 性别 male(男)/female(女)/unknow(保密)
+        remark: '备注说明',                  // 备注说明
+        groupId: 'groupId',                 // 所属组id
+        groupName: 'name'                   // 所属组组名
+    }]
+}
+```
+
+
 ### 更改密码
 **请求方式：** `POST` \
 **接口：** `/user/changPassword` \
 **参数：** 
 ```
 {
-    password: 'newPassword',
-    email: 'newSuninfo@suninfo.com'
+    password: 'newPassword'                // 要更改的新密码
 }
 ```
 **成功返回值：** 
@@ -117,6 +139,26 @@
 {
     status: true,
     data: '密码更改成功'
+}
+```
+
+
+### 更改个人信息（只支持更改个人姓名、性别、备注说明信息）
+**请求方式：** `POST` \
+**接口：** `/user/changUserInfo` \
+**参数：**
+```
+{
+    name: 'name'                        // 要更改的新密码
+    sex: 'male/female/unknow',          // 性别 male(男)/female(女)/unknow(保密)
+    remark: '备注说明'                   // 备注说明
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '个人信息更改成功！'
 }
 ```
 
@@ -136,9 +178,16 @@
     status: true,
     data: [
         {
-            title: '',
-            ...
-        }
+            id: id,                                           // 周报id
+            title: '标题',                                    // 周报标题
+            summary: '上周总结',                              // 上周总结
+            plan: '下周计划',                                 // 下周计划
+            createTime: '2018-03-05 16:50:21',               // 创建时间
+            lastUpdateTime '2018-03-05 16:50:21',            // 上次更新时间
+            week: '2018-03-05',                              // 周报所属周的周一日期
+            status: 'private/public',                        // 周报状态  private(隐私/未提交) public(公开/已提交)
+            email: 'suninfo@suninfo.com'                     // 周报所属人员的email(邮箱/账号)
+        },
         ...
     ]
 }
@@ -150,9 +199,9 @@
 **参数：** 
 ```
  {
-    title: '标题',
-    summary: '内容',
-    plan: '内容'
+    title: '标题',            // 标题
+    summary: '内容',          // 本周总结
+    plan: '内容'              // 下周计划
  }
 ```
 **成功返回值：** 
@@ -169,10 +218,10 @@
 **参数：** 
 ```
  {
-    id: '周报ID',
-    title: '标题',
-    summary: '内容',
-    plan: '内容'
+    id: '周报ID',           // 修改的周报id
+    title: '标题',          // 标题
+    summary: '内容',        // 本周总结
+    plan: '内容'            // 下周计划
  }
 ```
 **成功返回值：** 
@@ -189,7 +238,7 @@
 **参数：** 
 ```
  {
-    idList： ['周报ID',...]
+    idList： ['周报ID',...]        //删除的周报id列表
  }
 ```
 **成功返回值：** 
@@ -200,13 +249,13 @@
 }
 ```
 
-#### 3.4 提交周报（将本周周报中的一份提交至小组周报）
+#### 3.4 提交周报（将本周周报中的一份提交至小组周报,一周只能提交一份）
 **请求方式：** `POST` \
 **接口：** `/report/currentWeekReport/submit` \
 **参数：** 
 ```
  {
-    id：周报ID
+    id：周报ID         // 要提交的周报id
  }
 ```
 **成功返回值：** 
