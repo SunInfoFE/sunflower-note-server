@@ -323,10 +323,21 @@
 {
     status: true,
     data: [
-        id: ...
-        name: ...
-        ...
+        {
+            id: 12,
+            name: "afs",
+            memberNum: 5,   // 人员数
+            remark: "dfsf",  // 备注
+            createTime: "2018-02-28T07:33:09.000Z"
+        }
     ]
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '查询失败，请重试！'
 }
 ```
 
@@ -347,7 +358,20 @@
     data: '新增成功'
 }
 ```
-
+**失败返回值：**
+```
+{
+    status: true,
+    data: '新增失败，请重试！'
+}
+```
+或
+```
+{
+    status: true,
+    data: '小组名已存在！！'
+}
+```
 #### 7.3 编辑小组
 **请求方式：**`POST` \
 **接口：**`/group/groupManage/edit` \
@@ -366,7 +390,20 @@
     data: '编辑成功'
 }
 ```
-
+**失败返回值：**
+```
+{
+    status: true,
+    data: '编辑失败，请重试！'
+}
+```
+或
+```
+{
+    status: true,
+    data: '小组名已存在！'
+}
+```
 #### 7.4 删除小组（空小组可删除）
 **请求方式：**`POST` \
 **接口：**`/group/groupManage/delete` \
@@ -383,7 +420,20 @@
     data: '删除成功'
 }
 ```
-
+**失败返回值：**
+```
+{
+    status: true,
+    data: '删除失败，请重试！'
+}
+```
+或
+```
+{
+    status: true,
+    data: '小组人员不为空无法删除！'
+}
+```
 #### 7.5 查看小组内所有成员
 **请求方式：**`GET` \
 **接口：**`/group/groupManage/getGroupMember` \
@@ -398,12 +448,24 @@
 {
     status: true,
     data: [{
-            email: '',
-            name: '',
-            ...
-        },...]
+        email: "huog@suninfo.com",
+        name: "霍鸽",
+        sex: "female",
+        remark: "前端工程师",
+        groupId: 12,  // 小组id
+        password: "huog"
+    }]
 }
 ```
+
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '查询小组成员失败，请重试！'
+}
+
 
 #### 7.6 删除组内人员
 **请求方式：**`POST` \
@@ -421,3 +483,10 @@
     data: '删除成功'
 }
 ```
+
+**失败返回值：**
+```
+{
+    status: true,
+    data: '删除失败，请重试！'
+}

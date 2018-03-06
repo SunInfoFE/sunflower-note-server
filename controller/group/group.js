@@ -17,7 +17,7 @@ let getAllGroupManage = async (ctx, next) => {
     console.log(`[GET '/groupManage/get' ERROR] -- ${err}`)
     ctx.body = {
       status: false,
-      data: '查询失败'
+      data: '查询失败，请重试！'
     }
   }
 }
@@ -41,7 +41,7 @@ let addGroupManage = async (ctx, next) => {
     if (nameRepeat instanceof Array && nameRepeat.length > 0) {
       ctx.body = {
         status: false,
-        data: '小组名已存在'
+        data: '小组名已存在！'
       }
     } else {
       let sql = `INSERT INTO group_info (name,remark) VALUES (?,?);`
@@ -55,7 +55,7 @@ let addGroupManage = async (ctx, next) => {
         console.log(`[GET '/groupManage/add' ERROR] -- ${err}`)
         ctx.body = {
           status: false,
-          data: '新增失败'
+          data: '新增失败，请重试！'
         }
       }
     }
@@ -99,7 +99,7 @@ let editGroupManage = async (ctx, next) => {
         console.log(`[GET '/groupManage/edit' ERROR] -- ${err}`)
         ctx.body = {
           status: false,
-          data: '编辑失败'
+          data: '编辑失败，请重试！'
         }
       }
     }
@@ -134,13 +134,13 @@ let delGroupManage = async (ctx, next) => {
             console.log(`[GET '/groupManage/delete' ERROR] -- ${err}`)
             ctx.body = {
               status: false,
-              data: '删除失败'
+              data: '删除失败，请重试！'
             }
           }
         } else {
           ctx.body = {
             status: false,
-            data: '小组人员不为空无法删除'
+            data: '小组人员不为空无法删除！'
           }
         }
       } catch (err) {
@@ -171,7 +171,7 @@ let getGroupMember = async (ctx, next) => {
     console.log(`[GET '/groupManage/getGroupMember' ERROR] -- ${err}`)
     ctx.body = {
       status: false,
-      data: '查询小组成员失败'
+      data: '查询小组成员失败，请重试！'
     }
   }
 }
@@ -199,7 +199,7 @@ let delGroupMember = async (ctx, next) => {
         console.log(`[GET '/groupManage/deleteGroupMember' ERROR] -- ${err}`)
         ctx.body = {
           status: false,
-          data: '删除失败'
+          data: '删除失败，请重试！'
         }
       }
     }
