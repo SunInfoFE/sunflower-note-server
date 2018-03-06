@@ -75,20 +75,41 @@ app.use(async (ctx, next) => {
 /**
  * 登录状态判断
  */
+// app.use(async (ctx, next) => {
+//   if (ctx.path !== '/user/login') {
+//     if (!ctx.session.userId) {
+//       ctx.body = {
+//         status: false,
+//         data: ' Not Login'
+//       }
+//     } else {
+//       await next()
+//     }
+//   } else {
+//     if (ctx.session.userId) {
+//       ctx.body = {
+//         status: false,
+//         data: 'Already Login'
+//       }
+//     } else {
+//       await next()
+//     }
+//
+//   }
+// });
+
+// 错误时统一返回500
 app.use(async (ctx, next) => {
-  if (ctx.path !== '/user/login') {
-    if (!ctx.session.userId) {
-      ctx.body = {
-        status: false,
-        data: ' Not Login'
-      }
-    } else {
-      await next()
-    }
-  } else {
-    await next()
+  try {
+    await next();
+  } catch (err) {
+    console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
+    ctx.response.status = 500 || err.statusCode || err.status;
+    ctx.response.body = {
+      message: err.message
+    };
   }
-});
+})
 
 // 挂载路由
 app.use(routers.routes(), routers.allowedMethods());
