@@ -108,8 +108,10 @@ let login = async (ctx, next) => {
 let getUserInfo = async (ctx, next) => {
   try {
     const getSql = "SELECT u.*,g.name as groupName from user_info u LEFT JOIN group_info g ON u.groupId = g.id WHERE u.email = ?";
+    console.log(ctx.session.userId);
     let getData = await dbQuery(getSql, ctx.session.userId);
     if (getData instanceof Array) {
+      delete getData[0].password;
       ctx.body = {
         status: true,
         data: getData
