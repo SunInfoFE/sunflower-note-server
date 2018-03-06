@@ -13,13 +13,13 @@ let register = async (ctx, next) => {
   try {
     let reqBody = ctx.request.body;
     const selectSql = 'SELECT * FROM user_info WHERE email = ?';
-    let selectData = await dbQuery(selectSql, reqBody.email);
+    let selectData = await dbQuery(selectSql, reqBody.userName);
 
     if (selectData instanceof Array) {
       if (selectData.length !== 0) {
         ctx.body = {
           status: false,
-          message: '该邮箱已注册！'
+          data: '该邮箱已注册！'
         }
       } else {
         const insertSql = 'INSERT INTO user_info VALUES (?,?,?,?,?,?)';
@@ -31,12 +31,12 @@ let register = async (ctx, next) => {
         if (insertData.affectedRows === 1  && updateData.changedRows === 1) {
           ctx.body = {
             status: true,
-            message: '注册成功，请登录！'
+            data: '注册成功，请登录！'
           }
         } else {
           ctx.body = {
             status: false,
-            message: '注册失败，请重试！'
+            data: '注册失败，请重试！'
           }
         }
       }
@@ -45,7 +45,7 @@ let register = async (ctx, next) => {
     console.log(`[${ctx.method} - ${ctx.url} ERROR] -- ${err}`);
     ctx.body = {
       status: false,
-      data: err
+      data: '注册失败，请重试！'
     }
   }
 }
@@ -81,20 +81,21 @@ let login = async (ctx, next) => {
       } else {
         ctx.body = {
           status: false,
-          message: '密码有误！'
+          data: '密码有误！'
         }
       }
     } else {
       ctx.body = {
         status: false,
-        message: '此用户不存在！'
+        data: '此用户不存在！'
       }
     }
   } catch (err) {
     console.log(`[${ctx.method} - ${ctx.url} ERROR] -- ${err}`);
+    ctx.status = 500;
     ctx.body = {
       status: false,
-      data: err
+      data: '登录失败，请重试！'
     }
   }
 }
@@ -124,7 +125,7 @@ let changePassword = async (ctx, next) => {
     console.log(`[${ctx.method} - ${ctx.url} ERROR] -- ${err}`);
     ctx.body = {
       status: false,
-      data: err
+      data: '密码修改失败，请重试！'
     }
   }
 }

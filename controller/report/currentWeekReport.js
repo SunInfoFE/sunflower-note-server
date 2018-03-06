@@ -22,14 +22,14 @@ let getAll = async (ctx, next) =>  {
     } else {
       ctx.body = {
         status: false,
-        data: '获取数据失败，请重试！'
+        data: '数据获取失败，请重试！'
       }
     }
   } catch(err) {
     console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
     ctx.body = {
       status: false,
-      data: err
+      data: '数据获取失败，请重试！'
     }
   }
 };
@@ -53,14 +53,14 @@ let add = async (ctx, next) => {
     } else {
       ctx.body = {
         status: false,
-        data: '失败，请重试！'
+        data: '新增失败，请重试！'
       }
     }
   } catch(err) {
     console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
     ctx.body = {
       status: false,
-      data: err
+      data: '新增失败，请重试！'
     }
   }
 };
@@ -91,7 +91,7 @@ let edit = async (ctx, next) => {
     console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
     ctx.body = {
       status: false,
-      data: err
+      data: '编辑失败，请重试！'
     }
   }
 };
@@ -122,7 +122,7 @@ let _delete = async (ctx, next) => {
     console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
     ctx.body = {
       status: false,
-      data: err
+      data: '删除失败，请重试！'
     }
   }
 };
@@ -163,7 +163,7 @@ let submit = async (ctx, next) => {
     console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
     ctx.body = {
       status: false,
-      data: err
+      data: '提交失败，请重试！'
     }
   }
 };

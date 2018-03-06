@@ -22,14 +22,14 @@ let getAll = async (ctx, next) =>  {
     } else {
       ctx.body = {
         status: false,
-        data: '获取数据失败，请重试！'
+        data: '数据获取失败，请重试！'
       }
     }
   } catch(err) {
     console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
     ctx.body = {
       status: false,
-      data: err
+      data: '数据获取失败，请重试！'
     }
   }
 };
