@@ -2,6 +2,7 @@
  * Created by caoLiXin on 2018/3/6.
  */
 let logger = async (ctx, next) => {
+  let start = new Date();
   let reqData = {
     origin: ctx.origin,
     date: new Date(parseInt(ctx.query.t)).toLocaleString(),
@@ -9,14 +10,13 @@ let logger = async (ctx, next) => {
       method: ctx.method,
       url: ctx.url,
       path: ctx.path,
-      query: ctx.query
+      query: ctx.query,
+      body: ctx.request.body
     }
   };
-  console.log(`==========REQUEST==LOGGER==START==========`);
-  console.log(reqData);
-  console.log(`===========REQUEST==LOGGER==END===========`);
-
-  await next()
+  await next();
+  let ms = new Date() - start;
+  console.log(`[==API Request Logger==] -- origin:${reqData.origin},dateTime:${reqData.date},API:(${reqData.api.method})${reqData.api.path},query:${JSON.stringify(reqData.api.query)},body:${JSON.stringify(reqData.api.body)},time:${ms}msn c  `);
 };
 
 module.exports = logger;

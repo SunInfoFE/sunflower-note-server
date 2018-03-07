@@ -51,12 +51,12 @@ let register = async (ctx, next) => {
 };
 
 /**
- * 用户登录
+ * 普通用户登录
  * @param ctx
  * @param next
  * @returns {Promise.<void>}
  */
-let login = async (ctx, next) => {
+let userLogin = async (ctx, next) => {
   const searchUid = 'SELECT * FROM user_info WHERE email = ?';
   try {
     let data = await dbQuery(searchUid, ctx.request.body.email);
@@ -91,6 +91,47 @@ let login = async (ctx, next) => {
       }
     }
   } catch (err) {
+    console.log(`[${ctx.method} - ${ctx.url} ERROR] -- ${err}`);
+    ctx.body = {
+      status: false,
+      data: '登录失败，请重试！'
+    }
+  }
+};
+
+/**
+ * 管理员登录接口
+ * @param ctx
+ * @param next
+ * @returns {Promise.<void>}
+ */
+let adminLogin = async (ctx, next) => {
+  try {
+    const loginSql = "SELECT * FROM user_info WHERE email = ? AND role = 'admin'";
+    let loginData = await dbQuery(loginSql, ctx.request.body.email);
+    if (loginData instanceof Array && loginData.length !== 0) {
+      if (loginData[0].password === ctx.request.body.password) {
+        ctx.session = {
+          userId: loginData[0].email
+        };
+        delete loginData[0].password;
+        ctx.body = {
+          status: true,
+          data: loginData[0]
+        }
+      } else {
+        ctx.body = {
+          status: false,
+          data: '密码有误！'
+        }
+      }
+    } else {
+      ctx.body = {
+        status: false,
+        data: '此管理员用户不存在！'
+      }
+    }
+  } catch(err) {
     console.log(`[${ctx.method} - ${ctx.url} ERROR] -- ${err}`);
     ctx.body = {
       status: false,
@@ -194,7 +235,8 @@ let changUserInfo = async (ctx, next) => {
 
 module.exports = {
   register,
-  login,
+  userLogin,
+  adminLogin,
   getUserInfo,
   changePassword,
   changUserInfo

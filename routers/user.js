@@ -15,7 +15,13 @@ router.post('/register', user.register);
  * 用户登录接口
  * url: /user/login
  */
-router.post('/login', user.login);
+router.post('/login', user.userLogin);
+
+/**
+ * 管理员登录接口
+ * url: /user/login
+ */
+router.post('/adminLogin', user.adminLogin);
 
 /**
  * 获取用户信息和所属组接口

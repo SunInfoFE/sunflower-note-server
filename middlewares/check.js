@@ -35,18 +35,19 @@ let isLogin = async (ctx, next) => {
       await next()
     }
   } else {
-    if (ctx.path === '/user/login') {
-      if (ctx.session.userId) {
-        ctx.body = {
-          status: false,
-          data: 'Already Login'
-        }
-      } else {
-        await next()
-      }
-    } else {
-      await next()
-    }
+    await next()
+    // if (ctx.path === '/user/login') {
+    //   if (ctx.session.userId) {
+    //     ctx.body = {
+    //       status: false,
+    //       data: 'Already Login'
+    //     }
+    //   } else {
+    //     await next()
+    //   }
+    // } else {
+    //   await next()
+    // }
   }
 };
 
