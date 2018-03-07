@@ -14,7 +14,7 @@ let getAll = async (ctx, next) =>  {
   try {
     const getAllSql = 'SELECT * FROM report_info WHERE email = ?';
     let getAllData = await dbQuery(getAllSql, ctx.ssession.userId);
-    if (getAllData instanceof Array && getAllData.length !== 0) {
+    if (getAllData instanceof Array) {
       ctx.body = {
         status: true,
         data: getAllData
@@ -36,4 +36,4 @@ let getAll = async (ctx, next) =>  {
 
 module.exports = {
   getAll
-}
+};
