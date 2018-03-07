@@ -45,7 +45,6 @@ let deleteMyReport = async (ctx, next) =>  {
   try {
     let deleteSql = `DELETE FROM report_info WHERE id IN ( ${ctx.request.body.idList} )`;
     let deleteData = await dbQuery(deleteSql);
-    console.log(deleteData);
     if (deleteData.affectedRows > 0) {
       ctx.body = {
         status: true,
