@@ -5,7 +5,8 @@ const router = require('koa-router')();
 const md5 = require('md5'); // 加密
 
 const currentWeekReport = require('../controller/report/currentWeekReport');
-const myReport = require('../controller/report/myReport')
+const myReport = require('../controller/report/myReport');
+const groupReport = require('../controller/report/groupReport');
 
 router.prefix('/report');
 
@@ -50,6 +51,12 @@ router.post('/myReport/get', myReport.getAll);
  * url： /report/myReport/delete
  */
 router.post('/myReport/delete', myReport.deleteMyReport);
+
+/**
+ * 获取当前用户所在组的本周周报
+ * url： report/groupCurrentWeekReport/get
+ */
+router.post('/groupCurrentWeekReport/get', groupReport.getGroupCurrentWeekPort);
 
 
 module.exports = router;
