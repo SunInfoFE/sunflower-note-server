@@ -34,6 +34,38 @@ let getAll = async (ctx, next) =>  {
   }
 };
 
+
+/**
+ * 删除/批量删除当前用户的所有周报
+ * @param ctx
+ * @param next
+ * @returns {Promise.<void>}
+ */
+let deleteMyReport = async (ctx, next) =>  {
+  try {
+    let deleteSql = `DELETE FROM report_info WHERE id IN ( ${ctx.request.body.idList} )`;
+    let deleteData = await dbQuery(deleteSql);
+    if (deleteData.affectedRows > 0) {
+      ctx.body = {
+        status: true,
+        data: '删除成功！'
+      }
+    } else {
+      ctx.body = {
+        status: false,
+        data: '删除失败，请重试！'
+      }
+    }
+  } catch(err) {
+    console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
+    ctx.body = {
+      status: false,
+      data: '删除失败，请重试！'
+    }
+  }
+};
+
 module.exports = {
-  getAll
+  getAll,
+  deleteMyReport
 };
