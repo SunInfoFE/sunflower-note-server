@@ -58,5 +58,11 @@ router.post('/myReport/delete', myReport.deleteMyReport);
  */
 router.post('/groupCurrentWeekReport/get', groupReport.getGroupCurrentWeekPort);
 
+/**
+ * 获取当前用户所在组的历史周报
+ * url： report/groupHistoryWeekReport/get
+ */
+router.post('/groupHistoryWeekReport/get', groupReport.getGroupHistoryWeekPort);
+
 
 module.exports = router;
