@@ -19,9 +19,15 @@ router.post('/login', user.userLogin);
 
 /**
  * 管理员登录接口
- * url: /user/login
+ * url: /user/adminLogin
  */
 router.post('/adminLogin', user.adminLogin);
+
+/**
+ * 注销/退出系统
+ * url: /user/logOut
+ */
+router.get('/logOut', user.logOut);
 
 /**
  * 获取用户信息和所属组接口

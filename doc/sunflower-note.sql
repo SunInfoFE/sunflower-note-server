@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50720
 File Encoding         : 65001
 
-Date: 2018-03-06 17:05:00
+Date: 2018-03-07 17:32:01
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -26,12 +26,11 @@ CREATE TABLE `group_info` (
   `remark` char(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `createTime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of group_info
 -- ----------------------------
-
 
 -- ----------------------------
 -- Table structure for `report_info`
@@ -47,13 +46,13 @@ CREATE TABLE `report_info` (
   `week` date NOT NULL,
   `status` enum('public','private') COLLATE utf8_unicode_ci NOT NULL DEFAULT 'private',
   `email` char(30) COLLATE utf8_unicode_ci NOT NULL,
+  `groupId` int(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of report_info
 -- ----------------------------
-
 
 -- ----------------------------
 -- Table structure for `user_info`
@@ -66,13 +65,13 @@ CREATE TABLE `user_info` (
   `remark` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `groupId` int(20) NOT NULL,
   `password` char(30) COLLATE utf8_unicode_ci NOT NULL,
+  `role` enum('user','admin') COLLATE utf8_unicode_ci NOT NULL DEFAULT 'user',
   PRIMARY KEY (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of user_info
 -- ----------------------------
-
 
 -- ----------------------------
 -- Table structure for `_mysql_session_store`

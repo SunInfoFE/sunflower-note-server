@@ -16,7 +16,7 @@ let logger = async (ctx, next) => {
   };
   await next();
   let ms = new Date() - start;
-  console.log(`[==API Request Logger==] -- origin:${reqData.origin},dateTime:${reqData.date},API:(${reqData.api.method})${reqData.api.path},query:${JSON.stringify(reqData.api.query)},body:${JSON.stringify(reqData.api.body)},time:${ms}msn c  `);
+  console.log(`[==API Request Logger==] -- origin:${reqData.origin},dateTime:${reqData.date},API:(${reqData.api.method})${reqData.api.path},query:${JSON.stringify(reqData.api.query)},body:${JSON.stringify(reqData.api.body)},time:${ms}ms`);
 };
 
 module.exports = logger;

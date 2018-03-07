@@ -6,7 +6,7 @@ let group = require('../controller/group/group.js')
 
 router.prefix('/group')
 
-// 获取所有用户列表
+// 获取所有小组列表
 router.get('/groupManage/get', group.getAllGroupManage)
 
 // 添加小组

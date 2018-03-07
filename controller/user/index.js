@@ -22,7 +22,7 @@ let register = async (ctx, next) => {
           data: '该邮箱已注册！'
         }
       } else {
-        const insertSql = 'INSERT INTO user_info VALUES (?,?,?,?,?,?)';
+        const insertSql = 'INSERT INTO user_info (email, name, sex, remark, groupId, password) VALUES (?,?,?,?,?,?)';
         let {email, name, sex, remark, groupId, password } = reqBody;
         let insertData = await dbQuery(insertSql, [email, name, sex, remark, groupId, password]);
         const updateSql = 'UPDATE group_info SET memberNum = memberNum + 1 WHERE id = ?';
@@ -233,10 +233,33 @@ let changUserInfo = async (ctx, next) => {
   }
 };
 
+/**
+ * 注销/退出系统
+ * @param ctx
+ * @param next
+ * @returns {Promise.<void>}
+ */
+let logOut = async (ctx, next) => {
+  try {
+    ctx.session = null;
+    ctx.body = {
+      status: true,
+      data: '系统已退出！'
+    }
+  } catch(err) {
+    ctx.status = 500;
+    ctx.body = {
+      status: true,
+      data: '退出失败，请重试！'
+    }
+  }
+};
+
 module.exports = {
   register,
   userLogin,
   adminLogin,
+  logOut,
   getUserInfo,
   changePassword,
   changUserInfo

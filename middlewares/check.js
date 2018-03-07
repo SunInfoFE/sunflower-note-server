@@ -1,23 +1,3 @@
-// 存放判断登录与否文件
-/* module.exports = {
-  // 已经登录了
-  checkNotLogin: (ctx) => {
-    if (ctx.session && ctx.session.user) {
-      ctx.redirect('/posts');
-      return false;
-    }
-    return true;
-  },
-  //没有登录
-  checkLogin: (ctx) => {
-    if (!ctx.session || !ctx.session.user) {
-      ctx.redirect('/signIn');
-      return false;
-    }
-    return true;
-  }
-}; */
-
 /**
  * 根据session判断用户是否已经登录
  * @param ctx
@@ -25,7 +5,9 @@
  * @returns {Promise.<void>}
  */
 let isLogin = async (ctx, next) => {
-  if (ctx.path !== '/user/login' && ctx.path !== '/user/register') {
+  const notCheckPath = ['/user/login', '/user/register', '/group/groupManage/get'];   // 无需检查的接口
+
+  if (notCheckPath.indexOf(ctx.path) === -1) {
     if (!ctx.session.userId) {
       ctx.body = {
         status: false,

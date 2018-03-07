@@ -1,39 +1,17 @@
 const Koa = require('koa');
 const path = require('path');
-const bodyParser = require('koa-bodyparser');  // 表单解析中间件
-const ejs = require('ejs');  // 模板
-const session = require('koa-session-minimal');  // 处理数据库中间件
-const MysqlStore = require('koa-mysql-session');  // 处理数据库中间件
-const config = require('./config/default.js');  // 相关的配置文件
-const router = require('koa-router');   // 路由中间件
-const views = require('koa-views'); // 模板引擎
-const koaStatic = require('koa-static');  // 静态资源加载中间件
-const routers = require('./routers');  // 路由文件
-const logger = require('./middlewares/logger');
-const check = require('./middlewares/check');
+const bodyParser = require('koa-bodyparser');           // 表单解析中间件
+const ejs = require('ejs');                             // 模板
+const session = require('koa-session-minimal');         // 处理数据库中间件
+const router = require('koa-router');                   // 路由中间件
+const views = require('koa-views');                     // 模板引擎
+const koaStatic = require('koa-static');                // 静态资源加载中间件
+const routers = require('./routers');                   // 路由文件
+const sessionOpt = require('./middlewares/session');    // session相关配置
+const logger = require('./middlewares/logger');         // 接口调用日志输出
+const check = require('./middlewares/check');           // 登录状态检测
 const app = new Koa();
 
-// session存储配置
-const sessionMysqlConfig= {
-    user: config.database.USERNAME,
-    password: config.database.PASSWORD,
-    database: config.database.DATABASE,
-    host: config.database.HOST,
-    port: config.database.PORT,
-};
-
-// 配置session中间件
-app.use(session({
-  key: 'session-id',            // cookie 中存储 session-id 时的键名, 默认为 koa:sess
-  cookie: {                     // 与 cookie 相关的配置
-    domain: 'localhost',        // 写 cookie 所在的域名
-    path: '/',                  // 写 cookie 所在的路径
-    maxAge: 1000 * 60 * 10 ,    // cookie 有效时长(单位：ms)
-    httpOnly: true,             // 是否只用于 http 请求中获取
-    overwrite: true             // 是否允许重写
-  },
-  store: new MysqlStore(sessionMysqlConfig)
-}));
 
 // 配置静态资源加载中间件
 app.use(koaStatic(
@@ -50,6 +28,9 @@ app.use(bodyParser());
 
 // 接口调用信息日志输出
 app.use(logger);
+
+// 配置session中间件
+app.use(session(sessionOpt));
 
 // 登录状态判断
 app.use(check);

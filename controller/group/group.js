@@ -125,13 +125,13 @@ let delGroupManage = async (ctx, next) => {
    */
   // 不能删除含有成员的小组
   let idList = ctx.request.body.idList
-  let sql = `DELETE FROM group_info WHERE id IN (?);`
-  let memberSql = `SELECT * FROM user_info WHERE groupId IN (?);`
+  let sql = `DELETE FROM group_info WHERE id IN ('${idList}');`
+  let memberSql = `SELECT * FROM user_info WHERE groupId IN ('${idList}');`
   if (idList instanceof Array && idList.length > 0) {
     try {
-      let isEmpty = await query(memberSql, [idList])
+      let isEmpty = await query(memberSql)
       if (!isEmpty.length) {
-        let deleteSql = await query(sql, [idList])
+        let deleteSql = await query(sql)
         if (deleteSql.affectedRows > 1) {
           ctx.body = {
             status: true,
@@ -197,10 +197,10 @@ let delGroupMember = async (ctx, next) => {
    */
   try {
     let idList = ctx.request.body.idList
-    let sql = `DELETE FROM user_info WHERE email IN ( ? );`
+    let sql = `DELETE FROM user_info WHERE email IN ( '${idList}' );`
     // 后期根据业务：可能需要根据继续删除其对应的周报
     if (idList instanceof Array && idList.length > 0) {
-      let deleteSql = await query(sql, [idList])
+      let deleteSql = await query(sql)
       if (deleteSql.affectedRows === 1) {
         ctx.body = {
           status: true,

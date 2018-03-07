@@ -13,7 +13,7 @@ const getMonday = require('../../common/utils/getMonday');
 let getAll = async (ctx, next) =>  {
   try {
     const selectSql = 'SELECT * FROM report_info WHERE email = ? AND week =?';
-    let selectData = await dbQuery(selectSql, [ctx.ssession.userId, getMonday()]);
+    let selectData = await dbQuery(selectSql, [ctx.session.userId, getMonday()]);
     if (selectData instanceof Array) {
       ctx.body = {
         status: true,
@@ -42,9 +42,11 @@ let getAll = async (ctx, next) =>  {
  */
 let add = async (ctx, next) => {
   try {
-    const addSql = 'INSERT INTO report_info (title, summary, plan, week, email) VALUES (?,?,?,?,?)';
-    let {title, summary, plan} = ctx.request.body
-    let addData = await dbQuery(addSql, [title, summary, plan, getMonday(), ctx.ssession.userId]);
+    const addSql = "INSERT INTO report_info (title, summary, plan, week, email, groupId) SELECT ?, ?, ?, ?, ?, groupId FROM user_info WHERE email = ?"
+    let {title, summary, plan} = ctx.request.body;
+    console.log(ctx.request.body)
+    console.log(addSql)
+    let addData = await dbQuery(addSql, [title, summary, plan, getMonday(), ctx.session.userId, ctx.session.userId]);
     if (addData.affectedRows === 1) {
       ctx.body = {
         status: true,

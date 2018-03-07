@@ -13,7 +13,7 @@ const dbQuery = require('../../lib/mysql');
 let getAll = async (ctx, next) =>  {
   try {
     const getAllSql = 'SELECT * FROM report_info WHERE email = ?';
-    let getAllData = await dbQuery(getAllSql, ctx.ssession.userId);
+    let getAllData = await dbQuery(getAllSql, ctx.session.userId);
     if (getAllData instanceof Array) {
       ctx.body = {
         status: true,
