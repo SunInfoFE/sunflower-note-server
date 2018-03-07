@@ -45,5 +45,11 @@ router.post('/currentWeekReport/submit', currentWeekReport.submit);
  */
 router.post('/myReport/get', myReport.getAll);
 
+/**
+ * 删除/批量删除当前用户的周报
+ * url： /report/myReport/delete
+ */
+router.post('/myReport/delete', myReport.deleteMyReport);
+
 
 module.exports = router;
