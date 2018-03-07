@@ -34,7 +34,7 @@ let addGroupManage = async (ctx, next) => {
   // 不能添加名称相同的小组
   let searchSql = `SELECT * FROM group_info WHERE name=?`
   try {
-    if (name !== undefined && remark !== undefined) {
+    if (name !== (undefined || '') && remark !== undefined) {
       let nameRepeat = await query(searchSql, [name])
       if (nameRepeat instanceof Array && nameRepeat.length > 0) {
         ctx.body = {
@@ -43,14 +43,13 @@ let addGroupManage = async (ctx, next) => {
         }
       } else {
         let sql = `INSERT INTO group_info (name,remark) VALUES (?,?);`
-        try {
-          await query(sql, [name, remark])
+        let insertGroup = await query(sql, [name, remark])
+        if (insertGroup.affectedRows === 1) {
           ctx.body = {
             status: true,
             data: '新增成功'
           }
-        } catch (err) {
-          console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
+        } else {
           ctx.body = {
             status: false,
             data: '新增失败，请重试！'
@@ -81,7 +80,7 @@ let editGroupManage = async (ctx, next) => {
   try {
     let {id, name, remark} = ctx.request.body
     let searchSql = `SELECT * FROM group_info WHERE name=?`
-    if (id !== undefined && name !== undefined && remark !== undefined) {
+    if (id !== (undefined || '') && name !== (undefined || '') && remark !== undefined) {
       let nameRepeat = await query(searchSql, [name])
       if (nameRepeat instanceof Array && nameRepeat.length > 1) {
         ctx.body = {
@@ -91,14 +90,14 @@ let editGroupManage = async (ctx, next) => {
       } else {
         let sql = `UPDATE group_info SET name=?, remark=?
              WHERE id=?`
-        try {
-          await query(sql, [name,remark,id])
+        let updateSql = await query(sql, [name, remark, id])
+        console.log(updateSql)
+        if (updateSql.affectedRows === 1) {
           ctx.body = {
             status: true,
             data: '编辑成功'
           }
-        } catch (err) {
-          console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
+        } else {
           ctx.body = {
             status: false,
             data: '编辑失败，请重试！'
@@ -129,37 +128,34 @@ let delGroupManage = async (ctx, next) => {
   let sql = `DELETE FROM group_info WHERE id IN (?);`
   let memberSql = `SELECT * FROM user_info WHERE groupId IN (?);`
   if (idList instanceof Array && idList.length > 0) {
-    // for (let id of idList) {
-      try {
-        let isEmpty = await query(memberSql, [idList])
-        if (!isEmpty.length) {
-          try {
-            await query(sql, [idList])
-            ctx.body = {
-              status: true,
-              data: '删除成功'
-            }
-          } catch (err) {
-            console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
-            ctx.body = {
-              status: false,
-              data: '删除失败，请重试！'
-            }
+    try {
+      let isEmpty = await query(memberSql, [idList])
+      if (!isEmpty.length) {
+        let deleteSql = await query(sql, [idList])
+        if (deleteSql.affectedRows > 1) {
+          ctx.body = {
+            status: true,
+            data: '删除成功'
           }
         } else {
           ctx.body = {
             status: false,
-            data: '小组人员不为空无法删除！'
+            data: '删除失败，请重试！'
           }
         }
-      } catch (err) {
-        console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
+      } else {
         ctx.body = {
           status: false,
-          data: '删除失败，请重试！'
+          data: '小组人员不为空无法删除！'
         }
       }
-    // }
+    } catch (err) {
+      console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
+      ctx.body = {
+        status: false,
+        data: '删除失败，请重试！'
+      }
+    }
   } else {
     ctx.status = 500
   }
@@ -199,25 +195,32 @@ let delGroupMember = async (ctx, next) => {
        idList: [id1, id2, ...]
      }
    */
-  let idList = ctx.request.body.idList
-  let sql = `DELETE FROM user_info WHERE email IN ( ? );`
-  // 后期根据业务：可能需要根据继续删除其对应的周报
-  if (idList instanceof Array && idList.length > 0) {
-    try {
-      await query(sql, [idList])
-      ctx.body = {
-        status: true,
-        data: '删除成功'
+  try {
+    let idList = ctx.request.body.idList
+    let sql = `DELETE FROM user_info WHERE email IN ( ? );`
+    // 后期根据业务：可能需要根据继续删除其对应的周报
+    if (idList instanceof Array && idList.length > 0) {
+      let deleteSql = await query(sql, [idList])
+      if (deleteSql.affectedRows === 1) {
+        ctx.body = {
+          status: true,
+          data: '删除成功'
+        }
+      } else {
+        ctx.body = {
+          status: false,
+          data: '删除失败，请重试！'
+        }
       }
-    } catch (err) {
-      console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
-      ctx.body = {
-        status: false,
-        data: '删除失败，请重试！'
-      }
+    } else {
+      ctx.status = 500
     }
-  } else {
-    ctx.status = 500
+  } catch (err) {
+    console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
+    ctx.body = {
+      status: false,
+      data: '删除失败，请重试！'
+    }
   }
 }
 module.exports = {
