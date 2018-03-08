@@ -14,7 +14,7 @@ let getGroupCurrentWeekPort = async (ctx, next) =>  {
   try {
     // const selectSql = 'SELECT groupId FROM user_info WHERE email = ?';
     // let selectGroupId = await dbQuery(selectSql, ctx.session.userId);
-    const selectReportSql = "SELECT * FROM report_info WHERE status = 'public' AND groupId = (SELECT groupId,name FROM user_info WHERE email = ?) AND week = ?";
+    const selectReportSql = "select report_info.*, user_info.name from report_info, user_info where report_info.email = user_info.email and  user_info.email = ?";
     let groupCurrentReport = await dbQuery(selectReportSql, [ctx.session.userId, getMonday()]);
     if (groupCurrentReport instanceof Array) {
       ctx.body = {
@@ -45,7 +45,7 @@ let getGroupCurrentWeekPort = async (ctx, next) =>  {
  */
 let getGroupHistoryWeekPort = async (ctx, next) =>  {
   try {
-    const selectReportSql = "SELECT * FROM report_info WHERE status = 'public' AND groupId = (SELECT groupId,name FROM user_info WHERE email = ?) AND week != ?";
+    const selectReportSql = "select report_info.*, user_info.name from report_info, user_info where report_info.email = user_info.email and  user_info.email = ?";
     let groupHistoryReport = await dbQuery(selectReportSql, [ctx.session.userId, getMonday()]);
     if (groupHistoryReport instanceof Array) {
       ctx.body = {
