@@ -14,8 +14,8 @@ let getGroupCurrentWeekPort = async (ctx, next) =>  {
   try {
     // const selectSql = 'SELECT groupId FROM user_info WHERE email = ?';
     // let selectGroupId = await dbQuery(selectSql, ctx.session.userId);
-    const selectReportSql = "select report_info.*, user_info.name from report_info, user_info where report_info.email = user_info.email and report_info.status = 'public' and  user_info.email = ? and week = ?";
-    let groupCurrentReport = await dbQuery(selectReportSql, [ctx.session.userId, getMonday()]);
+    const selectReportSql = "select report_info.*, user_info.name from report_info, user_info where report_info.email = user_info.email and report_info.status = 'public' and  user_info.groupId = ? and week = ?";
+    let groupCurrentReport = await dbQuery(selectReportSql, [ctx.session.groupId, getMonday()]);
     if (groupCurrentReport instanceof Array) {
       ctx.body = {
         status: true,
@@ -45,8 +45,8 @@ let getGroupCurrentWeekPort = async (ctx, next) =>  {
  */
 let getGroupHistoryWeekPort = async (ctx, next) =>  {
   try {
-    const selectReportSql = "select report_info.*, user_info.name from report_info, user_info where report_info.email = user_info.email and report_info.status = 'public' and  user_info.email = ? and week != ?";
-    let groupHistoryReport = await dbQuery(selectReportSql, [ctx.session.userId, getMonday()]);
+    const selectReportSql = "select report_info.*, user_info.name from report_info, user_info where report_info.email = user_info.email and report_info.status = 'public' and  user_info.groupId = ? and week != ?";
+    let groupHistoryReport = await dbQuery(selectReportSql, [ctx.session.groupId, getMonday()]);
     if (groupHistoryReport instanceof Array) {
       ctx.body = {
         status: true,
