@@ -179,18 +179,27 @@ let getUserInfo = async (ctx, next) => {
  * @returns {Promise.<void>}
  */
 let changePassword = async (ctx, next) => {
-  const updateSQL = 'UPDATE user_info SET password = ? WHERE email = ?';
   try {
-    let data = await dbQuery(updateSQL, [ctx.request.body.newPassword, ctx.session.userId]);
-    if (data.changedRows === 1) {
-      ctx.body = {
-        status: true,
-        data: '密码更改成功，请重新登录！'
+    const checkSql = "SELECT password FROM user_info WHERE email = ?";
+    let checkData = await dbQuery(checkSql, ctx.session.userId);
+    if (ctx.request.body.oldPassword === checkData[0].password) {
+      const updateSQL = 'UPDATE user_info SET password = ? WHERE email = ?';
+      let data = await dbQuery(updateSQL, [ctx.request.body.newPassword, ctx.session.userId]);
+      if (data.changedRows === 1) {
+        ctx.body = {
+          status: true,
+          data: '密码更改成功，请重新登录！'
+        }
+      } else {
+        ctx.body = {
+          status: false,
+          message: '密码修改失败，请重试！'
+        }
       }
     } else {
-      ctx.body = {
+      ctx.body ={
         status: false,
-        message: '密码修改失败，请重试！'
+        data: '原密码有误！'
       }
     }
   } catch(err) {
@@ -210,9 +219,9 @@ let changePassword = async (ctx, next) => {
  */
 let changUserInfo = async (ctx, next) => {
   try {
-    const updateSql = "UPDATE user_info SET name = ?, sex = ?, remark = ?";
+    const updateSql = "UPDATE user_info SET name = ?, sex = ?, remark = ? WHERE email = ?";
     let {name, sex, remark} = ctx.request.body;
-    let updateData = await dbQuery(updateSql, [name, sex, remark]);
+    let updateData = await dbQuery(updateSql, [name, sex, remark, ctx.session.userId]);
     if (updateData.affectedRows === 1) {
       ctx.body = {
         status: true,
@@ -247,7 +256,6 @@ let logOut = async (ctx, next) => {
       data: '系统已退出！'
     }
   } catch(err) {
-    ctx.status = 500;
     ctx.body = {
       status: true,
       data: '退出失败，请重试！'
