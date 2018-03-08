@@ -130,12 +130,12 @@ let delGroupManage = async (ctx, next) => {
   if (idList instanceof Array && idList.length > 0) {
     try {
       let isEmpty = await query(memberSql)
-      if (!isEmpty.length) {
+      if (isEmpty.length === 0) {
         let deleteSql = await query(sql)
-        if (deleteSql.affectedRows > 1) {
+        if (deleteSql.affectedRows > 0) {
           ctx.body = {
             status: true,
-            data: '删除成功'
+            data: '删除成功！'
           }
         } else {
           ctx.body = {
@@ -157,7 +157,7 @@ let delGroupManage = async (ctx, next) => {
       }
     }
   } else {
-    ctx.status = 500
+    ctx.status = 400
   }
 }
 

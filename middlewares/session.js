@@ -12,18 +12,12 @@ let createSession = (app) => {
     password: config.database.PASSWORD,
     database: config.database.DATABASE,
     host: config.database.HOST,
-    port: config.database.PORT,
+    port: config.database.PORT
   };
 
   // session/cookie 属性配置
   let sessionOptions = {
     key: 'session-id',              // cookie 中存储 session-id 时的键名, 默认为 koa:sess
-
-    overwrite: true,
-    httpOnly: true,
-    rolling: false,
-    renew: true,
-
     cookie: {                       // 与 cookie 相关的配置
       domain: '',                   // 写 cookie 所在的域名
       path: '/',                    // 写 cookie 所在的路径
@@ -31,13 +25,12 @@ let createSession = (app) => {
       httpOnly: true,               // 是否只用于 http 请求中获取
       overwrite: true               // 是否允许重写
     },
-
     store: new MysqlStore(sessionMysqlConfig)
   };
 
   app.use(async (ctx, next) => {
     // 获取hostname，设置cookie的domain属性值
-    sessionOptions.cookie.domain = ctx.hostname;
+    sessionOptions.cookie.domain = ctx.request.hostname;
     await next();
   });
 

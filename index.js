@@ -1,4 +1,5 @@
 const Koa = require('koa');
+const cors = require('koa2-cors');
 const path = require('path');
 const bodyParser = require('koa-bodyparser');           // 表单解析中间件
 const ejs = require('ejs');                             // 模板

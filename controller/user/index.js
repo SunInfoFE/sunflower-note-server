@@ -62,14 +62,7 @@ let userLogin = async (ctx, next) => {
     let data = await dbQuery(searchUid, ctx.request.body.email);
     if (data instanceof Array && data.length !== 0) {
       if (data[0].password === ctx.request.body.password) {
-        // 登录成功后设置cookie
-        /* let option = {
-          domain: 'localhost',
-          expires: new Date(new Date().getTime() + 7 * 24 * 3600 * 1000),  // 有效期为一周
-          overwrite: true
-        }
-        ctx.cookies.set('email', data[0].email, option)
-        ctx.cookies.set('groupId', data[0].group, option) */
+        // 登录成功后设置session
         ctx.session = {
           userId: data[0].email
         };
