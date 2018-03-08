@@ -160,11 +160,12 @@
 
 ### 更改密码
 **请求方式：** `POST` \
-**接口：** `/user/changPassword` \
+**接口：** `/user/changePassword` \
 **参数：** 
 ```
 {
-    password: 'newPassword'                // 要更改的新密码
+    oldPassword: 'oldPassword'                // 旧密码
+    newPassword: 'newPassword'                // 要更改的新密码
 }
 ```
 **成功返回值：** 

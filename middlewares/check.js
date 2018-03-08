@@ -5,7 +5,7 @@
  * @returns {Promise.<void>}
  */
 let isLogin = async (ctx, next) => {
-  const notCheckPath = ['/user/login', '/user/register', '/group/groupManage/get'];   // 无需检查的接口
+  const notCheckPath = ['/user/login', '/user/adminLogin', '/user/register', '/group/groupManage/get'];   // 无需检查的接口
 
   if (notCheckPath.indexOf(ctx.path) === -1) {
     if (!ctx.session.userId) {
