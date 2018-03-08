@@ -2,12 +2,11 @@ const Koa = require('koa');
 const path = require('path');
 const bodyParser = require('koa-bodyparser');           // 表单解析中间件
 const ejs = require('ejs');                             // 模板
-const session = require('koa-session-minimal');         // 处理数据库中间件
 const router = require('koa-router');                   // 路由中间件
 const views = require('koa-views');                     // 模板引擎
 const koaStatic = require('koa-static');                // 静态资源加载中间件
 const routers = require('./routers');                   // 路由文件
-const sessionOpt = require('./middlewares/session');    // session相关配置
+const createSession = require('./middlewares/session');    // session相关配置
 const logger = require('./middlewares/logger');         // 接口调用日志输出
 const check = require('./middlewares/check');           // 登录状态检测
 const app = new Koa();
@@ -30,7 +29,7 @@ app.use(bodyParser());
 app.use(logger);
 
 // 配置session中间件
-app.use(session(sessionOpt));
+createSession(app);
 
 // 登录状态判断
 app.use(check);

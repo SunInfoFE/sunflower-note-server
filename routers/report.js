@@ -41,6 +41,12 @@ router.post('/currentWeekReport/delete', currentWeekReport._delete);
 router.post('/currentWeekReport/submit', currentWeekReport.submit);
 
 /**
+ * 撤回已经提交周报(取消提交)接口
+ * url： /report/currentWeekReport/get
+ */
+router.post('/currentWeekReport/cancelSubmit', currentWeekReport.cancelSubmit);
+
+/**
  * 获取当前用户所有周报接口
  * url： /report/myReport/get
  */

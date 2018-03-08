@@ -44,8 +44,6 @@ let add = async (ctx, next) => {
   try {
     const addSql = "INSERT INTO report_info (title, summary, plan, week, email, groupId) SELECT ?, ?, ?, ?, ?, groupId FROM user_info WHERE email = ?"
     let {title, summary, plan} = ctx.request.body;
-    console.log(ctx.request.body)
-    console.log(addSql)
     let addData = await dbQuery(addSql, [title, summary, plan, getMonday(), ctx.session.userId, ctx.session.userId]);
     if (addData.affectedRows === 1) {
       ctx.body = {
@@ -138,14 +136,9 @@ let _delete = async (ctx, next) => {
  */
 let submit = async (ctx, next) => {
   try {
-    const checkSql = "SELECT COUNT(*) AS count FROM report_info WHERE email = ? AND week = ? AND status = 'public'";
-    let checkData = await dbQuery(checkSql, [ctx.session.email, getMonday()]);
-    if (checkData[0].count !== 0) {
-      ctx.body = {
-        status: false,
-        data: '您本周的周报已提交，请勿重复提交！'
-      }
-    } else {
+    const changeSql = "UPDATE report_info SET status = 'private' WHERE email = ? AND week = ? AND status = 'public'";
+    let changeData = await dbQuery(changeSql, [ctx.session.userId, getMonday()]);
+    if (changeData) {
       const submitSql = "UPDATE report_info SET status = 'public' WHERE id = ?";
       let submitData = await dbQuery(submitSql, ctx.request.body.id);
       if (submitData.changedRows === 1) {
@@ -169,10 +162,42 @@ let submit = async (ctx, next) => {
   }
 };
 
+
+/**
+ * 撤回已经提交的周报(取消提交)
+ * @param ctx
+ * @param next
+ * @returns {Promise.<void>}
+ */
+let cancelSubmit = async (ctx, next) => {
+  try{
+    const cancelSql = "UPDATE report_info SET status = 'private' WHERE id = ?";
+    let cancelData = await dbQuery(cancelSql, ctx.request.body.id);
+    if (cancelData.changedRows === 1) {
+      ctx.body = {
+        status: true,
+        data: '该周报提交已撤回！'
+      }
+    } else {
+      ctx.body = {
+        status: false,
+        data: '撤回提交失败，请重试！'
+      }
+    }
+  } catch(err) {
+    console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
+    ctx.body = {
+      status: false,
+      data: '撤回提交失败，请重试！'
+    }
+  }
+};
+
 module.exports = {
   getAll,
   add,
   edit,
   _delete,
-  submit
+  submit,
+  cancelSubmit
 };
