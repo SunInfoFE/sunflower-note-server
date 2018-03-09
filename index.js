@@ -8,6 +8,7 @@ const views = require('koa-views');                     // 模板引擎
 const koaStatic = require('koa-static');                // 静态资源加载中间件
 const routers = require('./routers');                   // 路由文件
 const createSession = require('./middlewares/session');    // session相关配置
+const setCors = require('./middlewares/cors');    // session相关配置
 const logger = require('./middlewares/logger');         // 接口调用日志输出
 const check = require('./middlewares/check');           // 登录状态检测
 const app = new Koa();
@@ -32,13 +33,16 @@ app.use(logger);
 // 配置session中间件
 createSession(app);
 
+// 跨域配置
+setCors(app);
+
 // 登录状态判断
 app.use(check);
 
 // 挂载路由
 app.use(routers.routes(), routers.allowedMethods());
 
-// 监听在3000端口
+// 监听在9898端口
 app.listen(9898, () => {
   console.log(`listening on port 9898`)
 });
