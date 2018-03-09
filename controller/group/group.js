@@ -198,12 +198,11 @@ let delGroupMember = async (ctx, next) => {
   try {
     let idList = ctx.request.body.idList
     let sql = `DELETE FROM user_info WHERE email IN ( '${idList}' );`
-    let groupId = `SELECT groupId FROM user_info WHERE email = ( '${idList[0]}' );`
-    let updateSql = `UPDATE group_info SET memberNum = memberNum + 1 ? WHERE id = ('${groupId}' );`
+    let updateSql = `UPDATE group_info SET memberNum = (memberNum - 1)  WHERE id  = ${ctx.query.id};`
     // 后期根据业务：可能需要根据继续删除其对应的周报
     if (idList instanceof Array && idList.length > 0) {
-      let deleteSql = await query(sql)
       let update = await query(updateSql)
+      let deleteSql = await query(sql)
       if (update.affectedRows === 1 && deleteSql.affectedRows === 1) {
         ctx.body = {
           status: true,
