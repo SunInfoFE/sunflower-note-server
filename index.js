@@ -42,6 +42,11 @@ app.use(check);
 // 挂载路由
 app.use(routers.routes(), routers.allowedMethods());
 
+// 重定向
+app.use((ctx, next) => {
+  ctx.redirect('/')
+})
+
 // 监听在9898端口
 app.listen(9898, () => {
   console.log(`listening on port 9898`)
