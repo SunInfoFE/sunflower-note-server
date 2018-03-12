@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50720
 File Encoding         : 65001
 
-Date: 2018-03-07 17:32:01
+Date: 2018-03-12 17:19:09
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -26,11 +26,12 @@ CREATE TABLE `group_info` (
   `remark` char(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `createTime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of group_info
 -- ----------------------------
+INSERT INTO `group_info` VALUES ('37', 'CA大平台-IMP组-前端', '1', 'CA大平台-IMP组-前端，suninfolwer，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。', '2018-03-09 15:51:27');
 
 -- ----------------------------
 -- Table structure for `report_info`
@@ -48,7 +49,7 @@ CREATE TABLE `report_info` (
   `email` char(30) COLLATE utf8_unicode_ci NOT NULL,
   `groupId` int(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=42 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of report_info
@@ -72,6 +73,7 @@ CREATE TABLE `user_info` (
 -- ----------------------------
 -- Records of user_info
 -- ----------------------------
+INSERT INTO `user_info` VALUES ('admin', 'admin', 'male', 'admin', '1', 'admin', 'admin');
 
 -- ----------------------------
 -- Table structure for `_mysql_session_store`
