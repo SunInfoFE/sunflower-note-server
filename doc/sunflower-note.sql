@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50720
 File Encoding         : 65001
 
-Date: 2018-03-14 14:18:14
+Date: 2018-03-14 16:58:20
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -31,7 +31,7 @@ CREATE TABLE `group_info` (
 -- ----------------------------
 -- Records of group_info
 -- ----------------------------
-INSERT INTO `group_info` VALUES ('37', 'CA大平台-IMP组-前端', '0', 'CA大平台-IMP组-前端，suninfolwer，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。', '2018-03-14 14:10:51');
+INSERT INTO `group_info` VALUES ('37', 'CA大平台-IMP组-前端', '0', 'CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。', '2018-03-14 16:56:58');
 
 -- ----------------------------
 -- Table structure for `journal_info`
@@ -43,7 +43,7 @@ CREATE TABLE `journal_info` (
   `createTime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `email` char(30) COLLATE utf8_unicode_ci NOT NULL,
   `week` date NOT NULL,
-  `status` enum('finished','unfinished') COLLATE utf8_unicode_ci NOT NULL,
+  `status` enum('finished','unfinished') COLLATE utf8_unicode_ci NOT NULL DEFAULT 'unfinished',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 

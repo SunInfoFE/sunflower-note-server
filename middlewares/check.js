@@ -7,6 +7,8 @@
 let isLogin = async (ctx, next) => {
   const notCheckPath = ['/user/login', '/user/adminLogin', '/user/register', '/group/groupManage/get', '/system/getSysSetting'];   // 无需检查的接口
 
+  if (ctx.path === '/favicon.ico') return
+
   if (notCheckPath.indexOf(ctx.path) === -1) {
     if (!ctx.session.userId) {
       ctx.body = {
