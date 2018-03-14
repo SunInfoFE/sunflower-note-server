@@ -1,6 +1,7 @@
 const Koa = require('koa');
 const cors = require('koa2-cors');
 const path = require('path');
+const config = require('./config/default.js')
 const bodyParser = require('koa-bodyparser');           // 表单解析中间件
 const ejs = require('ejs');                             // 模板
 const router = require('koa-router');                   // 路由中间件
@@ -16,12 +17,12 @@ const app = new Koa();
 
 // 配置静态资源加载中间件
 app.use(koaStatic(
-    path.join(__dirname , './public')
+  path.join(__dirname, './public')
 ));
 
 // 配置服务端模板渲染引擎中间件
 app.use(views(path.join(__dirname, './views'), {
-    extension: 'ejs'
+  extension: 'ejs'
 }));
 
 // 使用表单解析中间件
@@ -48,6 +49,6 @@ app.use((ctx, next) => {
 })
 
 // 监听在9898端口
-app.listen(9898, () => {
-  console.log(`listening on port 9898`)
+app.listen(config.port, () => {
+  console.log(`listening on port ${config.port}`)
 });
