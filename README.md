@@ -764,7 +764,7 @@
 
 #### 管理员系统设置
 **请求方式：**`POST` \
-**接口：**`/system/systemSetting` \
+**接口：**`/system/setSysSetting` \
 **参数：**
 ```
 {

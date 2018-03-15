@@ -1,5 +1,5 @@
 {
-  "emailSuffix":[],
+  "emailSuffix":["@suninfo"],
   "sysAnnouncement":[],
   "timeOut": 600
 }

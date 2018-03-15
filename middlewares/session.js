@@ -4,6 +4,7 @@
 const config = require('../config/default');        // 数据库相关的配置文件
 const session = require('koa-session-minimal');         // 处理数据库中间件
 const MysqlStore = require('koa-mysql-session');    // 处理数据库中间件
+const fs = require('fs')
 
 let createSession = (app) => {
   // session数据库存储配置
@@ -29,6 +30,15 @@ let createSession = (app) => {
   };
 
   app.use(async (ctx, next) => {
+    if (ctx.path === '/user/login') {
+      fs.readFile('config/sysConfig.json', 'utf8', (err, data) => {
+        if (err) throw err;
+        else {
+          let sysConfig = JSON.parse(data);
+          sessionOptions.cookie.maxAge = sysConfig.timeOut * 1000 || 1000 * 60 * 10
+        }
+      });
+    }
     // 获取hostname，设置cookie的domain属性值
     sessionOptions.cookie.domain = ctx.request.hostname;
     await next();

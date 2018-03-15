@@ -46,7 +46,8 @@ let set = async (ctx, next) => {
 
       reqKeys.forEach((item, index) => {
         if (settingDataKeys.indexOf(item) !== -1) {
-          settingData[item] = ctx.request.body[item]
+          if (item === 'emailSuffix' || item === 'sysAnnouncement') settingData[item] = ctx.request.body[item].split(';');
+          if (item === 'timeOut') settingData[item] = parseInt(ctx.request.body[item]);
         }
       })
       settingData = JSON.stringify(settingData);

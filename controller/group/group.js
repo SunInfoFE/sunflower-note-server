@@ -90,7 +90,6 @@ let editGroupManage = async (ctx, next) => {
       } else {
         let sql = `UPDATE group_info SET name=?, remark=?, createTime=createTime WHERE id=?`
         let updateSql = await query(sql, [name, remark, id])
-        console.log(updateSql)
         if (updateSql.affectedRows === 1) {
           ctx.body = {
             status: true,

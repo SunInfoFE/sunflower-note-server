@@ -2,6 +2,19 @@
  * Created by caoLiXin on 2018/3/2.
  */
 const dbQuery = require('../../lib/mysql');
+const fs = require('fs');
+
+let readConfig = () => {
+  return new Promise((resolve, reject) => {
+    fs.readFile('config/sysConfig.json', 'utf8', (err, data) => {
+      if (err) {
+        reject (err)
+      } else {
+        resolve(data)
+      }
+    });
+  })
+}
 
 /**
  * 用户注册
@@ -22,21 +35,39 @@ let register = async (ctx, next) => {
           data: '该邮箱已注册！'
         }
       } else {
-        const insertSql = 'INSERT INTO user_info (email, name, sex, remark, groupId, password) VALUES (?,?,?,?,?,?)';
         let {email, name, sex, remark, groupId, password } = reqBody;
-        let insertData = await dbQuery(insertSql, [email, name, sex, remark, groupId, password]);
-        const updateSql = 'UPDATE group_info SET memberNum = memberNum + 1 WHERE id = ?';
-        let updateData = await dbQuery(updateSql, reqBody.groupId);
+        let sysData = await readConfig();
 
-        if (insertData.affectedRows === 1  && updateData.changedRows === 1) {
-          ctx.body = {
-            status: true,
-            data: '注册成功，请登录！'
+        if (sysData) {
+          let sysConfig = JSON.parse(sysData);
+          console.log(sysConfig, email.match(/@\w+/g))
+          if (sysConfig.emailSuffix.indexOf(email.match(/@\w+/g)[0]) === -1) {
+            ctx.body = {
+              status: false,
+              data: 'illegal-email-suffix'
+            }
+          } else {
+            const insertSql = 'INSERT INTO user_info (email, name, sex, remark, groupId, password) VALUES (?,?,?,?,?,?)';
+            let insertData = await dbQuery(insertSql, [email, name, sex, remark, groupId, password]);
+            const updateSql = 'UPDATE group_info SET memberNum = memberNum + 1 WHERE id = ?';
+            let updateData = await dbQuery(updateSql, reqBody.groupId);
+
+            if (insertData.affectedRows === 1  && updateData.changedRows === 1) {
+              ctx.body = {
+                status: true,
+                data: '注册成功，请登录！'
+              }
+            } else {
+              ctx.body = {
+                status: false,
+                data: '注册失败，请重试！'
+              }
+            }
           }
         } else {
           ctx.body = {
             status: false,
-            data: '注册失败，请重试！'
+            data: sysData
           }
         }
       }
@@ -142,7 +173,6 @@ let adminLogin = async (ctx, next) => {
 let getUserInfo = async (ctx, next) => {
   try {
     const getSql = "SELECT u.*,g.name as groupName from user_info u LEFT JOIN group_info g ON u.groupId = g.id WHERE u.email = ?";
-    console.log(ctx.session.userId);
     let getData = await dbQuery(getSql, ctx.session.userId);
     if (getData instanceof Array) {
       delete getData[0].password;

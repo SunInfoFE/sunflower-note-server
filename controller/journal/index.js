@@ -179,7 +179,7 @@ let submitDraft = async (ctx, next) => {
       if (saveData.affectedRows === 1) {
         ctx.body = {
           status: true,
-          data: '提交成功'
+          data: '已提交至小组周报！'
         }
       } else {
         ctx.body = {
