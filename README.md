@@ -566,8 +566,6 @@
     }]
 }
 ```
-
-```
 **失败返回值：**
 ```
 {
@@ -592,10 +590,228 @@
     data: '删除成功'
 }
 ```
-
 **失败返回值：**
 ```
 {
     status: true,
     data: '删除失败，请重试！'
 }
+```
+
+
+### 8 本周日志
+
+#### 8.1 获取用户本周所有日志
+**请求方式：**`GET` \
+**接口：**`/journal/currentWeekJournal/getAll` \
+**参数：**
+```
+无
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: [
+        {
+            id: 日志id,
+            task: 日志内容,
+            createTime: 创建时间,
+            email: 用户email,
+            week: 日志所在周一日期（周标志）,
+            status: 日志状态（未完成 / 已完成）
+        }
+        ...
+    ]
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: err.message
+}
+```
+
+#### 8.2 新增本周工作日志
+**请求方式：**`POST` \
+**接口：**`/journal/currentWeekJournal/add` \
+**参数：**
+```
+{
+    task: 日志内容日志内容日志内容
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '新增成功！'
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: err.message
+}
+```
+
+#### 8.3 编辑本周工作日志
+**请求方式：**`POST` \
+**接口：**`/journal/currentWeekJournal/edit` \
+**参数：**
+```
+{
+    id: 日志id,
+    task: 修改后的日志内容
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '编辑成功！'
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: err.message
+}
+```
+
+#### 8.4 修改工作日志状态（未完成/已完成）
+**请求方式：**`POST` \
+**接口：**`/journal/currentWeekJournal/changeStatus \
+**参数：**
+```
+{
+    id: 日志id,
+    status: 修改后的状态
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '状态修改成功！'
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: err.message
+}
+```
+
+#### 8.5 将所选'工作日志'形成的预览周报，保存为周报草稿
+**请求方式：**`POST` \
+**接口：**`/journal/currentWeekJournal/saveDraft` \
+**参数：**
+```
+{
+    title: 周报标题,
+    summary: 本周总结,
+    plan: 下周计划
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '保存成功，可在"我的周报"中查看！'
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: err.message
+}
+```
+
+#### 8.6 将所选'工作日志'形成的预览周报，直接提交至小组周报
+**请求方式：**`POST` \
+**接口：**`/journal/currentWeekJournal/submitDraft` \
+**参数：**
+```
+{
+    title: 周报标题,
+    summary: 本周总结,
+    plan: 下周计划
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '已提交至小组周报！'
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: err.message
+}
+```
+
+
+### 系统设置
+
+#### 管理员系统设置
+**请求方式：**`POST` \
+**接口：**`/system/systemSetting` \
+**参数：**
+```
+{
+    emailSuffix: '@suninfo;@qq;@163',       // 注册邮箱后缀(字符串，英文;分隔)
+    sysAnnouncement: '111;222;333',         // 系统公告(字符串，英文；分隔)
+    timeOut: 600(Number)                    // 系统超时时间（单位：秒，默认600s）
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '保存成功！'
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: err.message
+}
+```
+
+#### 获取系统设置
+**请求方式：**`GET` \
+**接口：**`/system/getSysSetting` \
+**参数：**
+```
+{
+    无
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: {
+        emailSuffix: '@suninfo;@qq;@163',       // 注册邮箱后缀(字符串，英文;分隔)
+        sysAnnouncement: '111;222;333',         // 系统公告(字符串，英文；分隔)
+        timeOut: 600(Number)                    // 系统超时时间（单位：秒，默认600s）
+    }
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: err.message
+}
+```

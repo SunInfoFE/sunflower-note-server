@@ -56,25 +56,25 @@ let set = async (ctx, next) => {
       if (write === 'success') {
         ctx.body = {
           status: true,
-          data: '系统设置保存成功！'
+          data: '保存成功！'
         }
       } else {
         ctx.body = {
           status: true,
-          data: '系统设置保存失败，请重试！'
+          data: write
         }
       }
     } else {
       ctx.body = {
         status: true,
-        data: '读取系统文件失败，请重试！'
+        data: read
       }
     }
   } catch(err) {
     console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
     ctx.body = {
       status: false,
-      data: '设置失败，请重试！'
+      data: err.message
     }
   }
 };
@@ -96,14 +96,14 @@ let get = async (ctx, next) => {
     } else {
       ctx.body = {
         status: false,
-        data: '读取配置文件失败，请重试！'
+        data: read
       }
     }
   } catch(err) {
     console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
     ctx.body = {
       status: false,
-      data: '读取配置文件失败，请重试！'
+      data: err.message
     }
   }
 };

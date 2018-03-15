@@ -1,1 +1,5 @@
-{"emailSuffix":["suninfo","qq"],"sysAnnouncement":["系统公告................................."]}
+{
+  "emailSuffix":[],
+  "sysAnnouncement":[],
+  "timeOut": 600
+}
