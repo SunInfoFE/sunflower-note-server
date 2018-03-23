@@ -3,6 +3,7 @@
  */
 const dbQuery = require('../../lib/mysql');
 const getMonday = require('../../common/utils/getMonday');
+const sendMail = require('../../common/utils/sendMail');
 
 /**
  * 获取当前用户所在小组的本周周报
@@ -67,7 +68,19 @@ let getGroupHistoryWeekPort = async (ctx, next) =>  {
   }
 };
 
+/**
+ * 发送小组周报邮件
+ * @param ctx
+ * @param next
+ * @returns {Promise.<void>}
+ */
+let sendReportMail = async (ctx, next) =>{
+  // sendMail(user, message)
+}
+
+
 module.exports = {
   getGroupCurrentWeekPort,
-  getGroupHistoryWeekPort
+  getGroupHistoryWeekPort,
+  sendReportMail
 }
