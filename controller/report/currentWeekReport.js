@@ -173,7 +173,7 @@ let cancelSubmit = async (ctx, next) => {
   try{
     const cancelSql = "UPDATE report_info SET status = 'private' WHERE id = ?";
     let cancelData = await dbQuery(cancelSql, ctx.request.body.id);
-    if (cancelData.changedRows === 1) {
+    if (cancelData.affectedRows === 1) {
       ctx.body = {
         status: true,
         data: '该周报提交已撤回！'

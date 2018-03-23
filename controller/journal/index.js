@@ -49,7 +49,7 @@ let add = async (ctx, next) => {
     } else {
       ctx.status = 500;
       ctx.body = {
-        status: true,
+        status: false,
         data: addData
       }
     }
@@ -57,7 +57,7 @@ let add = async (ctx, next) => {
     console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
     ctx.status = 500;
     ctx.body = {
-      status: true,
+      status: false,
       data: err.message
     }
   }
@@ -74,7 +74,7 @@ let edit = async (ctx, next) => {
   const editSql = 'UPDATE journal_info SET task = ?, createTime = createTime WHERE id = ?';
   try {
     let editData = await dbQuery(editSql, [ctx.request.body.task, ctx.request.body.id]);
-    if (editData.changedRows === 1) {
+    if (editData.affectedRows === 1) {
       ctx.body = {
         status: true,
         data: '编辑成功！'
@@ -82,7 +82,7 @@ let edit = async (ctx, next) => {
     } else {
       ctx.status = 500;
       ctx.body = {
-        status: true,
+        status: false,
         data: editData
       }
     }
@@ -90,7 +90,7 @@ let edit = async (ctx, next) => {
     console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
     ctx.status = 500;
     ctx.body = {
-      status: true,
+      status: false,
       data: err.message
     }
   }
@@ -137,7 +137,7 @@ let changeStatus = async (ctx, next) => {
   const changeSql = 'UPDATE journal_info SET status = ?, createTime = createTime WHERE id = ?';
   try {
     let changeData = await dbQuery(changeSql, [ctx.request.body.status, ctx.request.body.id]);
-    if (changeData.changedRows === 1) {
+    if (changeData.affectedRows === 1) {
       ctx.body = {
         status: true,
         data: '状态更改成功！'
@@ -153,7 +153,7 @@ let changeStatus = async (ctx, next) => {
     console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
     ctx.status = 500;
     ctx.body = {
-      status: true,
+      status: false,
       data: err.message
     }
   }
@@ -174,7 +174,7 @@ let saveDraft = async (ctx, next) => {
     if (saveData.affectedRows === 1) {
       ctx.body = {
         status: true,
-        data: '保存成功，可在"我的周报"中查看！"'
+        data: '保存成功，可在"本周周报"中查看！"'
       }
     } else {
       ctx.body = {

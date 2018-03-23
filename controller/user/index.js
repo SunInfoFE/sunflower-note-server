@@ -208,7 +208,7 @@ let changePassword = async (ctx, next) => {
     if (ctx.request.body.oldPassword === checkData[0].password) {
       const updateSQL = 'UPDATE user_info SET password = ? WHERE email = ?';
       let data = await dbQuery(updateSQL, [ctx.request.body.newPassword, ctx.session.userId]);
-      if (data.changedRows === 1) {
+      if (data.affectedRows === 1) {
         ctx.body = {
           status: true,
           data: '密码更改成功，请重新登录！'
