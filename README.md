@@ -759,6 +759,30 @@
 }
 ```
 
+#### 8.7 删除工作日志
+**请求方式：**`POST` \
+**接口：**`/journal/currentWeekJournal/delete \
+**参数：**
+```
+{
+    idList: [id,...]
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '删除成功！'
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: err.message
+}
+```
+
 
 ### 系统设置
 

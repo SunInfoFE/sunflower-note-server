@@ -25,6 +25,12 @@ router.post('/currentWeekJournal/add', journal.add);
 router.post('/currentWeekJournal/edit', journal.edit);
 
 /**
+ * 删除本周工作日志接口
+ * url: /journal/currentWeekJournal/delete
+ */
+router.post('/currentWeekJournal/delete', journal.deleteJournal);
+
+/**
  * 修改工作日志状态 status 接口
  * url: /journal/currentWeekJournal/changeStatus
  */

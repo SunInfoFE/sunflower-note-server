@@ -89,10 +89,13 @@ let set = async (ctx, next) => {
 let get = async (ctx, next) => {
   try {
     let read = await readConfig();
+    let data = JSON.parse(read)
+    data.emailSuffix = data.emailSuffix.join(';');
+    data.sysAnnouncement = data.sysAnnouncement.join(';');
     if (read) {
       ctx.body = {
         status: true,
-        data: JSON.parse(read)
+        data:data
       }
     } else {
       ctx.body = {

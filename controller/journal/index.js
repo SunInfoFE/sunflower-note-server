@@ -11,9 +11,9 @@ const getMonday = require('../../common/utils/getMonday');
  * @returns {Promise.<void>}
  */
 let getAll = async (ctx, next) => {
-  const getSql = 'SELECT * FROM journal_info WHERE email = ? AND week = ?'
+  const getSql = 'SELECT * FROM journal_info WHERE email = ?'
   try {
-    let getData = await dbQuery(getSql, [ctx.session.userId, getMonday()]);
+    let getData = await dbQuery(getSql, ctx.session.userId);
     if (getData instanceof Array) {
       ctx.body = {
         status: true,
@@ -38,9 +38,9 @@ let getAll = async (ctx, next) => {
  * @returns {Promise.<void>}
  */
 let add = async (ctx, next) => {
-  const addSql = 'INSERT INTO journal_info (task, email, week) VALUES (?, ?, ?, ?)';
+  const addSql = 'INSERT INTO journal_info (task, email) VALUES (?, ?)';
   try {
-    let addData = await dbQuery(addSql, [ctx.request.body.task, ctx.session.userId, getMonday()]);
+    let addData = await dbQuery(addSql, [ctx.request.body.task, ctx.session.userId]);
     if (addData.affectedRows === 1) {
       ctx.body = {
         status: true,
@@ -91,6 +91,37 @@ let edit = async (ctx, next) => {
     ctx.status = 500;
     ctx.body = {
       status: true,
+      data: err.message
+    }
+  }
+};
+
+/**
+ * 删除工作日志
+ * @param ctx
+ * @param next
+ * @returns {Promise.<void>}
+ */
+let deleteJournal = async (ctx, next) => {
+  try{
+    let deleteSql = `DELETE FROM journal_info WHERE id IN ( '${ctx.request.body.idList}' )`;
+    let deleteData = await dbQuery(deleteSql);
+    if (deleteData.affectedRows > 0) {
+      ctx.body = {
+        status: true,
+        data: '删除成功！'
+      }
+    } else {
+      ctx.body = {
+        status: false,
+        data: deleteData
+      }
+    }
+  } catch(err) {
+    console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
+    ctx.status = 500;
+    ctx.body = {
+      status: false,
       data: err.message
     }
   }
@@ -208,6 +239,7 @@ module.exports = {
   getAll,
   add,
   edit,
+  deleteJournal,
   changeStatus,
   saveDraft,
   submitDraft
