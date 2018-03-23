@@ -12,6 +12,7 @@ const createSession = require('./middlewares/session'); // session相关配置
 const setCors = require('./middlewares/cors');          // 跨域设置
 const logger = require('./middlewares/logger');         // 接口调用日志输出
 const check = require('./middlewares/check');           // 登录状态检测
+const logUtil = require('./middlewares/log_util');      // 记录日志
 const app = new Koa();
 
 
@@ -29,7 +30,26 @@ app.use(views(path.join(__dirname, './views'), {
 app.use(bodyParser());
 
 // 接口调用信息日志输出
-app.use(logger);
+// app.use(logger);
+
+// 日志接口调用信息日志输出
+app.use(async (ctx, next) => {
+  //响应开始时间
+  const start = new Date();
+  //响应间隔时间
+  var ms;
+  try {
+    //开始进入到下一个中间件
+    await next();
+    ms = new Date() - start;
+    //记录响应日志
+    logUtil.logResponse(ctx, ms);
+  } catch (error) {
+    ms = new Date() - start;
+    //记录异常日志
+    logUtil.logError(ctx, error, ms);
+  }
+});
 
 // 配置session中间件
 createSession(app);
