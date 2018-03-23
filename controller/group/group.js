@@ -196,7 +196,7 @@ let delGroupMember = async (ctx, next) => {
   try {
     let idList = ctx.request.body.idList
     let sql = `DELETE FROM user_info WHERE email IN ( '${idList}' );`
-    let updateSql = `UPDATE group_info SET memberNum = (memberNum - 1)  WHERE id  = ${ctx.query.id};`
+    let updateSql = `UPDATE group_info SET memberNum = (memberNum - 1), createTime = createTime  WHERE id  = ${ctx.query.id};`
     // 后期根据业务：可能需要根据继续删除其对应的周报
     if (idList instanceof Array && idList.length > 0) {
       let update = await query(updateSql)

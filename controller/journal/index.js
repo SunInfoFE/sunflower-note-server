@@ -204,9 +204,9 @@ let submitDraft = async (ctx, next) => {
   try {
     let changeData = await dbQuery(changeSql, [ctx.session.userId, getMonday()]);
     if (changeData) {
-      const saveSql = "INSERT INTO report_info (title, summary, plan, week, email, groupId) SELECT ?, ?, ?, ?, ?, groupId FROM user_info WHERE email = ?"
+      const saveSql = "INSERT INTO report_info (title, summary, plan, week, status, email, groupId) SELECT ?, ?, ?, ?, ?, ?, groupId FROM user_info WHERE email = ?"
       let {title, summary, plan} = ctx.request.body;
-      let saveData = await dbQuery(saveSql, [title, summary, plan, getMonday(), ctx.session.userId, ctx.session.userId]);
+      let saveData = await dbQuery(saveSql, [title, summary, plan, getMonday(), 'public', ctx.session.userId, ctx.session.userId]);
       if (saveData.affectedRows === 1) {
         ctx.body = {
           status: true,

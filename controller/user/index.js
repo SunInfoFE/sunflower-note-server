@@ -49,7 +49,7 @@ let register = async (ctx, next) => {
           } else {
             const insertSql = 'INSERT INTO user_info (email, name, sex, remark, groupId, password) VALUES (?,?,?,?,?,?)';
             let insertData = await dbQuery(insertSql, [email, name, sex, remark, groupId, password]);
-            const updateSql = 'UPDATE group_info SET memberNum = memberNum + 1 WHERE id = ?';
+            const updateSql = 'UPDATE group_info SET memberNum = memberNum + 1, createTime = createTime WHERE id = ?';
             let updateData = await dbQuery(updateSql, reqBody.groupId);
 
             if (insertData.affectedRows === 1  && updateData.changedRows === 1) {
