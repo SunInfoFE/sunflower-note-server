@@ -11,7 +11,7 @@ const getMonday = require('../../common/utils/getMonday');
  * @returns {Promise.<void>}
  */
 let getAll = async (ctx, next) => {
-  const getSql = 'SELECT * FROM journal_info WHERE email = ?'
+  const getSql = 'SELECT * FROM journal_info WHERE email = ? ORDER BY createTime DESC'
   try {
     let getData = await dbQuery(getSql, ctx.session.userId);
     if (getData instanceof Array) {
@@ -104,7 +104,7 @@ let edit = async (ctx, next) => {
  */
 let deleteJournal = async (ctx, next) => {
   try{
-    let deleteSql = `DELETE FROM journal_info WHERE id IN ( '${ctx.request.body.idList}' )`;
+    let deleteSql = `DELETE FROM journal_info WHERE id IN ( ${ctx.request.body.idList} )`;
     let deleteData = await dbQuery(deleteSql);
     if (deleteData.affectedRows > 0) {
       ctx.body = {
