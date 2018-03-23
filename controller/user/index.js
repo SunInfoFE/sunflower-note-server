@@ -49,7 +49,7 @@ let register = async (ctx, next) => {
           } else {
             const insertSql = 'INSERT INTO user_info (email, name, sex, remark, groupId, password) VALUES (?,?,?,?,?,?)';
             let insertData = await dbQuery(insertSql, [email, name, sex, remark, groupId, password]);
-            const updateSql = 'UPDATE group_info SET memberNum = memberNum + 1 WHERE id = ?';
+            const updateSql = 'UPDATE group_info SET memberNum = memberNum + 1, createTime = createTime WHERE id = ?';
             let updateData = await dbQuery(updateSql, reqBody.groupId);
 
             if (insertData.affectedRows === 1  && updateData.changedRows === 1) {
@@ -208,7 +208,7 @@ let changePassword = async (ctx, next) => {
     if (ctx.request.body.oldPassword === checkData[0].password) {
       const updateSQL = 'UPDATE user_info SET password = ? WHERE email = ?';
       let data = await dbQuery(updateSQL, [ctx.request.body.newPassword, ctx.session.userId]);
-      if (data.changedRows === 1) {
+      if (data.affectedRows === 1) {
         ctx.body = {
           status: true,
           data: '密码更改成功，请重新登录！'

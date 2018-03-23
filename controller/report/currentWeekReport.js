@@ -105,7 +105,7 @@ let edit = async (ctx, next) => {
  */
 let _delete = async (ctx, next) => {
   try {
-    let deleteSql = `DELETE FROM report_info WHERE id IN ( '${ctx.request.body.idList}' )`;
+    let deleteSql = `DELETE FROM report_info WHERE id IN ( ${ctx.request.body.idList} )`;
     let deleteData = await dbQuery(deleteSql);
     if (deleteData.affectedRows > 0) {
       ctx.body = {
@@ -173,7 +173,7 @@ let cancelSubmit = async (ctx, next) => {
   try{
     const cancelSql = "UPDATE report_info SET status = 'private' WHERE id = ?";
     let cancelData = await dbQuery(cancelSql, ctx.request.body.id);
-    if (cancelData.changedRows === 1) {
+    if (cancelData.affectedRows === 1) {
       ctx.body = {
         status: true,
         data: '该周报提交已撤回！'
