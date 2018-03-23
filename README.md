@@ -619,7 +619,7 @@
             createTime: 创建时间,
             email: 用户email,
             week: 日志所在周一日期（周标志）,
-            status: 日志状态（未完成 / 已完成）
+            status: 日志状态 ('unfinished' / 'finished')
         }
         ...
     ]
@@ -689,7 +689,7 @@
 ```
 {
     id: 日志id,
-    status: 修改后的状态
+    status: 修改后的状态 ('unfinished' / 'finished')
 }
 ```
 **成功返回值：**
