@@ -195,13 +195,16 @@ let delGroupMember = async (ctx, next) => {
    */
   try {
     let idList = ctx.request.body.idList
+    idList = idList.map(item => `'${item}'`)
     let sql = `DELETE FROM user_info WHERE email IN ( ${idList} );`
+    let deleteEmailInfoSql = `DELETE FROM email_info WHERE email IN ( ${idList} );`
     let updateSql = `UPDATE group_info SET memberNum = (memberNum - 1), createTime = createTime  WHERE id  = ${ctx.query.id};`
     // 后期根据业务：可能需要根据继续删除其对应的周报
     if (idList instanceof Array && idList.length > 0) {
       let update = await query(updateSql)
+      let deleteEmailInfoData = await query(deleteEmailInfoSql)
       let deleteSql = await query(sql)
-      if (update.affectedRows === 1 && deleteSql.affectedRows === 1) {
+      if (update.affectedRows === 1 && deleteSql.affectedRows > 0 && deleteEmailInfoData.affectedRows > 0) {
         ctx.body = {
           status: true,
           data: '删除成功'
@@ -227,11 +230,15 @@ let delGroupMember = async (ctx, next) => {
 // 移动小组成员至另一组
 let moveUser = async (ctx, next) => {
   let {emailList, groupId} = ctx.request.body;
-  const decreaseUpdateSql = 'UPDATE group_info SET memberNum = memberNum - ?, createTime = createTime WHERE id = (SELECT groupId FROM user_info WHERE email = ?)';
-  const moveSql = `UPDATE user_info SET groupId = ? WHERE email in ( ${emailList} )`;
+  let emailListStr = emailList.map(item => `'${item}'`)
+  const getGroupIdSql = 'SELECT groupId FROM user_info WHERE email = ?';
+  const decreaseUpdateSql = 'UPDATE group_info SET memberNum = memberNum - ?, createTime = createTime WHERE id = ?';
+  const moveSql = `UPDATE user_info SET groupId = ? WHERE email IN ( ${emailListStr} )`;
+  console.log(moveSql)
   const increaseUpdateSql = 'UPDATE group_info SET memberNum = memberNum + ?, createTime = createTime WHERE id = ?';
   try {
-    let decreaseUpdateData = await query(decreaseUpdateSql, [emailList.length, emailList[0]]);
+    let getGroupIdData = await query(getGroupIdSql, emailList[0]);
+    let decreaseUpdateData = await query(decreaseUpdateSql, [emailList.length, getGroupIdData[0].groupId]);
     let moveData = await query(moveSql, groupId);
     let increaseUpdateData = await query(increaseUpdateSql, [emailList.length, groupId]);
     if(decreaseUpdateData.affectedRows === 1 && moveData.affectedRows > 0 && increaseUpdateData.affectedRows === 1) {

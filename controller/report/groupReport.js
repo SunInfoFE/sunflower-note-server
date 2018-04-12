@@ -95,11 +95,11 @@ let sendReportMail = async (ctx, next) =>{
         let {to, cc, title, content} = ctx.request.body
         let sendResult = await sendMail({
           from: ctx.session.userId,
-          to: to,
-          cc: cc,
-          licenseKey,
-          title,
-          content
+          to: to.join(','),
+          cc: cc.join(','),
+          licenseKey: licenseKey,
+          title: title,
+          content: content
         })
         if (sendResult) {
           ctx.body = {

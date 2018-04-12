@@ -50,7 +50,7 @@ let add = async (ctx, next) => {
  * @returns {Promise.<void>}
  */
 let del = async (ctx, next) => {
-  const delSql = `DELETE FROM sendMail_info WHERE email IN ( ${ctx.request.body.emailList} )`;
+  const delSql = `DELETE FROM sendMail_info WHERE id IN ( ${ctx.request.body.idList} )`;
   try {
     let delData = await dbQuery(delSql);
     if (delData.affectedRows > 0) {
@@ -110,7 +110,7 @@ let get = async (ctx, next) => {
  * @returns {Promise.<void>}
  */
 let update = async (ctx, next) => {
-  const updateSql = 'UPDATE sendMail_info SET email = ?, name = ? WHERE email = ?';
+  const updateSql = 'UPDATE sendMail_info SET email = ?, name = ? WHERE id = ?';
   try {
     let {email, name, id} = ctx.request.body;
     let updateData = await dbQuery(updateSql, [email, name, id]);
