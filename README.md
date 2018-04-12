@@ -915,6 +915,11 @@
 ```
 {
     status: false,
+    data: '该邮箱已添加，请勿重复添加！'
+}
+或
+{
+    status: false,
     data: '新增失败，请重试！'
 }
 ```
@@ -977,9 +982,9 @@
 **参数：**
 ```
 {
-    newEmail: 'newaa@suninfo.com',
-    newName: '李四',
-    email：'aa@suninfo.com'
+    email: 'newaa@suninfo.com',
+    name: '新李四',
+    id: '用户对应的id'
 }
 ```
 **成功返回值：**

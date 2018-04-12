@@ -11,18 +11,27 @@ const dbQuery = require('../../lib/mysql');
  */
 let add = async (ctx, next) => {
   const addSql = 'INSERT INTO sendMail_info (email, name) VALUES (?, ?)';
+  const isExistSql = 'SELECT * FROM sendMail_info WHERE email = ?'
   let {email, name} = ctx.request.body
   try {
-    let addData = await dbQuery(addSql, [email, name]);
-    if (addData.affectedRows === 1) {
-      ctx.body = {
-        status: true,
-        data: '新增成功！'
-      }
-    } else {
+    let isExistData = await dbQuery(isExistSql, email);
+    if (isExistData instanceof Array && isExistData.length > 0) {
       ctx.body = {
         status: false,
-        data: addData
+        data: '该邮箱已添加，请勿重复添加！'
+      }
+    } else {
+      let addData = await dbQuery(addSql, [email, name]);
+      if (addData.affectedRows === 1) {
+        ctx.body = {
+          status: true,
+          data: '新增成功！'
+        }
+      } else {
+        ctx.body = {
+          status: false,
+          data: addData
+        }
       }
     }
   } catch(err) {
@@ -103,8 +112,8 @@ let get = async (ctx, next) => {
 let update = async (ctx, next) => {
   const updateSql = 'UPDATE sendMail_info SET email = ?, name = ? WHERE email = ?';
   try {
-    let {newEmail, newName, email} = ctx.request.body;
-    let updateData = await dbQuery(updateSql, [newEmail, newName, email]);
+    let {email, name, id} = ctx.request.body;
+    let updateData = await dbQuery(updateSql, [email, name, id]);
     if (updateData.affectedRows === 1) {
       ctx.body = {
         status: true,
