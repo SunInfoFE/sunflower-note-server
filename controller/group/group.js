@@ -223,11 +223,44 @@ let delGroupMember = async (ctx, next) => {
     }
   }
 }
+
+// 移动小组成员至另一组
+let moveUser = async (ctx, next) => {
+  let {emailList, groupId} = ctx.request.body;
+  const decreaseUpdateSql = 'UPDATE group_info SET memberNum = memberNum - ?, createTime = createTime WHERE id = (SELECT groupId FROM user_info WHERE email = ?)';
+  const moveSql = `UPDATE user_info SET groupId = ? WHERE email in ( ${emailList} )`;
+  const increaseUpdateSql = 'UPDATE group_info SET memberNum = memberNum + ?, createTime = createTime WHERE id = ?';
+  try {
+    let decreaseUpdateData = await query(decreaseUpdateSql, [emailList.length, emailList[0]]);
+    let moveData = await query(moveSql, groupId);
+    let increaseUpdateData = await query(increaseUpdateSql, [emailList.length, groupId]);
+    if(decreaseUpdateData.affectedRows === 1 && moveData.affectedRows > 0 && increaseUpdateData.affectedRows === 1) {
+      ctx.body = {
+        status: true,
+        data: '移动成功！'
+      }
+    } else {
+      ctx.body = {
+        status: false,
+        data: '移动失败，请重试！'
+      }
+    }
+  } catch(err) {
+    console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
+    ctx.body = {
+      status: false,
+      data: '移动失败，请重试！'
+    }
+  }
+}
+
+
 module.exports = {
   getAllGroupManage,
   addGroupManage,
   editGroupManage,
   delGroupManage,
   getGroupMember,
-  delGroupMember
+  delGroupMember,
+  moveUser
 }

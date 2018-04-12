@@ -75,7 +75,47 @@ let getGroupHistoryWeekPort = async (ctx, next) =>  {
  * @returns {Promise.<void>}
  */
 let sendReportMail = async (ctx, next) =>{
-  // sendMail(user, message)
+  const selectLicenseKeySql = 'SELECT * from email_info WHERE email = ?';
+  try {
+    let selectLicenseKeyData = await dbQuery(selectLicenseKeySql, ctx.session.userId);
+
+    if (selectLicenseKeyData[0].status === 'unactivated') {
+      ctx.body = {
+        status: false,
+        data: '您的账号未激活！'
+      }
+    } else {
+      if (!selectLicenseKeyData[0].licenseKey) {
+        ctx.body = {
+          status: false,
+          data: '您未设置邮箱密码/授权码！'
+        }
+      } else {
+        let licenseKey = selectLicenseKeyData[0].licenseKey
+        let {to, cc, title, content} = ctx.request.body
+        let sendResult = await sendMail({
+          from: ctx.session.userId,
+          to: to,
+          cc: cc,
+          licenseKey,
+          title,
+          content
+        })
+        if (sendResult) {
+          ctx.body = {
+            status: true,
+            data: '邮件已发送，您可登录邮箱查看！'
+          }
+        }
+      }
+    }
+  } catch(err) {
+    console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
+    ctx.body = {
+      status: false,
+      data: '邮件发送失败失败，请重试！'
+    }
+  }
 }
 
 

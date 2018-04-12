@@ -30,14 +30,14 @@ app.use(views(path.join(__dirname, './views'), {
 app.use(bodyParser());
 
 // 接口调用信息日志输出
-// app.use(logger);
+app.use(logger);
 
 // 日志接口调用信息日志输出
 app.use(async (ctx, next) => {
   //响应开始时间
   const start = new Date();
   //响应间隔时间
-  var ms;
+  let ms;
   try {
     //开始进入到下一个中间件
     await next();
@@ -68,7 +68,7 @@ app.use((ctx, next) => {
   ctx.redirect('/')
 })
 
-// 监听在9898端口
+// 监听在3000端口
 app.listen(config.port, () => {
   console.log(`listening on port ${config.port}`)
 });

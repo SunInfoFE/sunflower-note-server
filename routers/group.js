@@ -24,4 +24,7 @@ router.get('/groupManage/getGroupMember', group.getGroupMember)
 // 删除组内人员
 router.post('/groupManage/deleteGroupMember', group.delGroupMember)
 
+// 移动组内人员到另一组
+router.post('/groupManage/moveGroupMember', group.moveUser)
+
 module.exports = router

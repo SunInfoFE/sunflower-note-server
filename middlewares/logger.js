@@ -5,7 +5,7 @@ let logger = async (ctx, next) => {
   let start = new Date();
   let reqData = {
     origin: ctx.request.header.origin,
-    date: new Date(parseInt(ctx.query.t)).toLocaleString(),
+    date: new Date().toLocaleString(),
     api: {
       method: ctx.method,
       url: ctx.url,

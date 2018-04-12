@@ -839,3 +839,207 @@
     data: err.message
 }
 ```
+
+
+## v2.0.0新增接口
+
+#### 发送周报邮件接口
+**请求方式：**`POST` \
+**接口：**`/report/groupCurrentWeekReport/sendMail` \
+**参数：**
+```
+{
+    to: ['to@suninfo.com', ...]',      // 收件人
+    cc: ['cc@suninfo.com', ...]',      // 抄送给
+    title: '标题',
+    content: '正文内容'
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '邮件已发送，您可登录邮箱查看！'
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '邮件发送失败失败，请重试！'
+}
+```
+
+#### 重新发送激活邮件接口
+**请求方式：**`POST` \
+**接口：**`/user/resendActiveEmail` \
+**参数：**
+```
+{
+    email: 'aa@suninfo.com'             // 用户注册邮箱（接收激活邮件的邮箱）
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '账号激活邮件已发送到您的注册邮箱，请尽快激活账号！'
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '邮件发送失败，请重试！'
+}
+```
+
+#### 新增发送邮件用户
+**请求方式：**`POST` \
+**接口：**`/user/addSendMailUser` \
+**参数：**
+```
+{
+    email: 'aa@suninfo.com',       // 用户邮箱
+    name: '张三'                   // 用户姓名
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '新增成功！'
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '新增失败，请重试！'
+}
+```
+
+#### 删除发送邮件用户
+**请求方式：**`/user/deleteSendMailUser` \
+**接口：**`POST` \
+**参数：**
+```
+{
+    emailList: ['aa@suninfo.com', ...]           // 要删除的用户邮箱列表
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '删除成功！'
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '删除失败，请重试！'
+}
+```
+
+
+#### 获取发送邮件用户
+**请求方式：**`/user/getSendMailUser` \
+**接口：**`GET` \
+**参数：**
+```
+{
+    无
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: [{
+        email: '',      // 邮箱
+        name: ''        // 姓名
+    }, ...]
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '获取数据失败，请重试！'
+}
+```
+
+#### 更新/编辑发送邮件用户
+**请求方式：**`/user/updateSendMailUser` \
+**接口：**`` \
+**参数：**
+```
+{
+    newEmail: 'newaa@suninfo.com',
+    newName: '李四',
+    email：'aa@suninfo.com'
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '更新成功！'
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '更新失败，请重试！'
+}
+```
+
+#### 移动一个组的成员到另一组
+**请求方式：**`/group/groupManage/moveGroupMember` \
+**接口：**`POST` \
+**参数：**
+```
+{
+    emailList: ['aa@suninfo.com', 'bb@suninfo.com', ...],   // 要移动的人员email列表
+    groupId: groupId        // 移动的目标组的id
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '移动成功！'
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '移动失败，请重试！'
+}
+```
+
+####
+**请求方式：**`` \
+**接口：**`` \
+**参数：**
+```
+{
+
+}
+```
+**成功返回值：**
+```
+{
+
+}
+```
+**失败返回值：**
+```
+{
+
+}
+```

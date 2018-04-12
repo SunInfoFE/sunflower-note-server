@@ -71,7 +71,7 @@ router.post('/groupCurrentWeekReport/get', groupReport.getGroupCurrentWeekPort);
 router.post('/groupHistoryWeekReport/get', groupReport.getGroupHistoryWeekPort);
 
 /**
- * 获取当前用户所在组的历史周报
+ * 发送小组周报邮件接口
  * url： report/groupCurrentWeekReport/sendMail
  */
 router.post('/groupCurrentWeekReport/sendMail', groupReport.sendReportMail);

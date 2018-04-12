@@ -10,10 +10,26 @@ Target Server Type    : MYSQL
 Target Server Version : 50720
 File Encoding         : 65001
 
-Date: 2018-03-14 16:58:20
+Date: 2018-04-12 16:13:58
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for `email_info`
+-- ----------------------------
+DROP TABLE IF EXISTS `email_info`;
+CREATE TABLE `email_info` (
+  `email` char(30) COLLATE utf8_unicode_ci NOT NULL,
+  `licenseKey` char(30) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `status` enum('unactivated','activated') COLLATE utf8_unicode_ci NOT NULL DEFAULT 'unactivated',
+  `activeCode` char(50) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`email`,`activeCode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- ----------------------------
+-- Records of email_info
+-- ----------------------------
 
 -- ----------------------------
 -- Table structure for `group_info`
@@ -31,7 +47,6 @@ CREATE TABLE `group_info` (
 -- ----------------------------
 -- Records of group_info
 -- ----------------------------
-INSERT INTO `group_info` VALUES ('37', 'CA大平台-IMP组-前端', '0', 'CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。', '2018-03-14 16:56:58');
 
 -- ----------------------------
 -- Table structure for `journal_info`
@@ -42,10 +57,9 @@ CREATE TABLE `journal_info` (
   `task` varchar(255) CHARACTER SET utf8 NOT NULL,
   `createTime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `email` char(30) COLLATE utf8_unicode_ci NOT NULL,
-  `week` date NOT NULL,
   `status` enum('finished','unfinished') COLLATE utf8_unicode_ci NOT NULL DEFAULT 'unfinished',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=50 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of journal_info
@@ -67,10 +81,24 @@ CREATE TABLE `report_info` (
   `email` char(30) COLLATE utf8_unicode_ci NOT NULL,
   `groupId` int(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=122 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of report_info
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `sendmail_info`
+-- ----------------------------
+DROP TABLE IF EXISTS `sendmail_info`;
+CREATE TABLE `sendmail_info` (
+  `email` char(30) COLLATE utf8_unicode_ci NOT NULL,
+  `name` char(20) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- ----------------------------
+-- Records of sendmail_info
 -- ----------------------------
 
 -- ----------------------------
@@ -91,7 +119,6 @@ CREATE TABLE `user_info` (
 -- ----------------------------
 -- Records of user_info
 -- ----------------------------
-INSERT INTO `user_info` VALUES ('admin', 'admin', 'male', 'admin', '0', 'admin', 'admin');
 
 -- ----------------------------
 -- Table structure for `_mysql_session_store`
