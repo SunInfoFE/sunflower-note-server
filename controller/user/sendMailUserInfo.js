@@ -10,8 +10,8 @@ const dbQuery = require('../../lib/mysql');
  * @returns {Promise.<void>}
  */
 let add = async (ctx, next) => {
-  const addSql = 'INSERT INTO sendMail_info (email, name) VALUES (?, ?)';
-  const isExistSql = 'SELECT * FROM sendMail_info WHERE email = ?'
+  const addSql = 'INSERT INTO sendmail_info (email, name) VALUES (?, ?)';
+  const isExistSql = 'SELECT * FROM sendmail_info WHERE email = ?'
   let {email, name} = ctx.request.body
   try {
     let isExistData = await dbQuery(isExistSql, email);
@@ -50,7 +50,7 @@ let add = async (ctx, next) => {
  * @returns {Promise.<void>}
  */
 let del = async (ctx, next) => {
-  const delSql = `DELETE FROM sendMail_info WHERE id IN ( ${ctx.request.body.idList} )`;
+  const delSql = `DELETE FROM sendmail_info WHERE id IN ( ${ctx.request.body.idList} )`;
   try {
     let delData = await dbQuery(delSql);
     if (delData.affectedRows > 0) {
@@ -80,7 +80,7 @@ let del = async (ctx, next) => {
  * @returns {Promise.<void>}
  */
 let get = async (ctx, next) => {
-  const getSql = 'SELECT * FROM sendMail_info';
+  const getSql = 'SELECT * FROM sendmail_info';
   try {
     let getData = await dbQuery(getSql);
     if (getData instanceof Array) {
@@ -110,7 +110,7 @@ let get = async (ctx, next) => {
  * @returns {Promise.<void>}
  */
 let update = async (ctx, next) => {
-  const updateSql = 'UPDATE sendMail_info SET email = ?, name = ? WHERE id = ?';
+  const updateSql = 'UPDATE sendmail_info SET email = ?, name = ? WHERE id = ?';
   try {
     let {email, name, id} = ctx.request.body;
     let updateData = await dbQuery(updateSql, [email, name, id]);
