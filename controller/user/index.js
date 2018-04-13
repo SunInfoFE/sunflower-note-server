@@ -242,7 +242,7 @@ let userLogin = async (ctx, next) => {
         } else {
           ctx.body = {
             status: false,
-            data: '您的账号未激活，请激活后登录！'
+            data: 'unactivated'
           }
         }
       }
