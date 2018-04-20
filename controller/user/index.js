@@ -165,14 +165,14 @@ let activeAccount = async (ctx, next) => {
     let redirectUrl = String(ctx.origin)
     if (updateData.affectedRows === 1) {
       ctx.body = `<p style="text-align: center; margin-top: 50px; font-size: 18px;">账号已激活</p>
-                  <p style="text-align: center; font-size: 18px;">正在跳转,请稍候...</p><script>window.open(redirectUrl, '_self')</script>`
+                  <p style="text-align: center; font-size: 18px;">正在跳转,请稍候...</p><script>window.setTimeout(function(){ window.open('${redirectUrl}', '_self'); }, 1500)</script>`
     } else {
       ctx.body = `<p style="text-align: center; margin-top: 50px; font-size: 18px;">账号激活失败</p>
-                  <p style="text-align: center; font-size: 18px;">正在跳转,请稍候...</p><script>window.open(redirectUrl, '_self')</script>`
+                  <p style="text-align: center; font-size: 18px;">正在跳转,请稍候...</p><script>window.setTimeout(function(){ window.open('${redirectUrl}', '_self'); }, 1500)</script>`
     }
   } catch(err) {
     ctx.body = `<p style="text-align: center; margin-top: 50px; font-size: 18px;">账号激活失败</p>
-                <p style="text-align: center; font-size: 18px;">正在跳转,请稍候...</p><script>window.open(redirectUrl, '_self')</script>`
+                <p style="text-align: center; font-size: 18px;">正在跳转,请稍候...</p><script>window.setTimeout(function(){ window.open('${redirectUrl}', '_self'); }, 1500)</script>`
   }
 };
 
