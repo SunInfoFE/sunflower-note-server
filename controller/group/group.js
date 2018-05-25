@@ -171,6 +171,9 @@ let getGroupMember = async (ctx, next) => {
     let id = ctx.request.query.id
     let groupMemberInfo = await query(sql, id)
     if (groupMemberInfo instanceof Array) {
+      groupMemberInfo.forEach((item, index) => {
+        delete item.password
+      })
       ctx.body = {
         status: true,
         data: groupMemberInfo
