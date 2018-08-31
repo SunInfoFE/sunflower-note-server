@@ -21,6 +21,12 @@ router.post('/groupManage/delete', group.delGroupManage)
 // 查看小组内所有成员
 router.get('/groupManage/getGroupMember', group.getGroupMember)
 
+// 查看多个组内成员
+router.post('/groupManage/getGroupsMember', group.getGroupsMember)
+
+// 更新多个组是否需要合并周报
+router.post('/groupManage/editGroupsCombine', group.editGroupsCombine)
+
 // 删除组内人员
 router.post('/groupManage/deleteGroupMember', group.delGroupMember)
 

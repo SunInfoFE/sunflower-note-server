@@ -1,0 +1,4539 @@
+[2018-08-30T16:01:09.744] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"status":false,"data":"Not Login"}
+*************** response log end ***************
+
+[2018-08-30T16:01:11.583] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-04-12T09:01:15.000Z","combine":0}]}
+*************** response log end ***************
+
+[2018-08-30T16:13:29.576] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:13:29.587] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-04-12T09:01:15.000Z","combine":0}]}
+*************** response log end ***************
+
+[2018-08-30T16:13:32.899] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-04-12T09:01:15.000Z","combine":0}]}
+*************** response log end ***************
+
+[2018-08-30T16:13:41.083] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:13:41.087] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:13:41.110] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-04-12T09:01:15.000Z","combine":0}]}
+*************** response log end ***************
+
+[2018-08-30T16:13:41.115] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-04-12T09:01:15.000Z","combine":0}]}
+*************** response log end ***************
+
+[2018-08-30T16:14:19.475] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:14:19.487] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-04-12T09:01:15.000Z","combine":0}]}
+*************** response log end ***************
+
+[2018-08-30T16:15:41.932] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:15:41.948] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-04-12T09:01:15.000Z","combine":0}]}
+*************** response log end ***************
+
+[2018-08-30T16:16:18.925] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:16:18.943] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-04-12T09:01:15.000Z","combine":0}]}
+*************** response log end ***************
+
+[2018-08-30T16:16:24.696] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:16:24.706] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:16:24.735] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-04-12T09:01:15.000Z","combine":0}]}
+*************** response log end ***************
+
+[2018-08-30T16:16:24.742] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-04-12T09:01:15.000Z","combine":0}]}
+*************** response log end ***************
+
+[2018-08-30T16:16:47.403] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:16:47.407] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:16:47.473] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:16:47.507] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:18:09.551] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:18:09.560] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:18:17.306] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:18:17.316] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:18:24.162] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:18:24.167] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:18:24.248] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:18:24.260] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:20:41.523] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:20:41.524] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:20:41.600] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:20:41.609] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:22:19.609] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:22:19.627] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:22:22.491] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupMember?id=37
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:22:22.563] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/getGroupMember?id=37
+request client ip:  ::1
+request query:  {"id":"37"}
+response time: 1
+response status: 200
+response body: 
+{"status":false,"data":"Not Login"}
+*************** response log end ***************
+
+[2018-08-30T16:22:28.318] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/adminLogin
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:22:28.326] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/adminLogin
+request client ip:  ::1
+request body: 
+{"email":"admin","password":"admin"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":{"email":"admin","name":"admin","sex":"male","remark":"admin","groupId":0,"role":"admin","level":0,"collector":"0"}}
+*************** response log end ***************
+
+[2018-08-30T16:22:28.444] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:22:28.463] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:22:31.090] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupMember?id=37
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:22:31.185] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/getGroupMember?id=37
+request client ip:  ::1
+request query:  {"id":"37"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"292354215@qq.com","name":"caolx","sex":"male","remark":"","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":0,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-08-30T16:22:39.685] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/getGroupMember?id=37
+request client ip:  ::1
+request query:  {"id":"37"}
+response time: 8
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"292354215@qq.com","name":"caolx","sex":"male","remark":"","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":0,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-08-30T16:22:40.159] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:24:16.116] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupMember?id=37
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:24:16.148] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/getGroupMember?id=37
+request client ip:  ::1
+request query:  {"id":"37"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"292354215@qq.com","name":"caolx","sex":"male","remark":"","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":0,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-08-30T16:24:27.289] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupMember?id=38
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:24:27.320] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/getGroupMember?id=38
+request client ip:  ::1
+request query:  {"id":"38"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-08-30T16:24:32.682] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupMember?id=37
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:24:32.711] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/getGroupMember?id=37
+request client ip:  ::1
+request query:  {"id":"37"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"292354215@qq.com","name":"caolx","sex":"male","remark":"","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":0,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-08-30T16:24:54.818] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/deleteGroupMember?id=37
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:24:54.842] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/deleteGroupMember?id=37
+request client ip:  ::1
+request body: 
+{"idList":["test@qq.com"]}
+response time: 14
+response status: 200
+response body: 
+{"status":true,"data":"删除成功"}
+*************** response log end ***************
+
+[2018-08-30T16:24:54.879] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupMember?id=37
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:24:54.912] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/getGroupMember?id=37
+request client ip:  ::1
+request query:  {"id":"37"}
+response time: 11
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"292354215@qq.com","name":"caolx","sex":"male","remark":"","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":0,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-08-30T16:25:18.571] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/deleteGroupMember?id=37
+request client ip:  ::1
+request query:  {"id":"37"}
+response time: 30
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.619] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.676] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.690] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.696] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.703] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.711] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.718] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.724] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.738] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.744] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.749] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.755] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.761] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.767] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.773] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.778] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.784] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.789] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.794] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.959] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.974] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.984] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.991] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:18.999] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:19.023] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:19.030] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:19.037] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:19.042] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:19.048] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:19.055] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:19.060] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:19.066] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:19.071] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:19.077] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:19.083] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:19.088] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:19.094] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:19.099] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:25:19.111] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:34:47.664] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/deleteGroupMember?id=37
+request client ip:  ::1
+request query:  {"id":"37"}
+response time: 0
+response status: 200
+response body: 
+{"status":false,"data":"Not Login"}
+*************** response log end ***************
+
+[2018-08-30T16:41:33.956] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 2
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:41:34.009] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:41:36.630] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:41:36.689] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/deleteGroupMember
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:41:36.716] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/deleteGroupMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 1
+response status: 200
+response body: 
+{"status":false,"data":"Not Login"}
+*************** response log end ***************
+
+[2018-08-30T16:41:44.595] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/adminLogin
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:41:44.607] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/adminLogin
+request client ip:  ::1
+request body: 
+{"email":"admin","password":"admin"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":{"email":"admin","name":"admin","sex":"male","remark":"admin","groupId":0,"role":"admin","level":0,"collector":"0"}}
+*************** response log end ***************
+
+[2018-08-30T16:41:44.738] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:41:44.767] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:41:47.365] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:41:47.413] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/deleteGroupMember
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:41:47.432] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/deleteGroupMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 6
+response status: 200
+response body: 
+{"status":false,"data":"删除失败，请重试！"}
+*************** response log end ***************
+
+[2018-08-30T16:43:19.307] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:43:19.316] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:43:19.339] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:43:19.356] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 5
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.366] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:43:19.375] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.386] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.396] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.412] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.422] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.435] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.450] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.464] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.472] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.482] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.498] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.513] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.529] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.542] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.551] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.559] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.568] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.581] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.594] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:19.602] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.193] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:43:43.194] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:43:43.265] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:43:43.275] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:43:43.324] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:43:43.355] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.366] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:43:43.376] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.385] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.396] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.405] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.413] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.422] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.433] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.445] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.466] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.476] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.489] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.498] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.507] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.514] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.525] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.534] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.542] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.549] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.556] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:43:43.563] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:44:26.563] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:44:26.575] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:44:30.267] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:44:30.273] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:45:02.319] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:45:02.335] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:45:02.358] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:45:02.370] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.382] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:45:02.398] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.406] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.415] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.424] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.432] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.440] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.448] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.455] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.462] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.470] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.487] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.498] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.505] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.512] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.519] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.527] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.534] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.541] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.549] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:02.558] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:08.678] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:45:08.680] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:45:08.737] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:45:08.747] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:45:08.820] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:45:08.841] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:08.868] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:45:08.884] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:08.894] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:08.908] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:08.918] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:08.930] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:08.942] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:08.951] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:08.965] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:08.989] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:09.000] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:09.009] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:09.016] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:09.025] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:09.034] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:09.044] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:09.053] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:09.064] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:09.071] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:09.078] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:45:09.086] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.524] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:48:24.531] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:48:24.564] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:48:24.569] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:48:24.649] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:48:24.685] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.707] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:48:24.728] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.738] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.747] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.758] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.767] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.776] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.787] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.824] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.837] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.847] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.856] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.864] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.872] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.879] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.887] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.902] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.914] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.922] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.929] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:24.936] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/\">/</a>."
+*************** response log end ***************
+
+[2018-08-30T16:48:42.479] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 2
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:48:42.486] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:48:42.559] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 12
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:48:42.567] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:48:42.618] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:48:42.679] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-08-30T16:48:57.712] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:48:57.730] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38,37]}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"292354215@qq.com","name":"caolx","sex":"male","remark":"","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":0,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-08-30T16:49:53.474] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:49:53.476] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:49:53.509] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:49:53.518] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:49:53.599] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:49:53.620] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-08-30T16:49:55.589] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/getSendMailUser
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:49:55.605] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/getSendMailUser
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":1,"email":"you11098@163.com","name":"游武刚"},{"id":2,"email":"1255828611@qq.com","name":"游武刚QQ"}]}
+*************** response log end ***************
+
+[2018-08-30T16:49:57.518] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /system/getSysSetting
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:49:57.538] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /system/getSysSetting
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":{"emailSuffix":"@suninfo.com;@qq.com;@163.com","sysAnnouncement":"","timeOut":72000}}
+*************** response log end ***************
+
+[2018-08-30T16:49:58.841] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:49:58.861] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:49:58.885] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:49:58.897] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-08-30T16:49:59.390] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/getSendMailUser
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":1,"email":"you11098@163.com","name":"游武刚"},{"id":2,"email":"1255828611@qq.com","name":"游武刚QQ"}]}
+*************** response log end ***************
+
+[2018-08-30T16:50:00.098] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:50:02.072] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupMember?id=37
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:50:02.134] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/getGroupMember?id=37
+request client ip:  ::1
+request query:  {"id":"37"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"292354215@qq.com","name":"caolx","sex":"male","remark":"","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":0,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":0,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-08-30T16:50:08.010] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get?id=37
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:50:08.025] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get?id=37
+request client ip:  ::1
+request query:  {"id":"37"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:50:08.041] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember?id=37
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:50:08.050] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember?id=37
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-08-30T16:51:30.863] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get?id=37
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:51:30.885] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get?id=37
+request client ip:  ::1
+request query:  {"id":"37"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:51:30.910] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember?id=37
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:51:30.921] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember?id=37
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-08-30T16:51:42.021] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get?id=37
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:51:42.037] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get?id=37
+request client ip:  ::1
+request query:  {"id":"37"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:51:42.056] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember?id=37
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:51:42.066] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember?id=37
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-08-30T16:51:46.823] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:51:46.824] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:51:46.859] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:51:46.863] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:51:46.937] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:51:46.964] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 0
+response status: 200
+response body: 
+{"status":false,"data":"Not Login"}
+*************** response log end ***************
+
+[2018-08-30T16:51:54.626] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/adminLogin
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:51:54.636] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/adminLogin
+request client ip:  ::1
+request body: 
+{"email":"admin","password":"admin"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":{"email":"admin","name":"admin","sex":"male","remark":"admin","groupId":0,"role":"admin","level":0,"collector":"0"}}
+*************** response log end ***************
+
+[2018-08-30T16:51:54.762] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:51:54.787] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:51:56.458] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:51:56.483] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:51:56.492] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-08-30T16:52:36.102] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:52:36.104] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:52:36.134] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:52:36.149] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:52:36.219] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:52:36.240] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-08-30T16:53:18.157] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:53:18.163] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:53:18.219] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:53:18.262] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:53:18.311] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:53:18.345] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-08-30T16:53:28.630] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/logOut
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:53:28.650] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/logOut
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":"系统已退出！"}
+*************** response log end ***************
+
+[2018-08-30T16:53:34.310] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/adminLogin
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:53:34.320] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/adminLogin
+request client ip:  ::1
+request body: 
+{"email":"admin","password":"admin"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":{"email":"admin","name":"admin","sex":"male","remark":"admin","groupId":0,"role":"admin","level":0,"collector":"0"}}
+*************** response log end ***************
+
+[2018-08-30T16:53:34.467] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:53:34.496] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:53:36.035] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:53:36.067] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:53:36.079] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-08-30T16:54:03.685] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /system/getSysSetting
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:54:03.700] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /system/getSysSetting
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":{"emailSuffix":"@suninfo.com;@qq.com;@163.com","sysAnnouncement":"","timeOut":72000}}
+*************** response log end ***************
+
+[2018-08-30T16:54:34.182] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:54:34.209] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 7
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:54:34.242] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:54:34.256] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-08-30T16:54:43.893] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /system/getSysSetting
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:54:43.914] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /system/getSysSetting
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":{"emailSuffix":"@suninfo.com;@qq.com;@163.com","sysAnnouncement":"","timeOut":72000}}
+*************** response log end ***************
+
+[2018-08-30T16:54:45.593] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/getSendMailUser
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:54:45.613] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/getSendMailUser
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"id":1,"email":"you11098@163.com","name":"游武刚"},{"id":2,"email":"1255828611@qq.com","name":"游武刚QQ"}]}
+*************** response log end ***************
+
+[2018-08-30T16:54:47.247] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:54:47.270] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:58:28.305] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/logOut
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:58:28.315] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/logOut
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":"系统已退出！"}
+*************** response log end ***************
+
+[2018-08-30T16:58:35.758] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/adminLogin
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:58:35.770] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/adminLogin
+request client ip:  ::1
+request body: 
+{"email":"admin","password":"admin"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":{"email":"admin","name":"admin","sex":"male","remark":"admin","groupId":0,"role":"admin","level":0,"collector":"0"}}
+*************** response log end ***************
+
+[2018-08-30T16:58:35.900] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:58:35.926] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:58:47.683] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/getSendMailUser
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:58:47.711] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/getSendMailUser
+request client ip:  ::1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"id":1,"email":"you11098@163.com","name":"游武刚"},{"id":2,"email":"1255828611@qq.com","name":"游武刚QQ"}]}
+*************** response log end ***************
+
+[2018-08-30T16:58:49.286] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /system/getSysSetting
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:58:49.303] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /system/getSysSetting
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":{"emailSuffix":"@suninfo.com;@qq.com;@163.com","sysAnnouncement":"","timeOut":72000}}
+*************** response log end ***************
+
+[2018-08-30T16:58:50.734] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:58:50.754] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:58:50.784] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:58:50.795] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-08-30T16:58:53.127] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /system/getSysSetting
+request client ip:  ::1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":{"emailSuffix":"@suninfo.com;@qq.com;@163.com","sysAnnouncement":"","timeOut":72000}}
+*************** response log end ***************
+
+[2018-08-30T16:58:53.717] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/getSendMailUser
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:58:53.741] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/getSendMailUser
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"id":1,"email":"you11098@163.com","name":"游武刚"},{"id":2,"email":"1255828611@qq.com","name":"游武刚QQ"}]}
+*************** response log end ***************
+
+[2018-08-30T16:58:54.299] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:58:55.471] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/getSendMailUser
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":1,"email":"you11098@163.com","name":"游武刚"},{"id":2,"email":"1255828611@qq.com","name":"游武刚QQ"}]}
+*************** response log end ***************
+
+[2018-08-30T16:58:55.938] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /system/getSysSetting
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:58:55.957] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /system/getSysSetting
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":{"emailSuffix":"@suninfo.com;@qq.com;@163.com","sysAnnouncement":"","timeOut":72000}}
+*************** response log end ***************
+
+[2018-08-30T16:58:56.410] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:58:56.429] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:58:56.460] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:58:56.476] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-08-30T16:59:06.629] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /system/getSysSetting
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:59:06.654] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /system/getSysSetting
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":{"emailSuffix":"@suninfo.com;@qq.com;@163.com","sysAnnouncement":"","timeOut":72000}}
+*************** response log end ***************
+
+[2018-08-30T16:59:08.122] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/getSendMailUser
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:59:08.138] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/getSendMailUser
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":1,"email":"you11098@163.com","name":"游武刚"},{"id":2,"email":"1255828611@qq.com","name":"游武刚QQ"}]}
+*************** response log end ***************
+
+[2018-08-30T16:59:08.771] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:59:08.795] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:59:10.860] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/getSendMailUser
+request client ip:  ::1
+request query:  {}
+response time: 7
+response status: 200
+response body: 
+{"status":true,"data":[{"id":1,"email":"you11098@163.com","name":"游武刚"},{"id":2,"email":"1255828611@qq.com","name":"游武刚QQ"}]}
+*************** response log end ***************
+
+[2018-08-30T16:59:11.603] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /system/getSysSetting
+request client ip:  ::1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":{"emailSuffix":"@suninfo.com;@qq.com;@163.com","sysAnnouncement":"","timeOut":72000}}
+*************** response log end ***************
+
+[2018-08-30T16:59:12.134] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 13
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-08-30T16:59:12.172] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:59:12.182] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::1
+request body: 
+{"idList":[38]}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-08-30T16:59:57.224] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T16:59:57.242] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":-1,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-04-12T09:02:09.000Z","combine":0},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-08-30T08:16:43.000Z","combine":1}]}
+*************** response log end ***************
+

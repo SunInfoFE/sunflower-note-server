@@ -573,6 +573,36 @@
     data: '查询小组成员失败，请重试！'
 }
 ```
+#### 7.5.1 查看多个小组内所有成员
+**请求方式：**`POST` \
+**接口：**`/group/groupManage/getGroupsMember` \
+**参数：**
+```
+{
+    idList: [id1, id2, ...]
+}
+```
+**成功返回值：** 
+```
+{
+    status: true,
+    data: [{
+        email: "huog@suninfo.com",
+        name: "霍鸽",
+        sex: "female",
+        remark: "前端工程师",
+        groupId: 12,  // 小组id
+        password: "huog"
+    }]
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '查询小组成员失败，请重试！'
+}
+```
 
 #### 7.6 删除组内人员
 **请求方式：**`POST` \
@@ -595,6 +625,30 @@
 {
     status: true,
     data: '删除失败，请重试！'
+}
+```
+#### 7.7 删除组内人员
+**请求方式：**`POST` \
+**接口：**`/group/groupManage/editGroupsCombine` \
+**参数：**
+```
+{
+    idList: [id1, id2, ...],
+    emailList: [email1,email2]
+}
+```
+**成功返回值：** 
+```
+{
+    status: true,
+    data: '编辑成功'
+}
+```
+**失败返回值：**
+```
+{
+    status: true,
+    data: '编辑失败，请重试！'
 }
 ```
 
