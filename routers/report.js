@@ -59,6 +59,12 @@ router.post('/myReport/get', myReport.getAll);
 router.post('/myReport/delete', myReport.deleteMyReport);
 
 /**
+ * 获取需要集中周报小组的本周周报
+ * url： report/getCollectGroupCurrentWeekPort/get
+ */
+router.post('/getCollectGroupCurrentWeekPort/get', groupReport.getCollectGroupCurrentWeekPort);
+
+/**
  * 获取当前用户所在组的本周周报
  * url： report/groupCurrentWeekReport/get
  */
