@@ -41,6 +41,7 @@ CREATE TABLE `group_info` (
   `memberNum` int(4) DEFAULT '0',
   `remark` char(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `createTime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `combine` tinyint(1) unsigned zerofill NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
@@ -113,6 +114,7 @@ CREATE TABLE `user_info` (
   `groupId` int(20) NOT NULL,
   `password` char(30) COLLATE utf8_unicode_ci NOT NULL,
   `role` enum('user','admin') COLLATE utf8_unicode_ci NOT NULL DEFAULT 'user',
+  `collector` tinyint(1) unsigned zerofill NOT NULL,
   PRIMARY KEY (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
