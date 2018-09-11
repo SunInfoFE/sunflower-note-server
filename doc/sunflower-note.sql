@@ -133,6 +133,15 @@ CREATE TABLE `_mysql_session_store` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+DROP TABLE IF EXISTS `punch_card`;
+CREATE TABLE `punch_card` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `userid` varchar(100) DEFAULT NULL,
+  `card_time` varchar(30) DEFAULT NULL,
+  `card_status` int(1) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
 -- ----------------------------
 -- Records of _mysql_session_store
 -- ----------------------------

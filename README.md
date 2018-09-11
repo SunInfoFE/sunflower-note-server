@@ -1102,3 +1102,69 @@
 
 }
 ```
+
+#### 用户签到
+**请求方式：**`/punchcard/signin` \
+**接口：**`` \
+**参数：**
+```
+{
+    userid: 'newaa@suninfo.com'
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '更新成功！'
+}
+```
+
+#### 用户签到列表
+**请求方式：**`/punchcard/userList` \
+**接口：**`` \
+**参数：**
+```
+{
+    userid: 'newaa@suninfo.com'
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: [{}]
+}
+```
+
+#### 用户请假
+**请求方式：**`/punchcard/leave` \
+**接口：**`` \
+**参数：**
+```
+{
+    userid: 'newaa@suninfo.com'
+}
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '更新成功！'
+}
+```
+
+#### 所有用户签到信息
+**请求方式：**`/punchcard/allList` \
+**接口：**`` \
+**参数：**
+```
+
+```
+**成功返回值：**
+```
+{
+    status: true,
+    data: '更新成功！'
+}
+```
