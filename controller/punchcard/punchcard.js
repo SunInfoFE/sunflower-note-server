@@ -158,9 +158,68 @@ let allList = async (ctx, next) => {
     }
 }
 
+//当月列表
+let currentMonthList = async (ctx, next) => {
+    let date = new Date();
+    let searchSql = "SELECT userid,card_time,card_status FROM punch_card where card_time LIKE " + "'"+date.getFullYear()+"-"+(date.getMonth()+1)+"%'"
+    try {
+
+        //let mons = date.getFullYear()+"-"+(date.getMonth()+1)+"%"
+        let isSign = await query(searchSql)
+        if (isSign instanceof Array && isSign.length > 0) {
+            ctx.body = {
+                status: true,
+                data: isSign
+            }
+        } else {
+            ctx.body = {
+                status: false,
+                data: '没有数据'
+            }
+        }
+
+    } catch (err) {
+        console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
+        ctx.body = {
+            status: false,
+            data: '新增失败，请重试！'
+        }
+    }
+}
+
+//当月某用户列表
+let currentUserMonthList = async (ctx, next) => {
+    let {userid} = ctx.request.body
+    let date = new Date();
+    let searchSql = "SELECT userid,card_time,card_status FROM punch_card where card_time LIKE " + "'"+date.getFullYear()+"-"+(date.getMonth()+1)+"%'" + " and userid=?"
+    try {
+        let isSign = await query(searchSql,[userid])
+        if (isSign instanceof Array && isSign.length > 0) {
+            ctx.body = {
+                status: true,
+                data: isSign
+            }
+        } else {
+            ctx.body = {
+                status: false,
+                data: '没有数据'
+            }
+        }
+
+    } catch (err) {
+        console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
+        ctx.body = {
+            status: false,
+            data: '新增失败，请重试！'
+        }
+    }
+}
+
 module.exports = {
     signin,
     leave,
     userList,
-    allList
+    allList,
+    currentMonthList,
+    currentUserMonthList
 };

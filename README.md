@@ -1168,3 +1168,37 @@
     data: '更新成功！'
 }
 ```
+
+
+
+#### 当月所有用户的签到信息
+**请求方式：**`/punchcard/currentMonthList` \
+**接口：**`` \
+**参数：**
+```
+
+```
+**成功返回值：**
+```
+{
+    data: [{userid: "asdfasdf", card_time: "2018-9-10", card_status: 1}],
+    data: '更新成功！'
+}
+```
+
+#### 当月指定用户的签到信息
+**请求方式：**`/punchcard/currentUserMonthList` \
+**接口：**`` \
+**参数：**
+```
+{
+    userid: 'newaa@suninfo.com'
+}
+```
+**成功返回值：**
+```
+{
+    data: [{userid: "asdfasdf", card_time: "2018-9-10", card_status: 1}],
+    data: '更新成功！'
+}
+```
