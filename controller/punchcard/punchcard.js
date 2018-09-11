@@ -136,23 +136,19 @@ let userList = async (ctx, next) => {
 let allList = async (ctx, next) => {
     let searchSql = `SELECT userid,card_time,card_status FROM punch_card`
     try {
-        if (userid !== (undefined || '')) {
-            let isSign = await query(searchSql, [userid])
-            if (isSign instanceof Array && isSign.length > 0) {
-                ctx.body = {
-                    status: true,
-                    data: isSign
-                }
-            } else {
-
-                ctx.body = {
-                    status: false,
-                    data: '没有数据'
-                }
+        let isSign = await query(searchSql)
+        if (isSign instanceof Array && isSign.length > 0) {
+            ctx.body = {
+                status: true,
+                data: isSign
             }
         } else {
-            ctx.status = 500
+            ctx.body = {
+                status: false,
+                data: '没有数据'
+            }
         }
+
     } catch (err) {
         console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
         ctx.body = {

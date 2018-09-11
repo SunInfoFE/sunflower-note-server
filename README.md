@@ -1133,7 +1133,7 @@
 ```
 {
     status: true,
-    data: [{}]
+    data: [{card_time: "2018-9-10", card_status: 1}]
 }
 ```
 
@@ -1164,7 +1164,7 @@
 **成功返回值：**
 ```
 {
-    status: true,
+    data: [{userid: "asdfasdf", card_time: "2018-9-10", card_status: 1}],
     data: '更新成功！'
 }
 ```
