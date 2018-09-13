@@ -1081,28 +1081,6 @@
 }
 ```
 
-####
-**请求方式：**`` \
-**接口：**`` \
-**参数：**
-```
-{
-
-}
-```
-**成功返回值：**
-```
-{
-
-}
-```
-**失败返回值：**
-```
-{
-
-}
-```
-
 #### 用户签到
 **请求方式：**`/punchcard/signin` \
 **接口：**`` \
@@ -1116,7 +1094,18 @@
 ```
 {
     status: true,
-    data: '更新成功！'
+    data: '签到成功！'
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '已签到！'
+}
+{
+    status: false,
+    data: '签到失败，请重试！'
 }
 ```
 
@@ -1136,21 +1125,11 @@
     data: [{card_time: "2018-9-10", card_status: 1}]
 }
 ```
-
-#### 用户请假
-**请求方式：**`/punchcard/leave` \
-**接口：**`` \
-**参数：**
+**失败返回值：**
 ```
 {
-    userid: 'newaa@suninfo.com'
-}
-```
-**成功返回值：**
-```
-{
-    status: true,
-    data: '更新成功！'
+    status: false,
+    data: '操作失败，请重试！'
 }
 ```
 
@@ -1164,15 +1143,22 @@
 **成功返回值：**
 ```
 {
-    data: [{userid: "asdfasdf", card_time: "2018-9-10", card_status: 1}],
-    data: '更新成功！'
+    status: true
+    data: [{userid: "asdfasdf", card_time: "2018-9-10", card_status: 1}]
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '操作失败，请重试！'
 }
 ```
 
 
 
 #### 当月所有用户的签到信息
-**请求方式：**`/punchcard/currentMonthList` \
+**请求方式：**`/punchcard/monthList` \
 **接口：**`` \
 **参数：**
 ```
@@ -1181,13 +1167,20 @@
 **成功返回值：**
 ```
 {
-    data: [{userid: "asdfasdf", card_time: "2018-9-10", card_status: 1}],
-    data: '更新成功！'
+    status: true
+    data: [{userid: "asdfasdf", card_time: "2018-9-10", card_status: 1}]
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '操作失败，请重试！'
 }
 ```
 
 #### 当月指定用户的签到信息
-**请求方式：**`/punchcard/currentUserMonthList` \
+**请求方式：**`/punchcard/userMonthList` \
 **接口：**`` \
 **参数：**
 ```
@@ -1198,7 +1191,14 @@
 **成功返回值：**
 ```
 {
-    data: [{userid: "asdfasdf", card_time: "2018-9-10", card_status: 1}],
-    data: '更新成功！'
+    status: true,
+    data: [{userid: "asdfasdf", card_time: "2018-9-10", card_status: 1}]
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '操作失败，请重试！'
 }
 ```

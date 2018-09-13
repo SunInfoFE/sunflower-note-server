@@ -1,0 +1,145 @@
+[2018-09-12T14:24:18.345] [ERROR] errorLog - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /punchcard/currentUserMonthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"userid":"tom@suninfo.com"}
+response time: 13
+err name: ReferenceError
+err message: date is not defined
+err stack: ReferenceError: date is not defined
+    at currentUserMonthList (/Users/dgunzi/sunflower-node/sunflower-note-server/controller/punchcard/punchcard.js:154:104)
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:346:16
+*************** error log end ***************
+
+[2018-09-12T14:24:48.111] [ERROR] errorLog - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /punchcard/currentUserMonthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"userid":"tom@suninfo.com"}
+response time: 1
+err name: ReferenceError
+err message: date is not defined
+err stack: ReferenceError: date is not defined
+    at currentUserMonthList (/Users/dgunzi/sunflower-node/sunflower-note-server/controller/punchcard/punchcard.js:154:104)
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:346:16
+*************** error log end ***************
+
+[2018-09-12T14:26:00.637] [ERROR] errorLog - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /punchcard/currentUserMonthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"userid":"tom@suninfo.com","month":"2018-09"}
+response time: 1
+err name: ReferenceError
+err message: date is not defined
+err stack: ReferenceError: date is not defined
+    at currentUserMonthList (/Users/dgunzi/sunflower-node/sunflower-note-server/controller/punchcard/punchcard.js:154:104)
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:346:16
+*************** error log end ***************
+
+[2018-09-12T14:26:58.643] [ERROR] errorLog - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /punchcard/currentUserMonthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"userid":"tom@suninfo.com","month":"2018-09"}
+response time: 1
+err name: ReferenceError
+err message: date is not defined
+err stack: ReferenceError: date is not defined
+    at currentUserMonthList (/Users/dgunzi/sunflower-node/sunflower-note-server/controller/punchcard/punchcard.js:154:104)
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:346:16
+*************** error log end ***************
+
+[2018-09-12T14:28:22.237] [ERROR] errorLog - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /punchcard/currentUserMonthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"userid":"tom@suninfo.com","month":"2018-09"}
+response time: 2
+err name: ReferenceError
+err message: date is not defined
+err stack: ReferenceError: date is not defined
+    at currentUserMonthList (/Users/dgunzi/sunflower-node/sunflower-note-server/controller/punchcard/punchcard.js:154:104)
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/dgunzi/sunflower-node/sunflower-note-server/node_modules/koa-router/lib/router.js:346:16
+*************** error log end ***************
+
