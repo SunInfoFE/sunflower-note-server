@@ -158,7 +158,7 @@ let setLevelMember = async (ctx, next) => {
             } else {
                 ctx.body = {
                     status: false,
-                    data: '更新失败1，请重试！'
+                    data: '更新失败，请重试！'
                 }
             }
         } else {

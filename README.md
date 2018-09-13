@@ -815,7 +815,7 @@
 
 #### 8.7 删除工作日志
 **请求方式：**`POST` \
-**接口：**`/journal/currentWeekJournal/delete \
+**接口：**`/journal/currentWeekJournal/delete` \
 **参数：**
 ```
 {
@@ -979,8 +979,8 @@
 ```
 
 #### 删除发送邮件用户
-**请求方式：**`/user/deleteSendMailUser` \
-**接口：**`POST` \
+**请求方式：**`POST` \
+**接口：**`/user/deleteSendMailUser` \
 **参数：**
 ```
 {
@@ -1004,8 +1004,8 @@
 
 
 #### 获取发送邮件用户
-**请求方式：**`/user/getSendMailUser` \
-**接口：**`GET` \
+**请求方式：** `GET` \
+**接口：**`/user/getSendMailUser` \
 **参数：**
 ```
 {
@@ -1031,8 +1031,8 @@
 ```
 
 #### 更新/编辑发送邮件用户
-**请求方式：**`/user/updateSendMailUser` \
-**接口：**`` \
+**请求方式：** `POSt` \
+**接口：**`/user/updateSendMailUser` \
 **参数：**
 ```
 {
@@ -1057,8 +1057,8 @@
 ```
 
 #### 移动一个组的成员到另一组
-**请求方式：**`/group/groupManage/moveGroupMember` \
-**接口：**`POST` \
+**请求方式：** `POST` \
+**接口：**`/group/groupManage/moveGroupMember` \
 **参数：**
 ```
 {
@@ -1082,8 +1082,8 @@
 ```
 
 #### 用户签到
-**请求方式：**`/punchcard/signin` \
-**接口：**`` \
+**请求方式：**`POST` \
+**接口：**`/punchcard/signin` \
 **参数：**
 ```
 {
@@ -1110,8 +1110,8 @@
 ```
 
 #### 用户签到列表
-**请求方式：**`/punchcard/userList` \
-**接口：**`` \
+**请求方式：**`POST` \
+**接口：** `/punchcard/userList` \
 **参数：**
 ```
 {
@@ -1134,8 +1134,8 @@
 ```
 
 #### 所有用户签到信息
-**请求方式：**`/punchcard/allList` \
-**接口：**`` \
+**请求方式：** `POST` \
+**接口：**`/punchcard/allList` \
 **参数：**
 ```
 
@@ -1158,8 +1158,8 @@
 
 
 #### 当月所有用户的签到信息
-**请求方式：**`/punchcard/monthList` \
-**接口：**`` \
+**请求方式：** `POST` \
+**接口：**`/punchcard/monthList` \
 **参数：**
 ```
 
@@ -1180,8 +1180,8 @@
 ```
 
 #### 当月指定用户的签到信息
-**请求方式：**`/punchcard/userMonthList` \
-**接口：**`` \
+**请求方式：** `POST`\
+**接口：**`/punchcard/userMonthList` \
 **参数：**
 ```
 {
@@ -1200,5 +1200,56 @@
 {
     status: false,
     data: '操作失败，请重试！'
+}
+```
+#### 获取某个level的成员
+**请求方式：**`POST` \
+**接口：**`/punchcard/getLevelMember` \
+**参数：**
+1 表示实习生 2 表示监督人员 0 普通员工
+```
+{
+    id: '1'
+}
+```
+**成功返回值：**
+```
+{
+    "status":true,
+    "data":[{"email":"qxs@suninfo.com","name":"曲萧疏","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]
+}
+```
+**失败返回值：**
+```
+{
+        status: false,
+        data: '查询失败，请重试！'
+}
+```
+
+
+#### 设置某个人的level（1 表示实习生 2 表示监督人员 0 普通员工）
+**请求方式：**`POST` \
+**接口：**`/punchcard/setLevelMember` \
+**参数：**
+1 表示实习生 2 表示监督人员 0 普通员工
+```
+{
+    level: "1", 
+    userEmail: "qxs@suninfo.com"
+}
+```
+**成功返回值：**
+```
+{
+    "status":true,
+    "data":[{"email":"qxs@suninfo.com","name":"曲萧疏","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '更新失败，请重试！'
 }
 ```
