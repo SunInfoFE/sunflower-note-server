@@ -1,0 +1,1706 @@
+[2018-09-13T13:30:00.846] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:30:00.850] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:30:00.989] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 15
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:30:00.991] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T13:30:52.218] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:30:52.220] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:30:52.233] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:30:52.236] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:31:55.120] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:31:55.120] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:31:55.132] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":false,"data":"查询失败，请重试！"}
+*************** response log end ***************
+
+[2018-09-13T13:31:55.133] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:32:05.157] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:32:05.158] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:32:05.166] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":false,"data":"查询失败，请重试！"}
+*************** response log end ***************
+
+[2018-09-13T13:32:05.168] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:32:24.000] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:32:24.001] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:32:24.002] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:32:24.168] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":false,"data":"查询失败，请重试！"}
+*************** response log end ***************
+
+[2018-09-13T13:32:24.169] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:32:24.172] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T13:33:41.268] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:33:41.274] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:33:41.275] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:33:41.508] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 16
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T13:33:41.564] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:33:41.566] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:36:26.329] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:36:26.338] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:36:26.345] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:36:26.352] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:37:13.860] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:37:13.868] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:37:13.874] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:37:13.881] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:39:21.560] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:39:21.566] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:39:21.572] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:39:21.578] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:40:09.349] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:40:09.355] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:40:09.360] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:40:09.366] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:40:20.760] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:40:20.766] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:40:20.772] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:40:20.777] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:44:24.515] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:44:24.523] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:44:24.529] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:44:24.536] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:45:11.383] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:45:11.391] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:45:11.396] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:45:11.402] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:47:49.256] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:47:49.265] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:47:49.273] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:47:49.280] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:49:30.600] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:49:30.607] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:49:30.612] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:49:30.619] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:49:47.413] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:49:47.420] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:49:47.425] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:49:47.430] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:52:23.576] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:52:23.583] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:52:23.589] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:52:23.594] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:52:30.686] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:52:30.695] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:52:30.702] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:52:30.709] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:52:40.980] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:52:40.981] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:52:41.156] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:52:41.159] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T13:52:41.232] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:52:41.253] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:52:58.998] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:52:59.005] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:52:59.012] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:52:59.018] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:53:08.114] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:53:08.115] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:53:08.280] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T13:53:08.283] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:53:08.351] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:53:08.370] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:55:21.384] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:55:21.391] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:55:21.397] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:55:21.403] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:55:53.398] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:55:53.404] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:55:53.410] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:55:53.417] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:56:28.316] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:56:28.317] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:56:28.489] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T13:56:28.495] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:56:28.568] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:56:28.590] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:57:14.807] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:57:14.808] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:57:15.019] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 6
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:57:15.020] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T13:57:15.077] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:57:15.105] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:58:26.148] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:58:26.155] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:58:26.160] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:58:26.166] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:58:29.202] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:58:29.205] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:58:29.232] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T13:58:29.233] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:58:49.108] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:58:49.109] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:58:49.299] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:58:49.301] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T13:58:49.373] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:58:49.397] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T13:59:24.710] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:59:24.712] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:59:24.841] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T13:59:24.843] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T13:59:24.868] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T13:59:24.892] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+

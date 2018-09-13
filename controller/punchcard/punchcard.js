@@ -113,15 +113,80 @@ let allList = async (ctx, next) => {
     }
 }
 
+// 获取某个level的成员
+let getLevelMember = async (ctx, next) => {
+    /**
+     * {
+         id: 小组ID
+       }
+     */
+    let sql = `SELECT email,name,sex FROM user_info WHERE level=?;`
+    try {
+      let id = ctx.request.body.id;
+      let groupMemberInfo = await query(sql, id)
+      if (groupMemberInfo instanceof Array) {
+        groupMemberInfo.forEach((item, index) => {
+          delete item.password
+        })
+        ctx.body = {
+          status: true,
+          data: groupMemberInfo
+        }
+      }
+    } catch (err) {
+      console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
+      ctx.body = {
+        status: false,
+        data: '查询失败，请重试！'
+      }
+    }
+  };
+
+// 设置某个人的level
+let setLevelMember = async (ctx, next) => {
+    try {
+        const querySql = 'SELECT email,name,sex FROM user_info WHERE email = ?';
+        let groupMemberInfo = await query(querySql, ctx.request.body.userEmail)
+        if (groupMemberInfo instanceof Array && groupMemberInfo.length === 1) {
+            const updateInfoSql = 'UPDATE user_info SET level = ? WHERE email = ?';
+            let updateInfoSqlData = await query(updateInfoSql, [ctx.request.body.level, ctx.request.body.userEmail]);
+            if (updateInfoSqlData.affectedRows === 1) {
+                ctx.body = {
+                    status: true,
+                    data: '更新成功！'
+                }
+            } else {
+                ctx.body = {
+                    status: false,
+                    data: '更新失败1，请重试！'
+                }
+            }
+        } else {
+            ctx.body = {
+                status: false,
+                data: '更新失败，未找到用户！'
+            }
+        }  
+    } catch(err) {
+        console.log(`[${ctx.method} - ${ctx.url} ERROR] -- ${err}`);
+        ctx.body = {
+            status: false,
+            data: '更新失败，请重试！'
+        }
+    }   
+};
+
 //当月列表
 let monthList = async (ctx, next) => {
     let {month} = ctx.request.body;
     let searchSql = "SELECT userid,card_time,card_status FROM punch_card where card_time LIKE " + "'" + month + "%'"
+    console.log(searchSql);
     try {
 
         //let mons = date.getFullYear()+"-"+(date.getMonth()+1)+"%"
         let isSign = await query(searchSql)
         if (isSign instanceof Array && isSign.length > 0) {
+            console.log(isSign);
             ctx.body = {
                 status: true,
                 data: isSign
@@ -173,5 +238,7 @@ module.exports = {
     userList,
     allList,
     monthList,
-    userMonthList
+    userMonthList,
+    getLevelMember,
+    setLevelMember
 };

@@ -1,0 +1,3438 @@
+[2018-09-13T16:01:13.565] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:01:13.569] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:01:13.571] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:01:13.597] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:01:13.598] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-09-11T11:15:45.000Z","combine":1},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-09-11T11:15:45.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:01:13.613] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:01:39.860] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:01:39.861] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:01:39.862] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:01:39.899] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:01:39.900] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-09-11T11:15:45.000Z","combine":1},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-09-11T11:15:45.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:01:39.935] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:17:16.177] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 4
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:17:16.186] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:17:16.238] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 16
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:17:16.242] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 16
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:18:11.795] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:18:11.796] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:18:11.808] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:18:11.809] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:18:15.821] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:18:15.826] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:18:15.830] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:18:15.866] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-09-11T11:15:45.000Z","combine":1},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-09-11T11:15:45.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:19:41.772] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:19:41.780] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"1","userEmail":"test@qq.com"}
+response time: 3
+response status: 200
+response body: 
+{"status":false,"data":"更新失败，请重试！"}
+*************** response log end ***************
+
+[2018-09-13T16:20:01.457] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:20:01.458] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:20:01.464] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:20:01.496] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-09-11T11:15:45.000Z","combine":1},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-09-11T11:15:45.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:20:01.501] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:20:01.504] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:20:31.379] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:20:31.380] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:20:31.384] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:20:31.410] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-09-11T11:15:45.000Z","combine":1},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-09-11T11:15:45.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:20:31.411] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 7
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:20:31.413] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:20:35.811] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:20:35.819] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"1","userEmail":"test@qq.com"}
+response time: 2
+response status: 200
+response body: 
+{"status":false,"data":"更新失败，请重试！"}
+*************** response log end ***************
+
+[2018-09-13T16:27:46.873] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 3
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:27:46.880] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:27:46.881] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:27:47.007] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 16
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:27:47.011] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 18
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-09-11T11:15:45.000Z","combine":1},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-09-11T11:15:45.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:27:47.012] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 17
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:28:02.528] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:28:02.539] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"1","userEmail":"tom@qq.com"}
+response time: 4
+response status: 200
+response body: 
+{"status":false,"data":"更新失败，未找到用户！"}
+*************** response log end ***************
+
+[2018-09-13T16:30:45.074] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:30:45.075] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:30:45.089] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:30:45.090] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:30:55.680] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:30:55.688] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"1","userEmail":"dsdf@tom.com"}
+response time: 2
+response status: 200
+response body: 
+{"status":false,"data":"更新失败，未找到用户！"}
+*************** response log end ***************
+
+[2018-09-13T16:31:18.719] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:31:18.728] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"1","userEmail":"test@qq.com"}
+response time: 2
+response status: 200
+response body: 
+{"status":false,"data":"更新失败，请重试！"}
+*************** response log end ***************
+
+[2018-09-13T16:31:59.878] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 2
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:31:59.884] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:31:59.885] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:32:00.003] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 32
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:32:00.037] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 59
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:32:00.038] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 59
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-09-11T11:15:45.000Z","combine":1},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-09-11T11:15:45.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:32:04.735] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:32:04.748] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"1","userEmail":"test@qq.com"}
+response time: 7
+response status: 200
+response body: 
+{"status":true,"data":"更新成功！"}
+*************** response log end ***************
+
+[2018-09-13T16:32:11.314] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:32:11.319] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:32:11.320] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:32:11.365] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:32:11.367] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:32:11.369] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-09-11T11:15:45.000Z","combine":1},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-09-11T11:15:45.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:34:16.503] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:34:16.505] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:34:16.522] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:34:16.526] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 6
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:34:25.531] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:34:25.534] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:34:25.547] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:34:25.548] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:34:32.458] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:34:32.469] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"1","userEmail":"youwg@suninfo.com"}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":"更新成功！"}
+*************** response log end ***************
+
+[2018-09-13T16:34:32.480] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:34:32.481] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:34:32.492] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":1,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:34:32.493] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T16:34:38.545] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:34:38.556] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"2","userEmail":"youwg@suninfo.com"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":"更新成功！"}
+*************** response log end ***************
+
+[2018-09-13T16:34:38.567] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:34:38.568] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:34:38.578] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:34:38.579] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:34:56.700] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:34:56.704] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:34:56.721] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 6
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:34:56.723] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 6
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:35:13.314] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:35:13.315] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:35:13.327] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:35:13.328] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:35:20.434] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:35:20.442] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"2","userEmail":""}
+response time: 2
+response status: 200
+response body: 
+{"status":false,"data":"更新失败，未找到用户！"}
+*************** response log end ***************
+
+[2018-09-13T16:35:23.316] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"2","userEmail":""}
+response time: 2
+response status: 200
+response body: 
+{"status":false,"data":"更新失败，未找到用户！"}
+*************** response log end ***************
+
+[2018-09-13T16:35:32.706] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:35:32.715] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"2","userEmail":""}
+response time: 1
+response status: 200
+response body: 
+{"status":false,"data":"更新失败，未找到用户！"}
+*************** response log end ***************
+
+[2018-09-13T16:35:38.051] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:35:38.053] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:35:38.058] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:35:38.091] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-09-11T11:15:45.000Z","combine":1},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-09-11T11:15:45.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:35:38.135] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:35:38.136] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:35:43.244] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:35:43.254] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"1","userEmail":"youwg@suninfo.com"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":"更新成功！"}
+*************** response log end ***************
+
+[2018-09-13T16:35:43.269] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:35:43.270] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:35:43.281] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":1,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:35:43.282] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T16:35:48.199] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"2","userEmail":""}
+response time: 3
+response status: 200
+response body: 
+{"status":false,"data":"更新失败，未找到用户！"}
+*************** response log end ***************
+
+[2018-09-13T16:36:13.783] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:36:13.784] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:36:13.796] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":1,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:36:13.797] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T16:36:16.643] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:36:16.654] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"2","userEmail":"youwg@suninfo.com"}
+response time: 6
+response status: 200
+response body: 
+{"status":true,"data":"更新成功！"}
+*************** response log end ***************
+
+[2018-09-13T16:36:16.676] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:36:16.677] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:36:23.130] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:36:23.138] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"1","userEmail":""}
+response time: 2
+response status: 200
+response body: 
+{"status":false,"data":"更新失败，未找到用户！"}
+*************** response log end ***************
+
+[2018-09-13T16:36:52.132] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:36:52.133] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:36:52.144] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:36:52.147] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:37:02.194] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:37:02.195] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:37:02.211] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:37:02.213] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:37:09.376] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:37:09.386] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"1","userEmail":"youwg@suninfo.com"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":"更新成功！"}
+*************** response log end ***************
+
+[2018-09-13T16:37:09.400] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:37:09.405] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:37:09.417] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":1,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:37:09.419] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T16:37:13.171] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"2","userEmail":"youwg@suninfo.com"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":"更新成功！"}
+*************** response log end ***************
+
+[2018-09-13T16:37:13.193] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:37:13.196] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:38:45.283] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:38:45.284] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:38:45.293] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:38:45.294] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:38:52.784] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:38:52.789] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:38:52.801] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:38:52.802] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:39:09.690] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:39:09.697] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"0","userEmail":""}
+response time: 1
+response status: 200
+response body: 
+{"status":false,"data":"更新失败，未找到用户！"}
+*************** response log end ***************
+
+[2018-09-13T16:40:33.357] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:40:33.358] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:40:33.367] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:40:33.369] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:40:35.971] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:40:35.981] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:40:35.983] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:40:36.004] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-09-11T11:15:45.000Z","combine":1},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-09-11T11:15:45.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:40:47.244] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:40:47.253] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"0","userEmail":""}
+response time: 2
+response status: 200
+response body: 
+{"status":false,"data":"更新失败，未找到用户！"}
+*************** response log end ***************
+
+[2018-09-13T16:41:08.932] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:41:08.934] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:41:08.947] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:41:08.948] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:42:53.621] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:42:53.626] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 4
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:42:53.650] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:42:53.652] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 6
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:51:25.033] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:51:25.040] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:51:25.042] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:51:25.065] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-09-11T11:15:45.000Z","combine":1},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-09-11T11:15:45.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:51:25.072] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:51:25.111] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:52:30.657] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:52:30.668] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:52:30.669] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:52:30.690] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-09-11T11:15:45.000Z","combine":1},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-09-11T11:15:45.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:52:30.739] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:52:30.740] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:53:09.296] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:53:09.301] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:53:09.303] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:53:09.321] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-09-11T11:15:45.000Z","combine":1},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-09-11T11:15:45.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:53:09.326] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:53:09.326] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:53:54.953] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:53:54.955] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:53:54.972] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:53:54.973] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:55:12.297] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:55:12.298] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:55:12.310] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:55:12.311] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:56:53.409] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:56:53.411] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:56:53.422] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:56:53.423] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:57:00.248] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:57:00.257] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"1","userEmail":"\t youwg@suninfo.com"}
+response time: 2
+response status: 200
+response body: 
+{"status":false,"data":"更新失败，未找到用户！"}
+*************** response log end ***************
+
+[2018-09-13T16:57:04.968] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"1","userEmail":"youwg@suninfo.com"}
+response time: 6
+response status: 200
+response body: 
+{"status":true,"data":"更新成功！"}
+*************** response log end ***************
+
+[2018-09-13T16:57:04.983] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:57:04.985] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:57:04.995] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":1,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:57:04.996] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T16:57:09.456] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:57:09.464] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":1,"collector":1},"userEmail":""}
+response time: 2
+response status: 200
+response body: 
+{"status":false,"data":"更新失败，未找到用户！"}
+*************** response log end ***************
+
+[2018-09-13T16:57:30.475] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:57:30.478] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:57:30.492] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":1,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:57:30.494] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T16:57:35.750] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:57:35.751] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:57:35.766] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":1,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:57:35.768] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T16:57:49.109] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:57:49.110] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:57:49.124] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":1,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:57:49.125] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T16:57:51.956] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:57:51.969] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":1,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:57:51.970] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T16:57:51.992] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-09-11T11:15:45.000Z","combine":1},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-09-11T11:15:45.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:58:01.282] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:58:01.291] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":1,"collector":1},"userEmail":""}
+response time: 2
+response status: 200
+response body: 
+{"status":false,"data":"更新失败，未找到用户！"}
+*************** response log end ***************
+
+[2018-09-13T16:58:25.090] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:58:25.095] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:58:25.099] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:58:25.124] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"CA大平台-IMP组-前端","memberNum":0,"remark":"CA大平台-IMP组-前端，sunflower，一个潮气蓬勃，潜力无限，有梦想有追求的前端团队。","createTime":"2018-09-11T11:15:45.000Z","combine":1},{"id":38,"name":"测试","memberNum":0,"remark":"测试","createTime":"2018-09-11T11:15:45.000Z","combine":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:58:25.126] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"},{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":1,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:58:25.143] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T16:58:26.188] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:58:26.197] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"0","userEmail":"youwg@suninfo.com"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":"更新成功！"}
+*************** response log end ***************
+
+[2018-09-13T16:58:26.211] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:58:26.212] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T16:58:49.051] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:58:49.061] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/setLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"level":"2","userEmail":"youwg@suninfo.com"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":"更新成功！"}
+*************** response log end ***************
+
+[2018-09-13T16:58:49.077] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:58:49.078] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:58:49.090] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:58:49.091] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"2"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:58:57.762] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/logOut
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:58:57.773] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/logOut
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":"系统已退出！"}
+*************** response log end ***************
+
+[2018-09-13T16:59:06.907] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/login
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:59:06.918] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"email":"youwg@suninfo.com","password":"123456"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":{"email":"youwg@suninfo.com","name":"游武刚","sex":"male","remark":"无","groupId":37,"role":"user","level":2,"collector":1}}
+*************** response log end ***************
+
+[2018-09-13T16:59:06.973] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:59:07.002] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T16:59:13.941] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:59:13.953] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/getLevelMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"id":"1"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"lic2017@suninfo.com","name":"l李聪","sex":"male","remark":"","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"test@qq.com","name":"youwg","sex":"male","remark":"www","groupId":37,"role":"user","level":1,"collector":"0"},{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}]}
+*************** response log end ***************
+
+[2018-09-13T16:59:13.960] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:59:13.974] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/monthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"month":"2018-09"}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1},{"userid":"lic2017@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:59:24.453] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/logOut
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:59:24.466] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/logOut
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":"系统已退出！"}
+*************** response log end ***************
+
+[2018-09-13T16:59:31.886] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/login
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:59:31.897] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"email":"tom@suninfo.com","password":"123456"}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":{"email":"tom@suninfo.com","name":"张悦","sex":"female","remark":null,"groupId":38,"role":"user","level":1,"collector":"0"}}
+*************** response log end ***************
+
+[2018-09-13T16:59:31.953] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:59:31.974] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-09-13T16:59:33.505] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/userMonthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:59:33.526] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/userMonthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"userid":"tom@suninfo.com","month":"2018-09"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"userid":"tom@suninfo.com","card_time":"2018-09-11","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-10","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-12","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-09","card_status":1},{"userid":"tom@suninfo.com","card_time":"2018-09-13","card_status":1}]}
+*************** response log end ***************
+
+[2018-09-13T16:59:38.540] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/logOut
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:59:38.550] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/logOut
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":"系统已退出！"}
+*************** response log end ***************
+
+[2018-09-13T16:59:44.596] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/adminLogin
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-09-13T16:59:44.604] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/adminLogin
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"email":"tom@suninfo.com","password":"123456"}
+response time: 3
+response status: 200
+response body: 
+{"status":false,"data":"此管理员用户不存在！"}
+*************** response log end ***************
+
