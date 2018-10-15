@@ -1,0 +1,580 @@
+[2018-10-15T10:04:37.728] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:04:37.738] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:05:00.096] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:05:00.102] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:05:03.443] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:05:03.447] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:06:18.945] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:06:18.951] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:06:51.998] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:06:51.999] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:06:52.026] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:06:52.034] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:07:40.613] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:07:40.621] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:07:47.460] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:07:47.461] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:07:47.494] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:07:47.499] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:08:18.193] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:08:18.208] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:09:12.849] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:09:12.856] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:12:12.127] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:12:12.135] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"idList":[43,44,48]}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"1127787176@qq.com","name":"吴雨晨","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"caojk@suninfo.com","name":"曹敬科","sex":"male","remark":"","groupId":43,"role":"user","collector":"0","level":"0"},{"email":"duanhuilan@suninfo.com","name":"段会兰","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"liangsh@suninfo.com","name":"梁爽","sex":"female","remark":"美工组","groupId":43,"role":"user","collector":"0","level":"0"},{"email":"liudy@suninfo.com","name":"刘德月","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"songqch@suninfo.com","name":"宋庆成","sex":"male","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"wangluo@suninfo.com","name":"王洛","sex":"male","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"wangxm2018@suninfo.com","name":"王小敏","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"zhaoqi@suninfo.com","name":"赵岂","sex":"female","remark":"实习生","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"zhouj@suninfo.com","name":"周靖","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":2},{"email":"zhouyy@suninfo.com","name":"周义洋","sex":"male","remark":"","groupId":43,"role":"user","collector":"0","level":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:20:14.535] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:20:14.542] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"idList":[43,44]}
+response time: 1
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"1127787176@qq.com","name":"吴雨晨","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"caojk@suninfo.com","name":"曹敬科","sex":"male","remark":"","groupId":43,"role":"user","collector":"0","level":"0"},{"email":"duanhuilan@suninfo.com","name":"段会兰","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"liangsh@suninfo.com","name":"梁爽","sex":"female","remark":"美工组","groupId":43,"role":"user","collector":"0","level":"0"},{"email":"liudy@suninfo.com","name":"刘德月","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"songqch@suninfo.com","name":"宋庆成","sex":"male","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"wangluo@suninfo.com","name":"王洛","sex":"male","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"wangxm2018@suninfo.com","name":"王小敏","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"zhaoqi@suninfo.com","name":"赵岂","sex":"female","remark":"实习生","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"zhouj@suninfo.com","name":"周靖","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":2},{"email":"zhouyy@suninfo.com","name":"周义洋","sex":"male","remark":"","groupId":43,"role":"user","collector":"0","level":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:46:09.952] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 2
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:46:09.958] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:46:10.012] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 8
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:46:10.025] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:46:15.475] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:46:15.504] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"idList":[43,44]}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"1127787176@qq.com","name":"吴雨晨","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"caojk@suninfo.com","name":"曹敬科","sex":"male","remark":"","groupId":43,"role":"user","collector":"0","level":"0"},{"email":"duanhuilan@suninfo.com","name":"段会兰","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"liangsh@suninfo.com","name":"梁爽","sex":"female","remark":"美工组","groupId":43,"role":"user","collector":"0","level":"0"},{"email":"liudy@suninfo.com","name":"刘德月","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"songqch@suninfo.com","name":"宋庆成","sex":"male","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"wangluo@suninfo.com","name":"王洛","sex":"male","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"wangxm2018@suninfo.com","name":"王小敏","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"zhaoqi@suninfo.com","name":"赵岂","sex":"female","remark":"实习生","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"zhouj@suninfo.com","name":"周靖","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":2},{"email":"zhouyy@suninfo.com","name":"周义洋","sex":"male","remark":"","groupId":43,"role":"user","collector":"0","level":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:46:23.024] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/editGroupsCombine
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:46:23.036] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/editGroupsCombine
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"idList":[43,44],"emailList":["liangsh@suninfo.com","liudy@suninfo.com"]}
+response time: 6
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:47:45.136] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:47:45.155] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 8
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:49:05.997] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 2
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:49:06.003] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:49:06.128] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 7
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:49:06.135] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:49:11.319] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:49:11.341] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/getGroupsMember
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"idList":[43,44,48]}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"email":"1127787176@qq.com","name":"吴雨晨","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"caojk@suninfo.com","name":"曹敬科","sex":"male","remark":"","groupId":43,"role":"user","collector":"0","level":"0"},{"email":"duanhuilan@suninfo.com","name":"段会兰","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"liangsh@suninfo.com","name":"梁爽","sex":"female","remark":"美工组","groupId":43,"role":"user","collector":"0","level":"0"},{"email":"liudy@suninfo.com","name":"刘德月","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"songqch@suninfo.com","name":"宋庆成","sex":"male","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"wangluo@suninfo.com","name":"王洛","sex":"male","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"wangxm2018@suninfo.com","name":"王小敏","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"zhaoqi@suninfo.com","name":"赵岂","sex":"female","remark":"实习生","groupId":44,"role":"user","collector":"0","level":"0"},{"email":"zhouj@suninfo.com","name":"周靖","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":2},{"email":"zhouyy@suninfo.com","name":"周义洋","sex":"male","remark":"","groupId":43,"role":"user","collector":"0","level":"0"}]}
+*************** response log end ***************
+
+[2018-10-15T10:49:14.799] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/editGroupsCombine
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:49:14.809] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /group/groupManage/editGroupsCombine
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"idList":[43,44,48],"emailList":["1127787176@qq.com","caojk@suninfo.com"]}
+response time: 4
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:49:21.317] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-10-15T10:49:21.326] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /group/groupManage/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":37,"name":"前端","memberNum":9,"remark":"前端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":43,"name":"美工","memberNum":3,"remark":"美工","createTime":"2018-03-23T06:20:19.000Z","combine":"0"},{"id":44,"name":"测试","memberNum":8,"remark":"测试小组","createTime":"2018-04-13T09:09:05.000Z","combine":"0"},{"id":45,"name":"后端","memberNum":14,"remark":"后端","createTime":"2018-09-03T03:10:08.000Z","combine":1},{"id":48,"name":"产品","memberNum":0,"remark":"产品","createTime":"2018-10-12T12:46:32.000Z","combine":"0"}]}
+*************** response log end ***************
+

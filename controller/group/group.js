@@ -113,22 +113,55 @@ let editGroupManage = async (ctx, next) => {
     }
   }
 }
+
+let deleteGroupsCombine =  async (ctx, next) => {
+  try {
+    let combineCode = ctx.request.body.combine;
+    console.log(combineCode);
+    if (combineCode) {
+      let resetGroupsql = `UPDATE group_info SET combine = 0 WHERE combine = ${combineCode}`;
+      let resetSql = await query(resetGroupsql);
+      let resetUserSql = `UPDATE user_info SET collector = 0 WHERE collector = ${combineCode}`;
+      let resetUpdateUserSql = await query(resetUserSql);
+      if (resetSql.affectedRows > 0 && resetUpdateUserSql.affectedRows > 0) {
+        ctx.body = {
+          status: true,
+          data: '删除成功'
+        }
+      } else {
+        ctx.body = {
+          status: false,
+          data: '删除失败，请重试！'
+        }
+      }
+    } else {
+      ctx.body = {
+        status: false,
+        data: '无法完成操作，请检查传入参数是否正确！'
+      }
+    }  
+  } catch (err) {
+    console.log(`${ctx.method} - ${ctx.url} ERROR -- ${err}`);
+    ctx.body = {
+      status: false,
+      data: '删除失败，请重试！'
+    }
+  }
+}
+
 // 更新多个组是否需要合并周报
 let editGroupsCombine = async (ctx, next) => {
-
   try {
     let idList = ctx.request.body.idList
     let emailList = ctx.request.body.emailList;
     let emailListStr = emailList.map(item => `'${item}'`)
     if (idList instanceof Array && idList.length > 0 && emailList instanceof Array && emailList.length > 0) {
-      let resetGroupsql = 'UPDATE group_info SET combine = 0 WHERE combine = 1';
-      let resetSql = await query(resetGroupsql);
-      let resetUserSql = 'UPDATE user_info SET collector = 0 WHERE collector = 1';
-      let resetUpdateUserSql = await query(resetUserSql);
-      let sql = `UPDATE group_info SET combine = 1 WHERE id IN (${idList})`;
+      let getCombineCodeSql = 'select max(t.combine) as max from group_info as t';
+      let combineCodeMax = await query(getCombineCodeSql);
+      let combineCode = combineCodeMax[0].max + 1;
+      let sql = `UPDATE group_info SET combine = ${combineCode} WHERE id IN (${idList})`;
       let updateSql = await query(sql);
-      const userSql = `UPDATE user_info SET collector = 1 WHERE email IN (${emailListStr})`;
-      console.log(userSql);
+      const userSql = `UPDATE user_info SET collector = ${combineCode} WHERE email IN (${emailListStr})`;
       let updateUserSql = await query(userSql)
       if (updateSql.affectedRows > 0 && updateUserSql.affectedRows > 0) {
         ctx.body = {
@@ -142,13 +175,9 @@ let editGroupsCombine = async (ctx, next) => {
         }
       }
     } else {
-      let resetGroupsql = 'UPDATE group_info SET combine = 0 WHERE combine = 1';
-      let resetSql = await query(resetGroupsql);
-      let resetUserSql = 'UPDATE user_info SET collector = 0 WHERE collector = 1';
-      let resetUpdateUserSql = await query(resetUserSql);
       ctx.body = {
-        status: true,
-        data: '编辑成功'
+        status: false,
+        data: '无法完成操作，请检查传入参数是否正确！'
       }
     }
   } catch (err) {
@@ -344,6 +373,7 @@ module.exports = {
   getGroupMember,
   getGroupsMember,
   delGroupMember,
+  deleteGroupsCombine,
   editGroupsCombine,
   moveUser
 }

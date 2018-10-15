@@ -45,8 +45,9 @@ let getGroupCurrentWeekPort = async (ctx, next) =>  {
  */
 let getCollectGroupCurrentWeekPort = async (ctx, next) =>  {
   try {
-    const selectReportSql = "select r.*, u.* from report_info as r join user_info as u on r.email = u.email where u.groupId IN (select id from group_info where combine = 1) and r.status = 'public' and week = ?";
-    let groupCurrentReport = await dbQuery(selectReportSql, [getMonday()]);
+    let combine = ctx.request.body.collector;
+    const selectReportSql = "select r.*, u.* from report_info as r join user_info as u on r.email = u.email where u.groupId IN (select id from group_info where combine = ?) and r.status = 'public' and week = ?";
+    let groupCurrentReport = await dbQuery(selectReportSql, [combine,getMonday()]);
     if (groupCurrentReport instanceof Array) {
       ctx.body = {
         status: true,

@@ -627,7 +627,7 @@
     data: '删除失败，请重试！'
 }
 ```
-#### 7.7 删除组内人员
+#### 7.7 生成合并组
 **请求方式：**`POST` \
 **接口：**`/group/groupManage/editGroupsCombine` \
 **参数：**
@@ -651,6 +651,42 @@
     data: '编辑失败，请重试！'
 }
 ```
+```
+{
+    status: false,
+    data: '无法完成操作，请检查传入参数是否正确！'
+}
+```
+#### 7.8 删除合并组记录
+**请求方式：**`POST` \
+**接口：**`/group/groupManage/deleteGroupsCombine` \
+**参数：**
+```
+{
+    idList: [id1, id2, ...],
+    emailList: [email1,email2]
+}
+```
+**成功返回值：** 
+```
+{
+    status: true,
+    data: '删除成功'
+}
+```
+**失败返回值：**
+```
+{
+    status: false,
+    data: '删除失败，请重试！'
+}
+```
+```
+{
+    status: false,
+    data: '无法完成操作，请检查传入参数是否正确！'
+}
+``` 
 
 
 ### 8 本周日志

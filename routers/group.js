@@ -27,6 +27,9 @@ router.post('/groupManage/getGroupsMember', group.getGroupsMember)
 // 更新多个组是否需要合并周报
 router.post('/groupManage/editGroupsCombine', group.editGroupsCombine)
 
+// 删除合并周报记录
+router.post('/groupManage/deleteGroupsCombine', group.deleteGroupsCombine)
+
 // 删除组内人员
 router.post('/groupManage/deleteGroupMember', group.delGroupMember)
 
