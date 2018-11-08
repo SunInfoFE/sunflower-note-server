@@ -125,7 +125,7 @@ let userList = async (ctx, next) => {
      */
     let { userid } = ctx.request.body
 
-    let searchSql = `SELECT card_time,card_status FROM punch_card WHERE userid=? ORDER BY card_time`
+    let searchSql = `SELECT card_time,card_status FROM punch_card WHERE userid=?`
     try {
         if (userid !== (undefined || '')) {
             let isSign = await query(searchSql, [userid])
@@ -302,7 +302,7 @@ let dayRangeList = async (ctx, next) => {
 //当月某用户列表
 let userMonthList = async (ctx, next) => {
     let { userid, month } = ctx.request.body;
-    let searchSql = "SELECT * FROM punch_card where card_time LIKE " + "'" + month + "%'" + " and userid=?"
+    let searchSql = "SELECT * FROM punch_card where card_time LIKE " + "'" + month + "%'" + " and userid=?  ORDER BY card_time"
     try {
         let isSign = await query(searchSql, [userid])
         if (isSign instanceof Array && isSign.length > 0) {
