@@ -1,0 +1,395 @@
+[2018-11-08T13:32:35.127] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/login
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 3
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-11-08T13:32:35.171] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"email":"1757259762@qq.com","password":"li*hena930521"}
+response time: 14
+response status: 200
+response body: 
+{"status":true,"data":{"email":"1757259762@qq.com","name":"李和娜","sex":"female","remark":"","groupId":44,"role":"user","collector":"0","level":1}}
+*************** response log end ***************
+
+[2018-11-08T13:32:35.248] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-11-08T13:32:35.283] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 7
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-11-08T13:32:39.167] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/userMonthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-11-08T13:32:39.199] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/userMonthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"userid":"1757259762@qq.com","month":"2018-11"}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[{"id":67,"userid":"1757259762@qq.com","card_time":"2018-11-07","card_status":1,"signed_time":"10:33:49","off_time":"18:14:11"},{"id":68,"userid":"1757259762@qq.com","card_time":"2018-11-06","card_status":1,"signed_time":null,"off_time":null}]}
+*************** response log end ***************
+
+[2018-11-08T13:32:45.755] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-11-08T13:32:45.756] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/userMonthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-11-08T13:32:45.905] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/userMonthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"userid":"1757259762@qq.com","month":"2018-11"}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"id":67,"userid":"1757259762@qq.com","card_time":"2018-11-07","card_status":1,"signed_time":"10:33:49","off_time":"18:14:11"},{"id":68,"userid":"1757259762@qq.com","card_time":"2018-11-06","card_status":1,"signed_time":null,"off_time":null}]}
+*************** response log end ***************
+
+[2018-11-08T13:32:45.908] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-11-08T13:33:00.575] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-11-08T13:33:00.576] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/userMonthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-11-08T13:33:00.617] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/userMonthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"userid":"1757259762@qq.com","month":"2018-11"}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"id":67,"userid":"1757259762@qq.com","card_time":"2018-11-07","card_status":1,"signed_time":"10:33:49","off_time":"18:14:11"},{"id":68,"userid":"1757259762@qq.com","card_time":"2018-11-06","card_status":1,"signed_time":null,"off_time":null}]}
+*************** response log end ***************
+
+[2018-11-08T13:33:00.620] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-11-08T13:33:07.774] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-11-08T13:33:07.774] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /punchcard/userMonthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-11-08T13:33:07.809] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /punchcard/userMonthList
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"userid":"1757259762@qq.com","month":"2018-11"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[{"id":67,"userid":"1757259762@qq.com","card_time":"2018-11-07","card_status":1,"signed_time":"10:33:49","off_time":"18:14:11"},{"id":68,"userid":"1757259762@qq.com","card_time":"2018-11-06","card_status":1,"signed_time":null,"off_time":null}]}
+*************** response log end ***************
+
+[2018-11-08T13:33:07.812] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-11-08T13:33:09.689] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-11-08T13:33:12.520] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/logOut
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-11-08T13:33:12.532] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/logOut
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":"系统已退出！"}
+*************** response log end ***************
+
+[2018-11-08T13:33:24.684] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /user/login
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-11-08T13:33:24.694] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{"email":"dingyf@suninfo.com","password":"ding39580726"}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":{"email":"dingyf@suninfo.com","name":"丁亚飞","sex":"male","remark":"","groupId":37,"role":"user","collector":1,"level":2}}
+*************** response log end ***************
+
+[2018-11-08T13:33:24.763] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-11-08T13:33:24.777] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-11-08T13:33:27.781] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/myReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-11-08T13:33:27.794] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /report/myReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 3
+response status: 200
+response body: 
+{"status":true,"data":[{"id":863,"title":"本周周报2018/11/2 下午6:05:45","summary":"1.开始深圳中行电视墙定制化需求开发\n2.修正由于权限机制引入后Q4中拓扑图中菜单的bug\n3.为3D机房中增加新特性，html标签与3d场景交互。\n4.支持深圳中行项目，对拓扑和其他功能进行小修改。\n5.安排实习生练习项目-周报系统签到功能","plan":"1. 深圳中行电视墙定制化需求开发\n","createTime":"2018-11-02T10:06:20.000Z","lastUpdateTime":"2018-11-02T10:06:53.000Z","week":"2018-10-28T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":814,"title":"未命名周报","summary":"1.完善3d机房机制，增加玻璃墙效果\n2.对普通模型和自定义模型区分处逻辑进行优化。\n3.增加了出风口、柱子、列头柜等\n4.调整了缩放和页面展现逻辑，去除了辅助平面\n5.与梁爽测试了设计模型（摄像头）到3d场景转化的过程，\n6.为实习生安排了开发练习作业，并做了团队和技术栈的介绍。","plan":"1.完善3D机房逻辑\n","createTime":"2018-10-26T09:34:20.000Z","lastUpdateTime":"2018-10-26T09:34:20.000Z","week":"2018-10-21T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":795,"title":"未命名周报","summary":"1. 增加3D机房demo空间利用率功能\n2.增加机柜利用率功能\n3.完善交互，为摄像头交互增加直播信息。\n4.面试实习生一名\n","plan":"1.为3d机房增加柱子模型。","createTime":"2018-10-19T10:02:38.000Z","lastUpdateTime":"2018-10-19T10:03:05.000Z","week":"2018-10-14T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":751,"title":"未命名周报","summary":"1.完成移动端收尾工作的安排和处理。\n2.安排Q4阶段开发工作，并完成redmine工作项目录入。\n3.完成表单设计器的初步修改工作。\n4.处理UI/UE 统一账号名称在系统中的不同叫法和统一资产名称在系统中的不同叫法问题\n5.面试实习生一名。\n","plan":"1. 增加3d机柜全局交互。\n2.修正周报系统bug","createTime":"2018-10-12T08:53:53.000Z","lastUpdateTime":"2018-10-12T09:34:50.000Z","week":"2018-10-07T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":749,"title":"本周周报2018/9/30 上午9:21:26","summary":"1.研究thingjs的对象查询机制\n2.根据Q4阶段UI/UE修改任务，对某些页面进行修改。\n3.学习并了解webgl的glTF文件格式\n4. 参与Q4阶段所有需求的讨论工作。","plan":"1.开始Q4阶段开发工作。\n","createTime":"2018-09-30T01:21:33.000Z","lastUpdateTime":"2018-09-30T01:24:05.000Z","week":"2018-09-23T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":748,"title":"未命名周报","summary":"","plan":"","createTime":"2018-09-30T01:21:04.000Z","lastUpdateTime":"2018-09-30T01:21:04.000Z","week":"2018-09-23T16:00:00.000Z","status":"private","email":"dingyf@suninfo.com","groupId":37},{"id":732,"title":"本周周报","summary":"1.支持甘肃中行项目。\n2.研究某个3D库的代码，为3D机房部分难点问题找解决方案。","plan":"1.继续研究某3D库的代码，试着拆解部分机制到3D机房中来。\n2.参与Q4需求讨论。","createTime":"2018-09-21T09:32:09.000Z","lastUpdateTime":"2018-09-21T09:32:09.000Z","week":"2018-09-16T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":710,"title":"未命名周报","summary":"1.处理拓扑图相关bug\n2.完善3D机房uuid和name相关的设计\n3.参与Q4权限相关会议\n4.研究ThingJS的代码结构设计\n5.为周报系统增加实习生签到功能","plan":"1.3D机房uuid和name相关的代码编写\n2.修改拓扑图相关bug","createTime":"2018-09-14T09:16:12.000Z","lastUpdateTime":"2018-09-14T09:16:12.000Z","week":"2018-09-09T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":668,"title":"本周周报","summary":"1.完成3D机房的上下拖动机制\n2.在3D机房中增加了“门禁”物品，可以上下左右拖动\n3.修改拓扑图相关bug","plan":"1.修改拓扑图相关bug\n2.完善3d机房demo","createTime":"2018-09-07T09:17:48.000Z","lastUpdateTime":"2018-09-07T09:17:48.000Z","week":"2018-09-02T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":645,"title":"本周周报","summary":"1.修正了3d机房内地板显示闪烁问题。\n2.找到了在第一人称视角情况下如何交互的解决方案。\n3.处理了拓扑功能，点击左侧树交互的bug\n4.完成了老框架的整理工作\n5.对周报管理系统进行了一个功能升级。","plan":"1.增加3d机房的全局交互功能。\n2.尝试将第一视角功能引入。","createTime":"2018-08-31T08:40:43.000Z","lastUpdateTime":"2018-08-31T08:40:43.000Z","week":"2018-08-26T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":610,"title":"本周周报","summary":"1. 整理完善老框架的全部模块，深入了解部分webpack构建的机制。\n2. 对3D机房增加了双击事件回调函数机制。\n3. 对部分3D机房部分交互进行修改。\n","plan":"1. 增加3D机房更多机房内交互\n2. 研究反向编译方法，处理一些代码上遇到的问题。","createTime":"2018-08-24T09:09:30.000Z","lastUpdateTime":"2018-08-24T09:09:30.000Z","week":"2018-08-19T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":592,"title":"本周周报","summary":"1.完成了3d机房的代码基本迁移工作。\n2.参与移动端设计串讲会议。\n3.深入研究webpack，并对老项目的框架进行了打包实验。","plan":"1.完善3d机房代码，处理交互和代码设计问题。\n2.完成对老项目框架的打包工作。","createTime":"2018-08-17T09:31:43.000Z","lastUpdateTime":"2018-08-17T09:31:43.000Z","week":"2018-08-12T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":554,"title":"本周周报","summary":"1.编写完成甘肃银行电视墙定制功能。\n2.将3d机房的demo编辑成库，打包后进入SiCAP项目。\n3.完善SiCAP上3D机房demo页面","plan":"1.继续编写3D机房demo页面","createTime":"2018-08-10T09:25:06.000Z","lastUpdateTime":"2018-08-10T09:25:06.000Z","week":"2018-08-05T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":516,"title":"本周周报","summary":"1.为了能够将代码打包合并，对3D机房代码进行代码eslint检查。\n2.参与自动化运维需求讨论会议。\n3.开始甘肃中行，定制化电视墙需求编写。","plan":"1.完成甘肃中行定制化电视墙需求开发。\n2.对eslint处理后代码上SiCAP框架进行测试。","createTime":"2018-08-03T09:16:15.000Z","lastUpdateTime":"2018-08-03T09:16:15.000Z","week":"2018-07-29T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":483,"title":"本周周报","summary":"1.对3D机房代码按照面向对象思想进行部分重构\n2.尝试增加投影效果，最后仅在玻璃门上增加了投影。\n3.考虑到代码需要合并后按照库的方式引入项目中，做了些删除库依赖的优化。\n4.在SiCAP项目中编写3D机房静态页面框架","plan":"1.完善静态页面框架，并进行3D库的引入的尝试","createTime":"2018-07-27T08:52:04.000Z","lastUpdateTime":"2018-07-27T20:53:34.000Z","week":"2018-07-22T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":445,"title":"未命名周报","summary":"1.参与Q3业务需求的讨论\n2.完成第一人称视角访问3D场景的实验\n3.完成3D机房数据序列化的处理\n4.尝试将现有的3D机房部分打包生成一个库文件\n5.完善了摄像头在机房中的展示和处理机制","plan":"1.考虑将导出的库进一步梳理和测试","createTime":"2018-07-20T09:10:53.000Z","lastUpdateTime":"2018-07-20T09:10:53.000Z","week":"2018-07-15T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":419,"title":"本周周报","summary":"1.完成对3d模型合并的研究，组合生成了摄像头。\n2.对3D物体的材质部分进行深入研究\n3.完成团队Q3开发任务的人员分配\n","plan":"1.继续完善3D机房","createTime":"2018-07-13T09:36:24.000Z","lastUpdateTime":"2018-07-13T09:36:24.000Z","week":"2018-07-08T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":399,"title":"本周周报","summary":"1.修改SiCap部分bug\n2.增加了机柜交互、玻璃门交互\n3.完善整体的业务逻辑，对编辑模式和查看模式进一步区分。","plan":"1.增加告警交互逻辑。\n2.考虑2d编辑机柜逻辑的设计。","createTime":"2018-07-06T09:01:11.000Z","lastUpdateTime":"2018-07-06T21:05:14.000Z","week":"2018-07-01T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":377,"title":"本周周报","summary":"1.增加了打开机柜门的交互操作\n2.增加了新的物体，有玻璃的门和窗\n3.打开了墙的限制，让正对着的墙可见\n","plan":"1.完善机柜的细节，考虑如何对机柜的内容进行编辑\n2.完善整体的交互操作，增加更多的交互内容","createTime":"2018-06-29T09:26:24.000Z","lastUpdateTime":"2018-06-29T09:26:24.000Z","week":"2018-06-24T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":356,"title":"本周周报","summary":"1.完善场景编辑器内部元素，增加机柜、电视\n2.尝试编辑交互，增加对机柜门的操作\n3.协调“华电网络安全保障与信息通报管理平台”开发","plan":"1.完成交互功能\n2.在增加更多物体到场景编辑器中","createTime":"2018-06-22T09:12:46.000Z","lastUpdateTime":"2018-06-22T09:12:46.000Z","week":"2018-06-17T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":341,"title":"本周周报","summary":"1.对3D场景设计器代码进行重构，将原有的grunt构建改为webpack，并升级了内部使用的threejs版本\n2.常识整合3d机房项目与3d场景编辑器。","plan":"1.整合3D场景设计代码，初步完成最原始的设想。","createTime":"2018-06-15T08:36:46.000Z","lastUpdateTime":"2018-06-15T08:36:46.000Z","week":"2018-06-10T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":307,"title":"本周周报","summary":"1.对应有3D机房程序进行阅读和拆解，并增加了部分小功能\n2.对房间设计程序进行拆解，熟悉2d设计编辑器整体流程进行了深入了解。","plan":"1.将现有的两个项目进行初步整合","createTime":"2018-06-08T09:14:35.000Z","lastUpdateTime":"2018-06-08T09:14:35.000Z","week":"2018-06-03T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":282,"title":"6月1日周报","summary":"1.翻阅了TypeScript的文档\n2.查看3d室内设计的程序例子，并进入技术预研阶段","plan":"1.完善基础预研demo","createTime":"2018-06-01T09:10:05.000Z","lastUpdateTime":"2018-06-01T09:10:05.000Z","week":"2018-05-27T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":245,"title":"本周周报","summary":"1.修改资产关系图，使其能够一次加载所有数据\n2.优化资产关系图代码，优化掉prototype.js库，并将示例代码移交给刘书鹏。\n3.研究从网上得到的theejs相关3D机房代码，进行翻译处理。","plan":"1.继续研究3D机房代码","createTime":"2018-05-25T08:52:51.000Z","lastUpdateTime":"2018-05-25T08:52:51.000Z","week":"2018-05-20T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":209,"title":"本周周报2018/5/18 下午5:12:39","summary":"1.资产管理页面首页修改\n2.修改资产关系图，使其能够一次加载所有数据","plan":"1.完成资产关系图","createTime":"2018-05-18T09:13:56.000Z","lastUpdateTime":"2018-05-18T09:13:56.000Z","week":"2018-05-13T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":195,"title":"本周周报","summary":"1.内部开会讨论如何设计自定义首页和Win10磁贴效果\n2.参与CMDB需求讨论会议\n3.学习electronjs，准备开发辅助工具","plan":"1.细化CMDB需求\n2.技术预研electronjs，完善自己的部分设想","createTime":"2018-05-11T09:39:17.000Z","lastUpdateTime":"2018-05-11T09:39:17.000Z","week":"2018-05-06T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":185,"title":"本周周报","summary":"1.  技术预研自定义首页，完成初步想法，需要进一步细化\n2. 考虑到自定义首页问题，系统现有权限机制和存储方式进行进一步了解","plan":"1.内部讨论自定义首页\n\n","createTime":"2018-05-04T08:35:28.000Z","lastUpdateTime":"2018-05-04T20:37:50.000Z","week":"2018-04-29T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":168,"title":"本周周报","summary":"1.对系统首页再次修改，保证其边距不是太大\n2.替换流程页面的样式中的颜色值为变量\n3.预研自定义首页的机制\n","plan":"1.预研自定义首页的机制","createTime":"2018-04-28T08:25:06.000Z","lastUpdateTime":"2018-04-28T08:25:06.000Z","week":"2018-04-22T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":165,"title":"周报","summary":"1.完成对系统内部分页面的样式变量的替换\n2.找出部分样式有问题的页面，并找到相关人进行处理\n3.出于美观考虑，请美工重新设计资产附加字段页面，并开始编写新的页面。\n4.组织产品、前端、后端开发人员对ITSM的已经开发功能进行确认和初步检查。\n","plan":"1.完成资产附加字段页面的编写\n2.开始协调开始新版主题的编写工作\n3.设计自定义首页功能","createTime":"2018-04-20T09:30:12.000Z","lastUpdateTime":"2018-04-20T09:30:12.000Z","week":"2018-04-15T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":143,"title":"本周周报","summary":"1.完善流程图功能\n2.细化现有的样式表，将没有采用变量的样式表进行处理","plan":"1.细化现有样式表，为后面新的主题做好准备工作。\n2.了解新的CMDB功能\n3.组织产品和前端开发人员对ITSM进行梳理和功能确认","createTime":"2018-04-13T08:52:53.000Z","lastUpdateTime":"2018-04-13T20:54:32.000Z","week":"2018-04-08T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":132,"title":"本周周报","summary":"1.完善流程图的细节和并完成两个主题下的样式\n2.开会分享流程图的开发细节。\n","plan":"1.协调ITSM部分功能的开发，推动开发进程","createTime":"2018-04-08T09:33:41.000Z","lastUpdateTime":"2018-04-08T09:33:41.000Z","week":"2018-04-01T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":118,"title":"本周周报","summary":"1.完善ITSM流程图\n2.参与了权限修改的讨论\n3.完成对mxGraph英文手册的翻译\n4.开始CreateJS的学习和知识点梳理","plan":"1.将ITSM流程图迁入项目中\n2.继续CreateJS的学习。","createTime":"2018-04-01T09:07:34.000Z","lastUpdateTime":"2018-04-01T09:07:34.000Z","week":"2018-03-25T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":82,"title":"本周周报","summary":"1.编写ITSM功能的流程图demo\n2.与产品讨论流程图部分的业务，提出设计不合理的地方。\n3.参与移动端RDP协议工具的测试\n4.添加团队的Redmine工作项","plan":"1.继续完善ITSM流程图demo\n2.研究Theejs的3d机房例子代码","createTime":"2018-03-23T09:04:53.000Z","lastUpdateTime":"2018-03-23T21:06:26.000Z","week":"2018-03-18T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":56,"title":"丁亚飞","summary":"1.了解ITSM业务细节，与美工讨论部分细节；\n2.协调团队工作，确定本周工作内容主要两个方向SIEM新需求开发和Q3的移动运维技术预研；\n3.移动运维技术方案确定和技术细节的进一步确认。\n4.完成Q1到Q2前端工程文件比对和合并。","plan":"1.完成ITSM流程图部分的细节确认和demo编写\n2.协调团队开始ITSM功能的开发。","createTime":"2018-03-16T02:58:06.000Z","lastUpdateTime":"2018-03-16T08:34:11.000Z","week":"2018-03-11T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37}]}
+*************** response log end ***************
+
+[2018-11-08T13:33:46.650] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-11-08T13:33:46.670] [INFO] resLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /report/currentWeekReport/get
+request client ip:  ::ffff:192.168.212.29
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"status":true,"data":[]}
+*************** response log end ***************
+
+[2018-11-08T13:33:47.703] [INFO] resLog - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /report/myReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-11-08T13:33:47.719] [INFO] resLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /report/myReport/get
+request client ip:  ::ffff:192.168.212.29
+request body: 
+{}
+response time: 4
+response status: 200
+response body: 
+{"status":true,"data":[{"id":863,"title":"本周周报2018/11/2 下午6:05:45","summary":"1.开始深圳中行电视墙定制化需求开发\n2.修正由于权限机制引入后Q4中拓扑图中菜单的bug\n3.为3D机房中增加新特性，html标签与3d场景交互。\n4.支持深圳中行项目，对拓扑和其他功能进行小修改。\n5.安排实习生练习项目-周报系统签到功能","plan":"1. 深圳中行电视墙定制化需求开发\n","createTime":"2018-11-02T10:06:20.000Z","lastUpdateTime":"2018-11-02T10:06:53.000Z","week":"2018-10-28T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":814,"title":"未命名周报","summary":"1.完善3d机房机制，增加玻璃墙效果\n2.对普通模型和自定义模型区分处逻辑进行优化。\n3.增加了出风口、柱子、列头柜等\n4.调整了缩放和页面展现逻辑，去除了辅助平面\n5.与梁爽测试了设计模型（摄像头）到3d场景转化的过程，\n6.为实习生安排了开发练习作业，并做了团队和技术栈的介绍。","plan":"1.完善3D机房逻辑\n","createTime":"2018-10-26T09:34:20.000Z","lastUpdateTime":"2018-10-26T09:34:20.000Z","week":"2018-10-21T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":795,"title":"未命名周报","summary":"1. 增加3D机房demo空间利用率功能\n2.增加机柜利用率功能\n3.完善交互，为摄像头交互增加直播信息。\n4.面试实习生一名\n","plan":"1.为3d机房增加柱子模型。","createTime":"2018-10-19T10:02:38.000Z","lastUpdateTime":"2018-10-19T10:03:05.000Z","week":"2018-10-14T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":751,"title":"未命名周报","summary":"1.完成移动端收尾工作的安排和处理。\n2.安排Q4阶段开发工作，并完成redmine工作项目录入。\n3.完成表单设计器的初步修改工作。\n4.处理UI/UE 统一账号名称在系统中的不同叫法和统一资产名称在系统中的不同叫法问题\n5.面试实习生一名。\n","plan":"1. 增加3d机柜全局交互。\n2.修正周报系统bug","createTime":"2018-10-12T08:53:53.000Z","lastUpdateTime":"2018-10-12T09:34:50.000Z","week":"2018-10-07T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":749,"title":"本周周报2018/9/30 上午9:21:26","summary":"1.研究thingjs的对象查询机制\n2.根据Q4阶段UI/UE修改任务，对某些页面进行修改。\n3.学习并了解webgl的glTF文件格式\n4. 参与Q4阶段所有需求的讨论工作。","plan":"1.开始Q4阶段开发工作。\n","createTime":"2018-09-30T01:21:33.000Z","lastUpdateTime":"2018-09-30T01:24:05.000Z","week":"2018-09-23T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":748,"title":"未命名周报","summary":"","plan":"","createTime":"2018-09-30T01:21:04.000Z","lastUpdateTime":"2018-09-30T01:21:04.000Z","week":"2018-09-23T16:00:00.000Z","status":"private","email":"dingyf@suninfo.com","groupId":37},{"id":732,"title":"本周周报","summary":"1.支持甘肃中行项目。\n2.研究某个3D库的代码，为3D机房部分难点问题找解决方案。","plan":"1.继续研究某3D库的代码，试着拆解部分机制到3D机房中来。\n2.参与Q4需求讨论。","createTime":"2018-09-21T09:32:09.000Z","lastUpdateTime":"2018-09-21T09:32:09.000Z","week":"2018-09-16T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":710,"title":"未命名周报","summary":"1.处理拓扑图相关bug\n2.完善3D机房uuid和name相关的设计\n3.参与Q4权限相关会议\n4.研究ThingJS的代码结构设计\n5.为周报系统增加实习生签到功能","plan":"1.3D机房uuid和name相关的代码编写\n2.修改拓扑图相关bug","createTime":"2018-09-14T09:16:12.000Z","lastUpdateTime":"2018-09-14T09:16:12.000Z","week":"2018-09-09T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":668,"title":"本周周报","summary":"1.完成3D机房的上下拖动机制\n2.在3D机房中增加了“门禁”物品，可以上下左右拖动\n3.修改拓扑图相关bug","plan":"1.修改拓扑图相关bug\n2.完善3d机房demo","createTime":"2018-09-07T09:17:48.000Z","lastUpdateTime":"2018-09-07T09:17:48.000Z","week":"2018-09-02T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":645,"title":"本周周报","summary":"1.修正了3d机房内地板显示闪烁问题。\n2.找到了在第一人称视角情况下如何交互的解决方案。\n3.处理了拓扑功能，点击左侧树交互的bug\n4.完成了老框架的整理工作\n5.对周报管理系统进行了一个功能升级。","plan":"1.增加3d机房的全局交互功能。\n2.尝试将第一视角功能引入。","createTime":"2018-08-31T08:40:43.000Z","lastUpdateTime":"2018-08-31T08:40:43.000Z","week":"2018-08-26T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":610,"title":"本周周报","summary":"1. 整理完善老框架的全部模块，深入了解部分webpack构建的机制。\n2. 对3D机房增加了双击事件回调函数机制。\n3. 对部分3D机房部分交互进行修改。\n","plan":"1. 增加3D机房更多机房内交互\n2. 研究反向编译方法，处理一些代码上遇到的问题。","createTime":"2018-08-24T09:09:30.000Z","lastUpdateTime":"2018-08-24T09:09:30.000Z","week":"2018-08-19T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":592,"title":"本周周报","summary":"1.完成了3d机房的代码基本迁移工作。\n2.参与移动端设计串讲会议。\n3.深入研究webpack，并对老项目的框架进行了打包实验。","plan":"1.完善3d机房代码，处理交互和代码设计问题。\n2.完成对老项目框架的打包工作。","createTime":"2018-08-17T09:31:43.000Z","lastUpdateTime":"2018-08-17T09:31:43.000Z","week":"2018-08-12T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":554,"title":"本周周报","summary":"1.编写完成甘肃银行电视墙定制功能。\n2.将3d机房的demo编辑成库，打包后进入SiCAP项目。\n3.完善SiCAP上3D机房demo页面","plan":"1.继续编写3D机房demo页面","createTime":"2018-08-10T09:25:06.000Z","lastUpdateTime":"2018-08-10T09:25:06.000Z","week":"2018-08-05T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":516,"title":"本周周报","summary":"1.为了能够将代码打包合并，对3D机房代码进行代码eslint检查。\n2.参与自动化运维需求讨论会议。\n3.开始甘肃中行，定制化电视墙需求编写。","plan":"1.完成甘肃中行定制化电视墙需求开发。\n2.对eslint处理后代码上SiCAP框架进行测试。","createTime":"2018-08-03T09:16:15.000Z","lastUpdateTime":"2018-08-03T09:16:15.000Z","week":"2018-07-29T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":483,"title":"本周周报","summary":"1.对3D机房代码按照面向对象思想进行部分重构\n2.尝试增加投影效果，最后仅在玻璃门上增加了投影。\n3.考虑到代码需要合并后按照库的方式引入项目中，做了些删除库依赖的优化。\n4.在SiCAP项目中编写3D机房静态页面框架","plan":"1.完善静态页面框架，并进行3D库的引入的尝试","createTime":"2018-07-27T08:52:04.000Z","lastUpdateTime":"2018-07-27T20:53:34.000Z","week":"2018-07-22T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":445,"title":"未命名周报","summary":"1.参与Q3业务需求的讨论\n2.完成第一人称视角访问3D场景的实验\n3.完成3D机房数据序列化的处理\n4.尝试将现有的3D机房部分打包生成一个库文件\n5.完善了摄像头在机房中的展示和处理机制","plan":"1.考虑将导出的库进一步梳理和测试","createTime":"2018-07-20T09:10:53.000Z","lastUpdateTime":"2018-07-20T09:10:53.000Z","week":"2018-07-15T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":419,"title":"本周周报","summary":"1.完成对3d模型合并的研究，组合生成了摄像头。\n2.对3D物体的材质部分进行深入研究\n3.完成团队Q3开发任务的人员分配\n","plan":"1.继续完善3D机房","createTime":"2018-07-13T09:36:24.000Z","lastUpdateTime":"2018-07-13T09:36:24.000Z","week":"2018-07-08T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":399,"title":"本周周报","summary":"1.修改SiCap部分bug\n2.增加了机柜交互、玻璃门交互\n3.完善整体的业务逻辑，对编辑模式和查看模式进一步区分。","plan":"1.增加告警交互逻辑。\n2.考虑2d编辑机柜逻辑的设计。","createTime":"2018-07-06T09:01:11.000Z","lastUpdateTime":"2018-07-06T21:05:14.000Z","week":"2018-07-01T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":377,"title":"本周周报","summary":"1.增加了打开机柜门的交互操作\n2.增加了新的物体，有玻璃的门和窗\n3.打开了墙的限制，让正对着的墙可见\n","plan":"1.完善机柜的细节，考虑如何对机柜的内容进行编辑\n2.完善整体的交互操作，增加更多的交互内容","createTime":"2018-06-29T09:26:24.000Z","lastUpdateTime":"2018-06-29T09:26:24.000Z","week":"2018-06-24T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":356,"title":"本周周报","summary":"1.完善场景编辑器内部元素，增加机柜、电视\n2.尝试编辑交互，增加对机柜门的操作\n3.协调“华电网络安全保障与信息通报管理平台”开发","plan":"1.完成交互功能\n2.在增加更多物体到场景编辑器中","createTime":"2018-06-22T09:12:46.000Z","lastUpdateTime":"2018-06-22T09:12:46.000Z","week":"2018-06-17T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":341,"title":"本周周报","summary":"1.对3D场景设计器代码进行重构，将原有的grunt构建改为webpack，并升级了内部使用的threejs版本\n2.常识整合3d机房项目与3d场景编辑器。","plan":"1.整合3D场景设计代码，初步完成最原始的设想。","createTime":"2018-06-15T08:36:46.000Z","lastUpdateTime":"2018-06-15T08:36:46.000Z","week":"2018-06-10T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":307,"title":"本周周报","summary":"1.对应有3D机房程序进行阅读和拆解，并增加了部分小功能\n2.对房间设计程序进行拆解，熟悉2d设计编辑器整体流程进行了深入了解。","plan":"1.将现有的两个项目进行初步整合","createTime":"2018-06-08T09:14:35.000Z","lastUpdateTime":"2018-06-08T09:14:35.000Z","week":"2018-06-03T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":282,"title":"6月1日周报","summary":"1.翻阅了TypeScript的文档\n2.查看3d室内设计的程序例子，并进入技术预研阶段","plan":"1.完善基础预研demo","createTime":"2018-06-01T09:10:05.000Z","lastUpdateTime":"2018-06-01T09:10:05.000Z","week":"2018-05-27T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":245,"title":"本周周报","summary":"1.修改资产关系图，使其能够一次加载所有数据\n2.优化资产关系图代码，优化掉prototype.js库，并将示例代码移交给刘书鹏。\n3.研究从网上得到的theejs相关3D机房代码，进行翻译处理。","plan":"1.继续研究3D机房代码","createTime":"2018-05-25T08:52:51.000Z","lastUpdateTime":"2018-05-25T08:52:51.000Z","week":"2018-05-20T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":209,"title":"本周周报2018/5/18 下午5:12:39","summary":"1.资产管理页面首页修改\n2.修改资产关系图，使其能够一次加载所有数据","plan":"1.完成资产关系图","createTime":"2018-05-18T09:13:56.000Z","lastUpdateTime":"2018-05-18T09:13:56.000Z","week":"2018-05-13T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":195,"title":"本周周报","summary":"1.内部开会讨论如何设计自定义首页和Win10磁贴效果\n2.参与CMDB需求讨论会议\n3.学习electronjs，准备开发辅助工具","plan":"1.细化CMDB需求\n2.技术预研electronjs，完善自己的部分设想","createTime":"2018-05-11T09:39:17.000Z","lastUpdateTime":"2018-05-11T09:39:17.000Z","week":"2018-05-06T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":185,"title":"本周周报","summary":"1.  技术预研自定义首页，完成初步想法，需要进一步细化\n2. 考虑到自定义首页问题，系统现有权限机制和存储方式进行进一步了解","plan":"1.内部讨论自定义首页\n\n","createTime":"2018-05-04T08:35:28.000Z","lastUpdateTime":"2018-05-04T20:37:50.000Z","week":"2018-04-29T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":168,"title":"本周周报","summary":"1.对系统首页再次修改，保证其边距不是太大\n2.替换流程页面的样式中的颜色值为变量\n3.预研自定义首页的机制\n","plan":"1.预研自定义首页的机制","createTime":"2018-04-28T08:25:06.000Z","lastUpdateTime":"2018-04-28T08:25:06.000Z","week":"2018-04-22T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":165,"title":"周报","summary":"1.完成对系统内部分页面的样式变量的替换\n2.找出部分样式有问题的页面，并找到相关人进行处理\n3.出于美观考虑，请美工重新设计资产附加字段页面，并开始编写新的页面。\n4.组织产品、前端、后端开发人员对ITSM的已经开发功能进行确认和初步检查。\n","plan":"1.完成资产附加字段页面的编写\n2.开始协调开始新版主题的编写工作\n3.设计自定义首页功能","createTime":"2018-04-20T09:30:12.000Z","lastUpdateTime":"2018-04-20T09:30:12.000Z","week":"2018-04-15T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":143,"title":"本周周报","summary":"1.完善流程图功能\n2.细化现有的样式表，将没有采用变量的样式表进行处理","plan":"1.细化现有样式表，为后面新的主题做好准备工作。\n2.了解新的CMDB功能\n3.组织产品和前端开发人员对ITSM进行梳理和功能确认","createTime":"2018-04-13T08:52:53.000Z","lastUpdateTime":"2018-04-13T20:54:32.000Z","week":"2018-04-08T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":132,"title":"本周周报","summary":"1.完善流程图的细节和并完成两个主题下的样式\n2.开会分享流程图的开发细节。\n","plan":"1.协调ITSM部分功能的开发，推动开发进程","createTime":"2018-04-08T09:33:41.000Z","lastUpdateTime":"2018-04-08T09:33:41.000Z","week":"2018-04-01T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":118,"title":"本周周报","summary":"1.完善ITSM流程图\n2.参与了权限修改的讨论\n3.完成对mxGraph英文手册的翻译\n4.开始CreateJS的学习和知识点梳理","plan":"1.将ITSM流程图迁入项目中\n2.继续CreateJS的学习。","createTime":"2018-04-01T09:07:34.000Z","lastUpdateTime":"2018-04-01T09:07:34.000Z","week":"2018-03-25T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":82,"title":"本周周报","summary":"1.编写ITSM功能的流程图demo\n2.与产品讨论流程图部分的业务，提出设计不合理的地方。\n3.参与移动端RDP协议工具的测试\n4.添加团队的Redmine工作项","plan":"1.继续完善ITSM流程图demo\n2.研究Theejs的3d机房例子代码","createTime":"2018-03-23T09:04:53.000Z","lastUpdateTime":"2018-03-23T21:06:26.000Z","week":"2018-03-18T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37},{"id":56,"title":"丁亚飞","summary":"1.了解ITSM业务细节，与美工讨论部分细节；\n2.协调团队工作，确定本周工作内容主要两个方向SIEM新需求开发和Q3的移动运维技术预研；\n3.移动运维技术方案确定和技术细节的进一步确认。\n4.完成Q1到Q2前端工程文件比对和合并。","plan":"1.完成ITSM流程图部分的细节确认和demo编写\n2.协调团队开始ITSM功能的开发。","createTime":"2018-03-16T02:58:06.000Z","lastUpdateTime":"2018-03-16T08:34:11.000Z","week":"2018-03-11T16:00:00.000Z","status":"public","email":"dingyf@suninfo.com","groupId":37}]}
+*************** response log end ***************
+

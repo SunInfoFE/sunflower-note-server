@@ -12,7 +12,7 @@ const dbQuery = require('../../lib/mysql');
  */
 let getAll = async (ctx, next) =>  {
   try {
-    const getAllSql = 'SELECT * FROM report_info WHERE email = ?';
+    const getAllSql = 'SELECT * FROM report_info WHERE email = ? ORDER BY createTime DESC';
     let getAllData = await dbQuery(getAllSql, ctx.session.userId);
     if (getAllData instanceof Array) {
       ctx.body = {
