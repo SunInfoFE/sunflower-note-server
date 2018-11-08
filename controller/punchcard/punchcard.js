@@ -125,7 +125,7 @@ let userList = async (ctx, next) => {
      */
     let { userid } = ctx.request.body
 
-    let searchSql = `SELECT card_time,card_status FROM punch_card WHERE userid=?`
+    let searchSql = `SELECT card_time,card_status FROM punch_card WHERE userid=? ORDER BY card_time`
     try {
         if (userid !== (undefined || '')) {
             let isSign = await query(searchSql, [userid])
