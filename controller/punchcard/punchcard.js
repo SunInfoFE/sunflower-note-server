@@ -26,6 +26,7 @@ let signin = async (ctx, next) => {
      * card_status 1 : 签到 2： 请假
      */
     let { userid } = ctx.request.body
+    console.log(ctx.request.body)
 
     let searchSql = `SELECT * FROM punch_card WHERE userid=? and card_time=?`
     try {
@@ -301,7 +302,8 @@ let dayRangeList = async (ctx, next) => {
 
 //当月某用户列表
 let userMonthList = async (ctx, next) => {
-    let { userid, month } = ctx.request.body;
+    let { month, userid } = ctx.request.body;
+    console.log(ctx.request.body)
     let searchSql = "SELECT * FROM punch_card where card_time LIKE " + "'" + month + "%'" + " and userid=?  ORDER BY card_time"
     try {
         let isSign = await query(searchSql, [userid])

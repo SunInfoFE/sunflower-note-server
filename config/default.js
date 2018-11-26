@@ -4,8 +4,8 @@ const config = {
     // 数据库配置
     database: {
         DATABASE: 'weeklyreport_db',
-        USERNAME: 'admin',
-        PASSWORD: 'admin',
+        USERNAME: 'root',
+        PASSWORD: '123',
         PORT: 3306,
         HOST: 'localhost'
     }
