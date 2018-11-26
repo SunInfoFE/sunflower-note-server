@@ -1,5 +1,5 @@
 const query = require('../../lib/mysql.js')
-const CommitTime = "09:00:00"
+const CommitTime = "16:00:00"
 //封装获取时间函数
 function getTime() {
     let date = new Date();
