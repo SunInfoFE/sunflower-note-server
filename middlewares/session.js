@@ -31,7 +31,7 @@ let createSession = (app) => {
 
   app.use(async (ctx, next) => {
     if (ctx.path === '/user/login') {
-      fs.readFile(`${process.cwd()}/config/sysConfig.json`, 'utf8', (err, data) => {
+      fs.readFile('config/sysConfig.json', 'utf8', (err, data) => {
         if (err) throw err;
         else {
           let sysConfig = JSON.parse(data);

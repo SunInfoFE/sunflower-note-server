@@ -8,7 +8,7 @@ const uuidv1 = require('uuid/v1');
 
 let readConfig = () => {
   return new Promise((resolve, reject) => {
-    fs.readFile(`${process.cwd()}/config/sysConfig.json`, 'utf8', (err, data) => {
+    fs.readFile('config/sysConfig.json', 'utf8', (err, data) => {
       if (err) {
         reject (err)
       } else {
