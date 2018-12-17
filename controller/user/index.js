@@ -5,10 +5,11 @@ const dbQuery = require('../../lib/mysql');
 const sendMail = require('../../common/utils/sendMail');
 const fs = require('fs');
 const uuidv1 = require('uuid/v1');
+const path = require('path');
 
 let readConfig = () => {
   return new Promise((resolve, reject) => {
-    fs.readFile('config/sysConfig.json', 'utf8', (err, data) => {
+    fs.readFile(path.join(__dirname, '../../config/sysConfig.json'), 'utf8', (err, data) => {
       if (err) {
         reject (err)
       } else {
