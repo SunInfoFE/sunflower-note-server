@@ -5,7 +5,7 @@ const config = {
     database: {
         DATABASE: 'weeklyreport_db',
         USERNAME: 'admin',
-        PASSWORD: '123456',
+        PASSWORD: 'admin',
         PORT: 3306,
         HOST: 'localhost'
     }
