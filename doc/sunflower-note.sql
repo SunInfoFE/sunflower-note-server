@@ -11,7 +11,7 @@
  Target Server Version : 50528
  File Encoding         : 65001
 
- Date: 26/11/2018 13:31:59
+ Date: 28/11/2018 13:31:35
 */
 
 SET NAMES utf8mb4;
@@ -111,13 +111,14 @@ CREATE TABLE `sendmail_info`  (
 -- ----------------------------
 DROP TABLE IF EXISTS `today_dinner`;
 CREATE TABLE `today_dinner`  (
+  `id` int(32) NOT NULL AUTO_INCREMENT,
   `dinner` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `mount` int(255) NULL DEFAULT NULL,
   `selected` int(255) NULL DEFAULT NULL,
   `date` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT '',
-  `time` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT '',
-  PRIMARY KEY (`dinner`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+  `flavorlist` int(32) NULL DEFAULT 0,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 13 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Table structure for user_info
@@ -134,6 +135,7 @@ CREATE TABLE `user_info`  (
   `collector` tinyint(1) UNSIGNED ZEROFILL NOT NULL DEFAULT 0,
   `level` tinyint(1) UNSIGNED ZEROFILL NOT NULL DEFAULT 0,
   `dinner` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT '',
+  `flavor` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT '',
   PRIMARY KEY (`email`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 

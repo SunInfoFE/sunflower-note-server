@@ -351,8 +351,8 @@ let getAllUserDinner = async(ctx, next) => {
             }
         } else {
             ctx.body = {
-                status: false,
-                data: '还没有人点餐....'
+                status: true,
+                data: []
             }
         }
     } catch(err) {

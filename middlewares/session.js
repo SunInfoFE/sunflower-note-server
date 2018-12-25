@@ -5,6 +5,7 @@ const config = require('../config/default');        // 数据库相关的配置�
 const session = require('koa-session-minimal');         // 处理数据库中间件
 const MysqlStore = require('koa-mysql-session');    // 处理数据库中间件
 const fs = require('fs')
+const path = require('path');
 
 let createSession = (app) => {
   // session数据库存储配置
@@ -31,7 +32,7 @@ let createSession = (app) => {
 
   app.use(async (ctx, next) => {
     if (ctx.path === '/user/login') {
-      fs.readFile('config/sysConfig.json', 'utf8', (err, data) => {
+      fs.readFile(path.join(__dirname, '../config/sysConfig.json'), 'utf8', (err, data) => {
         if (err) throw err;
         else {
           let sysConfig = JSON.parse(data);
