@@ -241,7 +241,7 @@ let getGroupMember = async (ctx, next) => {
        id: 小组ID
      }
    */
-  let sql = `SELECT * FROM user_info WHERE groupId=?;`
+  let sql = `SELECT * FROM user_info WHERE groupId=? order by ordernum;`
   try {
     let id = ctx.request.query.id
     let groupMemberInfo = await query(sql, id)

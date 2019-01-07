@@ -15,7 +15,7 @@ let getGroupCurrentWeekPort = async (ctx, next) =>  {
   try {
     // const selectSql = 'SELECT groupId FROM user_info WHERE email = ?';
     // let selectGroupId = await dbQuery(selectSql, ctx.session.userId);
-    const selectReportSql = "select r.*, u.* from report_info as r join user_info as u on r.email = u.email where u.groupId = (select groupId from user_info where user_info.email = ?) and r.status = 'public' and week = ?";
+    const selectReportSql = "select r.*, u.* from report_info as r join user_info as u on r.email = u.email where u.groupId = (select groupId from user_info where user_info.email = ?) and r.status = 'public' and week = ? order by u.ordernum";
     let groupCurrentReport = await dbQuery(selectReportSql, [ctx.session.userId, getMonday()]);
     if (groupCurrentReport instanceof Array) {
       ctx.body = {
@@ -46,7 +46,7 @@ let getGroupCurrentWeekPort = async (ctx, next) =>  {
 let getCollectGroupCurrentWeekPort = async (ctx, next) =>  {
   try {
     let combine = ctx.request.body.collector;
-    const selectReportSql = "select r.*, u.* from report_info as r join user_info as u on r.email = u.email where u.groupId IN (select id from group_info where combine = ?) and r.status = 'public' and week = ?";
+    const selectReportSql = "select r.*, u.* from report_info as r join user_info as u on r.email = u.email where u.groupId IN (select id from group_info where combine = ?) and r.status = 'public' and week = ? order by u.ordernum";
     let groupCurrentReport = await dbQuery(selectReportSql, [combine,getMonday()]);
     if (groupCurrentReport instanceof Array) {
       ctx.body = {
@@ -77,7 +77,7 @@ let getCollectGroupCurrentWeekPort = async (ctx, next) =>  {
  */
 let getGroupHistoryWeekPort = async (ctx, next) =>  {
   try {
-    const selectReportSql = "select r.*, u.* from report_info as r join user_info as u on r.email = u.email where u.groupId = (select groupId from user_info where user_info.email = ?) and r.status = 'public' and week != ?";
+    const selectReportSql = "select r.*, u.* from report_info as r join user_info as u on r.email = u.email where u.groupId = (select groupId from user_info where user_info.email = ?) and r.status = 'public' and week != ? order by u.ordernum";
     let groupHistoryReport = await dbQuery(selectReportSql, [ctx.session.userId, getMonday()]);
     if (groupHistoryReport instanceof Array) {
       ctx.body = {

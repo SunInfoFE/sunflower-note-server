@@ -382,11 +382,11 @@ let changePassword = async (ctx, next) => {
 let changUserInfo = async (ctx, next) => {
   try {
     const updateEmailInfoSql = 'UPDATE email_info SET licenseKey = ? WHERE email = ?';
-    const updateSql = "UPDATE user_info SET name = ?, sex = ?, remark = ? WHERE email = ?";
+    const updateSql = "UPDATE user_info SET name = ?, sex = ?, remark = ?, ordernum = ?, level = ? WHERE email = ?";
 
-    let updateEmailInfoData = await dbQuery(updateEmailInfoSql, [ctx.request.body.licenseKey, ctx.session.userId]);
-    let {name, sex, remark} = ctx.request.body;
-    let updateData = await dbQuery(updateSql, [name, sex, remark, ctx.session.userId]);
+    let {name, sex, remark, ordernum, email, level} = ctx.request.body;
+    let updateEmailInfoData = await dbQuery(updateEmailInfoSql, [ctx.request.body.licenseKey, email]);
+    let updateData = await dbQuery(updateSql, [name, sex, remark, ordernum, level, email]);
 
     if (updateEmailInfoData.affectedRows === 1 && updateData.affectedRows === 1) {
       ctx.body = {
