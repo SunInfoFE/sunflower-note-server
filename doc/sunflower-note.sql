@@ -136,6 +136,7 @@ CREATE TABLE `user_info`  (
   `level` tinyint(1) UNSIGNED ZEROFILL NOT NULL DEFAULT 0,
   `dinner` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT '',
   `flavor` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT '',
+  `ordernum` int(20) DEFAULT NULL,
   PRIMARY KEY (`email`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
