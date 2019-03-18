@@ -60,9 +60,9 @@ let register = async (ctx, next) => {
 
               if (insertData.affectedRows === 1  && updateData.changedRows === 1) {
                 let sendMailResult = await sendMail({
-                  from: 'sicap_sunflower@163.com',
+                  from: 'dingyf@suninfo.com',
                   to: email,
-                  licenseKey: 'sicap_sunflower$',
+                  licenseKey: 'p@ssw0rd!@#dyf',
                   title: 'Sunflower周报管理平台账号激活邮件',
                   content: `<p>请点击以下链接激活您的账号：</p>
                   <a target="_blank" href="http://${ctx.host}/user/activeAccount/${activeCodeStr}">
@@ -118,9 +118,9 @@ let resendActiveEmail = async (ctx, next) => {
     let updateData = await dbQuery(updateSql, [activeCodeStr, ctx.request.body.email])
     if (updateData.affectedRows === 1){
       let sendMailResult = await sendMail({
-        from: 'sicap_sunflower@163.com',
+        from: 'dingyf@suninfo.com',
         to: ctx.request.body.email,
-        licenseKey: 'sicap_sunflower$',
+        licenseKey: 'p@ssw0rd!@#dyf',
         title: 'Sunflower周报管理平台账号激活邮件',
         content: `<p>请点击以下链接激活您的账号：</p>
         <a target="_blank" href="http://${ctx.host}/user/activeAccount/${activeCodeStr}">
