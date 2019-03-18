@@ -118,9 +118,9 @@ let resendActiveEmail = async (ctx, next) => {
     let updateData = await dbQuery(updateSql, [activeCodeStr, ctx.request.body.email])
     if (updateData.affectedRows === 1){
       let sendMailResult = await sendMail({
-        from: 'caolx@suninfo.com',
+        from: 'sicap_sunflower@163.com',
         to: ctx.request.body.email,
-        licenseKey: 'Clx0298588123',
+        licenseKey: 'sicap_sunflower$',
         title: 'Sunflower周报管理平台账号激活邮件',
         content: `<p>请点击以下链接激活您的账号：</p>
         <a target="_blank" href="http://${ctx.host}/user/activeAccount/${activeCodeStr}">
