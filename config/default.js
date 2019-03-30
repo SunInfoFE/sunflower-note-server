@@ -8,6 +8,10 @@ const config = {
         PASSWORD: '123456',
         PORT: 3306,
         HOST: 'localhost'
+    },
+    email: {
+        USERNAME: 'username@suninfo.com',
+        PASSWORD: 'p@ssw0rd123'
     }
 }
 

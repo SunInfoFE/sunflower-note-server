@@ -6,6 +6,7 @@ const sendMail = require('../../common/utils/sendMail');
 const fs = require('fs');
 const uuidv1 = require('uuid/v1');
 const path = require('path');
+const config = require('../../config/default.js')
 
 let readConfig = () => {
   return new Promise((resolve, reject) => {
@@ -60,9 +61,9 @@ let register = async (ctx, next) => {
 
               if (insertData.affectedRows === 1  && updateData.changedRows === 1) {
                 let sendMailResult = await sendMail({
-                  from: 'dingyf@suninfo.com',
+                  from: config.email.USERNAME,
                   to: email,
-                  licenseKey: 'p@ssw0rd!@#dyf',
+                  licenseKey: config.email.PASSWORD,
                   title: 'Sunflower周报管理平台账号激活邮件',
                   content: `<p>请点击以下链接激活您的账号：</p>
                   <a target="_blank" href="http://${ctx.host}/user/activeAccount/${activeCodeStr}">
@@ -118,9 +119,9 @@ let resendActiveEmail = async (ctx, next) => {
     let updateData = await dbQuery(updateSql, [activeCodeStr, ctx.request.body.email])
     if (updateData.affectedRows === 1){
       let sendMailResult = await sendMail({
-        from: 'dingyf@suninfo.com',
+        from: config.email.USERNAME,
         to: ctx.request.body.email,
-        licenseKey: 'p@ssw0rd!@#dyf',
+        licenseKey: config.email.PASSWORD,
         title: 'Sunflower周报管理平台账号激活邮件',
         content: `<p>请点击以下链接激活您的账号：</p>
         <a target="_blank" href="http://${ctx.host}/user/activeAccount/${activeCodeStr}">
