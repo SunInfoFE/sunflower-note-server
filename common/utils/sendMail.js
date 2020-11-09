@@ -5,37 +5,17 @@ const nodemailer = require('nodemailer');
 
 // 发送邮件
 let sendMail = (data) => {
-  // 不同邮件的邮箱服务器设置
-  let mailerOptions = {
-    host: '',            // 邮件服务器地址
-    port: '',            // 邮件服务器端口
-    rescue: '',          // 是否是465端口
-  }
 
-  // 区别邮箱，设置邮件服务器配置
-  if (data.from.indexOf('@suninfo.com') !== -1) {
-    // suninfo 公司邮箱
-    mailerOptions.host = '172.18.0.17';
-    mailerOptions.port = 25;
-    mailerOptions.rescue = false;
-  } else if (data.from.indexOf('@qq.com') !== -1) {
-    // QQ邮箱
-    mailerOptions.host = 'smtp.qq.com';
-    mailerOptions.port = 465;
-    mailerOptions.rescue = true;
-  }
-
-  // 实例化 nodemailer transport 对象
-  let option = Object.assign({}, {
-    host: '172.18.0.17',            // 邮件服务器地址
-    port: 25,                       // 邮件服务器端口
-    rescue: false,                  // 是否是465端口
+  let option = {
+    host: 'smtp.163.com',
+    port: 465,
+    secure: true, // true for 465, false for other ports
     auth: {
-      user: data.from,              // 邮箱地址
-      pass: data.licenseKey         // 邮箱提供给第三方接口的授权码（也可以是邮箱密码）
+        user: data.from, // generated ethereal user
+        pass: data.licenseKey // generated ethereal password
     }
-  }, mailerOptions)
-  console.log(option)
+  };
+
   let transporter = nodemailer.createTransport(option);
 
   // 设置邮件传输内容
