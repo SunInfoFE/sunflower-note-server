@@ -33,7 +33,7 @@
     "md5": "^2.2.1",
     "moment": "^2.20.1",
     "mysql": "^2.15.0",
-    "nodemailer": "^4.6.3",
+    "nodemailer": "^6.4.16",
     "supervisor": "^0.12.0",
     "uuid": "^3.2.1"
   },
