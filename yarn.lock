@@ -2463,9 +2463,9 @@ nodemailer@^2.5.0:
     nodemailer-smtp-transport "2.7.2"
     socks "1.1.9"
 
-nodemailer@^4.6.3:
-  version "4.6.3"
-  resolved "http://registry.npm.taobao.org/nodemailer/download/nodemailer-4.6.3.tgz#c3b7e97fb72f46d4a475c406a15ed23a45dbcddc"
+nodemailer@^6.4.16:
+  version "6.4.16"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.4.16.tgz#5cb6391b1d79ab7eff32d6f9f48366b5a7117293"
 
 nopt@^4.0.1:
   version "4.0.1"
